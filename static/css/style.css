@@ -1,0 +1,34 @@
+body {
+  background-color: #f4f7fb;
+}
+
+.app-navbar {
+  background-color: #1a3d66;
+}
+
+.stat-card {
+  border: none;
+  border-radius: 12px;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.stat-label {
+  opacity: 0.9;
+}
+
+.auth-card {
+  border: none;
+  border-radius: 14px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.table thead.table-dark th {
+  vertical-align: middle;
+}

@@ -1,0 +1,2001 @@
+roll_number,department,cgpa,backlogs,internships,technical_skills,technical_skills_count,communication_score,ssc_percentage,hsc_percentage,placement_status,package_offered
+EEE20210000,EEE,6.2,0,0,"Excel, SQL, AWS",3,7,80.2,84.1,Placed,10.7
+IT20220001,IT,6.81,0,3,"Android, Communication, React, Data Structures",4,6,76.7,61.7,Placed,13.5
+IT20230002,IT,7.46,0,0,Python,1,5,73.7,75,Placed,11.8
+CIVIL20240003,CIVIL,7.05,0,0,"Java, React",2,4,65.3,82,Placed,10
+ECE20210004,ECE,7.63,2,1,"Machine Learning, Java, C++, AWS, Flask",5,8,70.8,74,Placed,11.2
+EEE20220005,EEE,7.5,0,0,"Data Structures, Excel, Python, AWS, JavaScript",5,4,86.3,83.1,Not Placed,
+EEE20230006,EEE,7.22,0,1,JavaScript,1,5,84,72.1,Not Placed,
+IT20240007,IT,6.42,0,3,Flask,1,6,61.8,66.5,Placed,12.3
+CIVIL20210008,CIVIL,7.13,0,1,"SQL, Excel, AWS, Android",4,6,58,88.3,Not Placed,
+CSE20220009,CSE,7.23,0,2,"React, Excel",2,4,69.2,68.9,Placed,13.7
+EEE20230010,EEE,7.56,0,3,Android,1,3,79,84,Placed,11.1
+ECE20240011,ECE,7.71,3,0,"Machine Learning, Java, Data Structures",3,6,76.9,57.6,Placed,9.5
+CIVIL20210012,CIVIL,6.51,0,3,AWS,1,7,77.8,57.6,Placed,8.9
+CIVIL20220013,CIVIL,7.09,3,3,"Flask, JavaScript, Android, C++, Data Structures",5,7,74.4,82,Placed,10.5
+IT20230014,IT,6.28,1,1,"Communication, SQL, Android",3,4,89.1,83.1,Placed,9.8
+ECE20240015,ECE,6.16,0,1,"Data Structures, JavaScript, Django, AWS, SQL",5,4,77.7,70.2,Not Placed,
+EEE20210016,EEE,7.69,0,0,"AWS, JavaScript, React, Android",4,4,97.1,91.6,Placed,10.7
+IT20220017,IT,8.7,2,1,"C++, AWS, Django, Java, Data Structures",5,5,76.4,77.4,Placed,16.1
+CIVIL20230018,CIVIL,6.71,0,1,"Django, React",2,8,75.4,79.7,Placed,13
+CSE20240019,CSE,6.09,1,2,"Data Structures, AWS, C++, React, JavaScript",5,8,81.6,64.7,Placed,12
+ECE20210020,ECE,6.64,0,1,"Communication, React, Java, Django, Machine Learning",5,5,80.9,80.2,Placed,12.3
+MECH20220021,MECH,7.02,0,1,"Java, Machine Learning, Flask, Data Structures",4,5,84.3,80.7,Not Placed,
+EEE20230022,EEE,5.17,0,1,"Data Structures, Python, C++, SQL",4,3,74.4,85.8,Placed,8.5
+IT20240023,IT,7.28,1,1,"Flask, Machine Learning, AWS",3,6,74,62.8,Not Placed,
+EEE20210024,EEE,8.39,0,1,"Communication, Django, AWS",3,4,69.8,82.5,Not Placed,
+EEE20220025,EEE,7.82,0,3,"Communication, Django, Excel, JavaScript, React",5,5,79.8,75.1,Placed,12.7
+IT20230026,IT,7.39,3,2,"Communication, Machine Learning",2,10,71.5,67.4,Not Placed,
+EEE20240027,EEE,6.66,0,0,"JavaScript, C++, AWS, Communication, SQL",5,9,64.2,76.3,Placed,13.1
+ECE20210028,ECE,7.45,0,1,"Excel, Android, C++, Java",4,6,77.1,74.5,Placed,10.1
+ECE20220029,ECE,7.07,0,0,"Flask, C++, Machine Learning",3,7,82,75,Placed,10.5
+MECH20230030,MECH,8.54,0,0,"JavaScript, Excel, Communication",3,7,64.2,88,Placed,13.8
+CSE20240031,CSE,7.07,0,1,"Java, Excel, JavaScript",3,6,81.2,85.1,Placed,9
+IT20210032,IT,5.97,1,0,Data Structures,1,7,76.1,74.3,Not Placed,
+CIVIL20220033,CIVIL,7.97,1,0,"C++, Communication",2,5,73.6,63.9,Placed,9
+CSE20230034,CSE,7.38,1,0,Data Structures,1,8,79.8,75.7,Placed,9.4
+CSE20240035,CSE,5.39,0,2,"Excel, Machine Learning, SQL",3,8,66.7,80.4,Placed,10.2
+MECH20210036,MECH,6.45,3,0,JavaScript,1,7,77.3,77.1,Not Placed,
+EEE20220037,EEE,7.45,0,1,"AWS, Django, Data Structures, Excel, JavaScript",5,5,75.5,61.3,Placed,13.2
+IT20230038,IT,9.35,1,0,"Flask, React",2,5,81.6,80.8,Not Placed,
+ECE20240039,ECE,6.66,0,0,"JavaScript, Flask",2,7,82.3,84.3,Not Placed,
+CSE20210040,CSE,7.49,0,1,"Excel, Flask, AWS",3,6,79.9,81.9,Placed,12.9
+CSE20220041,CSE,7.85,0,1,"SQL, Excel, Java, Python",4,7,80.7,84.3,Placed,11.1
+ECE20230042,ECE,8.74,0,2,"JavaScript, AWS",2,7,77.1,77.9,Placed,13.6
+IT20240043,IT,7.81,0,0,Django,1,5,74,78.8,Placed,10.4
+EEE20210044,EEE,7.94,0,0,"Java, Flask, AWS",3,6,75.3,90,Placed,10.3
+IT20220045,IT,6.55,0,0,AWS,1,5,76.7,75,Not Placed,
+ECE20230046,ECE,7.34,0,2,"Flask, JavaScript, Android",3,8,56.7,56.3,Placed,9.4
+EEE20240047,EEE,8.3,0,0,Android,1,3,98.6,76.3,Placed,12.2
+IT20210048,IT,6.92,0,0,"Communication, AWS",2,3,92.1,63.8,Not Placed,
+EEE20220049,EEE,6.47,0,2,"Django, JavaScript, C++",3,8,77.8,72,Not Placed,
+IT20230050,IT,8.41,0,0,"Flask, AWS",2,3,82.4,93.1,Placed,12.7
+MECH20240051,MECH,5.54,0,0,"React, Java, Machine Learning",3,4,82.1,68.5,Not Placed,
+CIVIL20210052,CIVIL,7.16,0,1,Excel,1,4,80.3,72.5,Not Placed,
+IT20220053,IT,6.48,0,0,"Java, Data Structures, JavaScript",3,6,75.5,69.1,Not Placed,
+MECH20230054,MECH,7.95,0,1,"C++, Flask",2,7,81.4,76.9,Placed,11.3
+ECE20240055,ECE,6.6,1,0,"Excel, SQL, Communication, Android",4,4,82,65.6,Placed,13.1
+IT20210056,IT,6.81,2,0,"Flask, Django, Java, Communication",4,4,98.8,69.1,Placed,9.8
+CSE20220057,CSE,6.51,0,3,"React, Python, Django",3,4,75.8,80.1,Not Placed,
+CIVIL20230058,CIVIL,5.82,0,0,"Flask, Communication, Android, Data Structures, Excel",5,5,73.6,69.3,Placed,12.8
+CSE20240059,CSE,7.51,0,0,"JavaScript, Flask, Machine Learning, React, C++",5,5,96.9,83.4,Placed,10.7
+EEE20210060,EEE,7.29,0,0,React,1,6,92.4,70.3,Placed,11
+EEE20220061,EEE,7.94,0,1,"C++, Python, React, Android, JavaScript",5,7,89.1,80.8,Placed,14.6
+EEE20230062,EEE,7.51,0,0,"AWS, Communication, Excel, JavaScript",4,6,78.4,62.8,Placed,12.8
+CIVIL20240063,CIVIL,7.36,0,0,"Communication, Flask",2,7,75.1,76.6,Placed,10.1
+CSE20210064,CSE,7.05,0,1,"React, Flask, Java, Communication, Android",5,7,86.6,59.7,Placed,11.1
+CIVIL20220065,CIVIL,7.59,1,3,"Communication, JavaScript, AWS",3,6,75.3,88.9,Placed,12
+ECE20230066,ECE,7.61,1,2,Data Structures,1,4,80.6,86.2,Placed,11.6
+MECH20240067,MECH,7.09,0,1,"JavaScript, Flask, Java, Excel",4,4,87.7,81.7,Placed,9.2
+CSE20210068,CSE,7.12,0,0,Python,1,6,61.7,72.8,Placed,9.5
+EEE20220069,EEE,7.45,1,0,"JavaScript, Python",2,5,92.5,78.2,Placed,10.5
+CIVIL20230070,CIVIL,7.38,0,1,"Android, Python, Communication, AWS, Excel",5,10,74.6,71.8,Not Placed,
+CSE20240071,CSE,5.38,0,0,"SQL, Android, Java, AWS",4,4,74.2,62.9,Not Placed,
+CSE20210072,CSE,6.87,0,2,"Machine Learning, Communication",2,8,77.7,73.4,Placed,12
+CIVIL20220073,CIVIL,7.18,0,2,Communication,1,8,84.2,49.4,Placed,8.2
+ECE20230074,ECE,8.59,2,1,"Java, Machine Learning, JavaScript, Excel, SQL",5,5,62.4,67,Placed,13.3
+CSE20240075,CSE,7.54,0,2,"Flask, Excel",2,7,75.9,73.2,Placed,13.7
+EEE20210076,EEE,7.89,3,3,"JavaScript, Python",2,7,80.8,84,Placed,7
+MECH20220077,MECH,8.17,0,1,JavaScript,1,6,77.8,93,Not Placed,
+MECH20230078,MECH,5.53,0,1,Python,1,8,84.4,71.4,Not Placed,
+MECH20240079,MECH,6.93,1,0,React,1,8,76.6,75.1,Not Placed,
+CIVIL20210080,CIVIL,8.34,0,1,"Django, Android, Python, Data Structures",4,7,65,76.5,Not Placed,
+EEE20220081,EEE,7.03,0,1,"Android, AWS, Communication",3,7,71,66.1,Placed,10.3
+CSE20230082,CSE,7.66,0,0,"Django, AWS, SQL, Data Structures, Java",5,6,82.4,77,Placed,14.1
+CSE20240083,CSE,6.08,1,0,"Communication, React",2,5,75.6,86.2,Placed,12.1
+ECE20210084,ECE,8.66,0,1,"Django, Excel, JavaScript, Java, Flask",5,6,98.6,67.8,Placed,15.2
+MECH20220085,MECH,6.21,0,0,"Machine Learning, Android, AWS, Python, C++",5,5,71.9,75.3,Placed,11
+CIVIL20230086,CIVIL,6.72,0,2,"React, Java, SQL, JavaScript, Communication",5,5,77.6,80,Placed,11.6
+EEE20240087,EEE,7.98,0,1,AWS,1,7,76.1,71.4,Placed,11.2
+ECE20210088,ECE,5.75,0,1,"Communication, AWS, Flask, Machine Learning",4,7,97.9,74.9,Placed,11.9
+EEE20220089,EEE,6.71,0,0,"Java, Android",2,8,83.7,76.1,Placed,10.1
+MECH20230090,MECH,6.31,0,0,"Python, Flask, Excel, Communication, JavaScript",5,6,82.2,74.4,Placed,12
+CIVIL20240091,CIVIL,6.69,0,0,"SQL, Excel, Java, AWS",4,5,80.4,69.3,Not Placed,
+MECH20210092,MECH,7.08,0,1,"Python, C++, Communication, SQL, Excel",5,8,87.7,72.2,Placed,10.3
+EEE20220093,EEE,7.17,0,1,"SQL, Data Structures, Machine Learning",3,5,74.3,81.6,Placed,9.3
+CSE20230094,CSE,7.49,0,2,"Java, Android, Excel",3,6,77.9,86.8,Placed,13
+ECE20240095,ECE,7.72,0,3,"Python, C++, Communication",3,5,88.4,66.2,Placed,9.5
+CSE20210096,CSE,8.1,0,1,"C++, JavaScript, SQL, Python",4,5,75.4,72.7,Placed,13.3
+EEE20220097,EEE,7.18,0,0,"Django, Communication, Data Structures, Machine Learning",4,6,70.7,72.9,Placed,10.3
+CIVIL20230098,CIVIL,7.05,1,1,"Data Structures, SQL, Python, Excel",4,6,81.9,81.6,Not Placed,
+ECE20240099,ECE,7.19,0,0,Django,1,7,89.8,70.5,Placed,11.9
+CSE20210100,CSE,6.37,0,0,"SQL, Android, Python",3,7,84.5,84.9,Placed,9.4
+IT20220101,IT,7.9,1,2,"Machine Learning, Communication",2,8,79.9,44.8,Placed,13.1
+EEE20230102,EEE,6.68,0,2,"React, Excel, JavaScript, Python",4,9,78.6,73,Placed,10.7
+MECH20240103,MECH,7.7,0,1,Android,1,5,80.9,69.8,Placed,11.4
+IT20210104,IT,5.96,0,0,"Data Structures, Django",2,6,63.9,77.9,Placed,10
+IT20220105,IT,7.29,0,0,Machine Learning,1,6,74.3,71.9,Not Placed,
+IT20230106,IT,8.02,0,2,"Data Structures, React, Machine Learning",3,5,77.8,68.3,Placed,12.2
+MECH20240107,MECH,8.72,0,1,React,1,7,70.6,65,Not Placed,
+CSE20210108,CSE,7.71,0,0,Data Structures,1,7,83.5,76.6,Not Placed,
+ECE20220109,ECE,6.87,0,1,"Android, Flask, Java",3,6,72.2,73.4,Not Placed,
+ECE20230110,ECE,8.44,2,1,"Android, JavaScript, Java",3,7,90.7,67,Not Placed,
+ECE20240111,ECE,7.3,0,0,Python,1,6,72.2,67.7,Placed,12.1
+CIVIL20210112,CIVIL,6.9,0,2,"Communication, C++, Java, Excel",4,5,70.4,78.8,Placed,10
+MECH20220113,MECH,7.53,0,1,"JavaScript, Android, Machine Learning, Python, Data Structures",5,7,80.6,76.7,Placed,11.5
+EEE20230114,EEE,6.2,1,2,"AWS, Machine Learning, React, Communication",4,5,65,76.5,Placed,13.3
+EEE20240115,EEE,7.66,0,3,"JavaScript, Flask, Excel, Java",4,5,80.6,64.4,Placed,13.6
+MECH20210116,MECH,7.66,1,2,"Android, JavaScript",2,6,83.1,85,Placed,11.1
+CSE20220117,CSE,8.47,0,2,"Java, Data Structures, JavaScript",3,6,81.4,71.1,Placed,13.1
+EEE20230118,EEE,7.51,0,0,"Data Structures, Android, React",3,5,62.9,72.3,Placed,13.3
+CIVIL20240119,CIVIL,7.3,0,0,"Machine Learning, Communication, React, Data Structures, Java",5,7,89.1,64,Placed,13.1
+EEE20210120,EEE,7.13,0,0,"Python, Excel, Java, JavaScript, Flask",5,7,75.2,71.8,Placed,12.4
+IT20220121,IT,7.33,0,3,"Machine Learning, React, Java",3,5,65.6,76,Placed,10.6
+EEE20230122,EEE,7.27,0,0,"Java, SQL, C++, Machine Learning, Django",5,4,75.5,68.2,Not Placed,
+CSE20240123,CSE,7.14,2,0,"Data Structures, React, AWS, SQL, Communication",5,5,89.8,68.6,Not Placed,
+CSE20210124,CSE,8.65,0,1,"Android, AWS, React",3,7,60.8,68.5,Not Placed,
+MECH20220125,MECH,7.39,1,2,"Communication, C++",2,7,78.5,68.3,Placed,13
+CIVIL20230126,CIVIL,7.07,1,1,"JavaScript, React",2,9,72,66.5,Placed,9.2
+EEE20240127,EEE,7.72,0,0,JavaScript,1,2,74.8,76.2,Not Placed,
+IT20210128,IT,7.44,0,0,"C++, Data Structures",2,8,69.1,75.9,Placed,10.4
+EEE20220129,EEE,8.16,0,2,"Machine Learning, Excel, Flask, SQL, Android",5,8,81,74,Placed,13.1
+IT20230130,IT,6.49,0,0,"React, Machine Learning, Android, Communication",4,5,62.2,81.7,Not Placed,
+ECE20240131,ECE,6.8,0,1,"Machine Learning, Flask, Data Structures",3,4,65.8,77.2,Placed,9.6
+EEE20210132,EEE,7.23,1,1,"Data Structures, Excel, Machine Learning",3,4,71.3,80.8,Not Placed,
+EEE20220133,EEE,6.55,1,1,"Django, Python, C++, JavaScript, Communication",5,4,71.6,65.1,Placed,10.2
+IT20230134,IT,8.29,0,2,"Communication, Machine Learning, Django, React, Excel",5,5,87.7,62,Placed,11.5
+ECE20240135,ECE,7.07,0,1,Python,1,9,83.4,78.5,Placed,11.7
+CIVIL20210136,CIVIL,8.24,0,0,Python,1,6,89.8,70.7,Placed,9.6
+CIVIL20220137,CIVIL,6.29,0,0,"Android, SQL",2,5,85.1,58.5,Not Placed,
+CSE20230138,CSE,7.17,0,2,"Excel, React, Android",3,5,87,72.5,Not Placed,
+ECE20240139,ECE,6.5,0,1,"Java, Excel",2,2,76.9,87.8,Placed,11.9
+MECH20210140,MECH,9.22,3,0,Python,1,5,58.6,74.7,Placed,11.3
+CIVIL20220141,CIVIL,9.09,0,1,"Java, Machine Learning",2,4,84.5,78.4,Placed,10.7
+CSE20230142,CSE,7.24,0,2,Communication,1,4,76.2,66.1,Not Placed,
+EEE20240143,EEE,6.42,0,2,Excel,1,5,71.9,76.2,Placed,11.6
+EEE20210144,EEE,5.98,1,0,"Python, Django, Machine Learning",3,6,80,73,Not Placed,
+MECH20220145,MECH,8.54,0,1,"Data Structures, C++",2,7,93.9,69,Placed,12.7
+EEE20230146,EEE,8.62,0,0,"React, Data Structures, Flask, SQL",4,4,76.1,79.2,Not Placed,
+ECE20240147,ECE,6.57,2,3,"Flask, Communication",2,8,83.2,76.7,Not Placed,
+CSE20210148,CSE,7.24,0,1,"AWS, Django",2,7,72.3,76.4,Placed,13.7
+CIVIL20220149,CIVIL,7.03,0,1,Python,1,6,68.4,74.9,Placed,12.9
+CSE20230150,CSE,8,0,3,Java,1,6,77.9,80.5,Placed,13
+IT20240151,IT,5.48,0,0,"Machine Learning, React, Python, AWS, Django",5,6,70.4,71.3,Placed,11.8
+IT20210152,IT,7.03,1,1,"Android, Excel, React, Python, JavaScript",5,7,66.4,74.9,Not Placed,
+MECH20220153,MECH,8.01,0,2,"SQL, React, Django, Java, Flask",5,7,54.6,86.2,Placed,11.4
+MECH20230154,MECH,6.67,0,0,"Flask, Python",2,8,84.6,72.7,Placed,12.3
+CSE20240155,CSE,6.04,1,0,JavaScript,1,3,79.1,59.3,Not Placed,
+CSE20210156,CSE,6.11,0,0,"Excel, SQL",2,6,75.8,77,Placed,11.4
+MECH20220157,MECH,8.23,2,1,"Django, JavaScript",2,4,74.9,81.3,Not Placed,
+MECH20230158,MECH,7.96,1,1,"Python, JavaScript, Java",3,9,78.3,72.9,Not Placed,
+CSE20240159,CSE,7.44,1,0,"Excel, Machine Learning, SQL, Java, Data Structures",5,8,93.5,75.6,Placed,11
+CSE20210160,CSE,6.2,0,1,"JavaScript, SQL, Excel",3,8,79.3,79.5,Placed,10.3
+MECH20220161,MECH,6.37,0,1,"C++, Machine Learning",2,6,66.4,76.6,Placed,9.4
+CSE20230162,CSE,7.38,0,1,JavaScript,1,5,87.5,84.1,Not Placed,
+MECH20240163,MECH,7.55,1,1,"React, Excel, Android, Data Structures",4,4,76.2,74.6,Not Placed,
+CIVIL20210164,CIVIL,6.42,1,3,"Flask, React, Java, JavaScript, Machine Learning",5,6,65.2,71,Placed,11.9
+CSE20220165,CSE,7.71,0,0,"Django, Python",2,9,75.6,89.5,Placed,12.7
+ECE20230166,ECE,6.51,0,3,Machine Learning,1,6,86.6,96.3,Placed,10.2
+IT20240167,IT,8.34,0,3,"AWS, Communication, Android, C++",4,5,63.8,68.8,Placed,12.2
+EEE20210168,EEE,7.91,1,1,"React, SQL, Flask, C++",4,7,75.3,69.5,Placed,10.2
+IT20220169,IT,5.97,0,0,"Java, C++, Data Structures, Android, JavaScript",5,7,75.7,77.8,Placed,7.8
+CIVIL20230170,CIVIL,7,0,2,"JavaScript, Excel, Data Structures, AWS",4,2,78.8,85.1,Placed,10.1
+CIVIL20240171,CIVIL,6.74,0,0,Communication,1,7,90.4,74.6,Placed,10.7
+CSE20210172,CSE,7.69,0,1,"AWS, Data Structures",2,10,75.3,67.9,Placed,11.1
+MECH20220173,MECH,6.51,0,1,C++,1,6,92.1,78.3,Placed,10.8
+ECE20230174,ECE,7.03,1,3,SQL,1,5,75.8,83.5,Placed,9.4
+CIVIL20240175,CIVIL,7.12,0,0,"SQL, Excel, React",3,5,60.4,83.1,Placed,13.1
+MECH20210176,MECH,8.4,1,0,"Flask, Communication, Java",3,4,83.3,66.7,Not Placed,
+MECH20220177,MECH,6.27,0,2,"JavaScript, Android, React",3,7,71.2,69.1,Placed,9.7
+CIVIL20230178,CIVIL,7.97,0,1,"Data Structures, Python, SQL, AWS, Django",5,5,83.9,86.7,Placed,12.5
+EEE20240179,EEE,7.87,0,0,"C++, Excel, Communication, Machine Learning, Django",5,7,64.4,72.7,Placed,13.3
+MECH20210180,MECH,7.73,0,0,"AWS, C++, Data Structures, Python",4,7,82.9,65.8,Placed,11.5
+IT20220181,IT,9.01,1,1,"JavaScript, Django, Python",3,8,79.2,75.2,Placed,14
+EEE20230182,EEE,7.69,2,1,"JavaScript, Communication, Java",3,8,75.2,70.3,Placed,11.7
+CSE20240183,CSE,6.9,0,2,"Django, Excel, Python, AWS",4,7,90.4,82.7,Placed,11.6
+EEE20210184,EEE,7.89,0,0,"C++, Java, React, AWS",4,6,74.4,76.8,Placed,10.8
+CSE20220185,CSE,8.27,0,0,"JavaScript, Python, Data Structures, Excel, React",5,6,80.7,77.8,Placed,11.8
+MECH20230186,MECH,6.76,0,0,"JavaScript, Python, Django, SQL, Communication",5,5,67.6,70.9,Placed,11.8
+CIVIL20240187,CIVIL,7.41,0,0,SQL,1,4,66.6,82,Not Placed,
+CSE20210188,CSE,6.83,0,2,"JavaScript, Communication",2,7,68.5,70.5,Placed,11.1
+CSE20220189,CSE,6.07,0,2,"Python, C++, AWS",3,7,77.3,75.9,Placed,10.8
+CIVIL20230190,CIVIL,8.3,0,0,"Java, SQL, Excel, Python, Communication",5,5,87.4,76.7,Placed,12.3
+CSE20240191,CSE,6.72,0,1,"React, Java, SQL, Django, AWS",5,5,75.9,82.5,Placed,11.5
+CSE20210192,CSE,7.52,0,2,"React, Flask, Android, Communication, JavaScript",5,6,94.2,72.5,Placed,13
+CSE20220193,CSE,7.88,0,1,"C++, Django",2,6,78.7,82.9,Placed,13.7
+IT20230194,IT,8.21,0,0,React,1,5,73.1,60.2,Not Placed,
+MECH20240195,MECH,7.5,0,0,"Machine Learning, AWS, React, JavaScript",4,7,85.9,84.3,Not Placed,
+IT20210196,IT,6.21,3,1,"Machine Learning, Django",2,6,64.8,75.1,Not Placed,
+CSE20220197,CSE,6.35,0,2,Communication,1,9,87.1,65,Placed,10.6
+IT20230198,IT,6.54,0,1,Python,1,4,76.1,76.1,Placed,8.7
+CSE20240199,CSE,7.04,1,0,"Communication, Excel, Django",3,6,76.3,69.2,Not Placed,
+MECH20210200,MECH,6.79,1,0,"Flask, Java",2,4,72.4,81.8,Placed,11.3
+CIVIL20220201,CIVIL,7.59,2,2,"Machine Learning, Excel, Communication, Java, AWS",5,4,79.6,71,Placed,13.6
+IT20230202,IT,7.18,0,0,Data Structures,1,5,79.3,75.5,Not Placed,
+EEE20240203,EEE,7.58,0,0,"Android, Python, SQL, Machine Learning, Flask",5,8,75.7,67.9,Placed,14.7
+CSE20210204,CSE,7.22,0,2,"Django, Python, Machine Learning",3,6,72.9,61.3,Placed,9.7
+CIVIL20220205,CIVIL,8.28,0,1,"Communication, Python",2,6,76.5,77.8,Placed,9.9
+ECE20230206,ECE,6.53,0,1,Flask,1,8,74.2,75.7,Not Placed,
+IT20240207,IT,6.9,0,1,Django,1,7,80,73.3,Placed,9.3
+CIVIL20210208,CIVIL,6.67,0,1,"JavaScript, Python",2,6,75.1,74.3,Placed,9.8
+CIVIL20220209,CIVIL,7.54,0,0,"Python, AWS, SQL, Java",4,4,75.5,68.7,Placed,10.1
+MECH20230210,MECH,7.53,1,1,"React, SQL, Data Structures, Java, Android",5,7,82,91.6,Placed,14.4
+MECH20240211,MECH,6.43,0,3,"Machine Learning, JavaScript, Android",3,4,68.1,68.4,Placed,10.2
+CIVIL20210212,CIVIL,6.12,0,3,"React, Data Structures, Machine Learning, Android, Flask",5,7,85.1,91.5,Placed,13.4
+IT20220213,IT,7.47,0,0,"JavaScript, Python, React, Communication, Flask",5,5,52.1,80,Not Placed,
+ECE20230214,ECE,6.2,0,1,"C++, Machine Learning, Android, SQL",4,9,90.2,81.6,Placed,13.6
+CIVIL20240215,CIVIL,7.53,0,3,"React, JavaScript, SQL, Python",4,5,80.9,63.9,Placed,15.2
+CSE20210216,CSE,7.09,3,0,"Python, SQL",2,6,85.5,75.1,Not Placed,
+MECH20220217,MECH,9.78,2,2,"Java, AWS, Python, Excel, Flask",5,8,87.3,74,Placed,13.7
+MECH20230218,MECH,6.41,0,2,"React, AWS, Java, Android, Flask",5,5,79.9,80.8,Placed,13.3
+CIVIL20240219,CIVIL,7.4,0,3,"Django, JavaScript, Java",3,5,67.2,64.8,Placed,11.2
+CSE20210220,CSE,8.23,0,1,"Data Structures, Python, JavaScript, Java, React",5,6,88.8,68.1,Placed,14.1
+EEE20220221,EEE,7.86,0,1,"Java, Python, JavaScript",3,5,81.3,74.5,Placed,10.1
+IT20230222,IT,7.54,0,0,Machine Learning,1,6,90.6,60.5,Placed,11.6
+ECE20240223,ECE,8.82,2,1,"Flask, Android",2,7,79.4,80.6,Placed,12.2
+CSE20210224,CSE,6.07,0,3,"Machine Learning, Python, Communication, Django, Java",5,6,61.5,68.8,Not Placed,
+CIVIL20220225,CIVIL,6.93,0,0,"Communication, React, Data Structures",3,5,70,75.6,Placed,11.4
+MECH20230226,MECH,8.12,0,0,"AWS, Data Structures, Android, Excel",4,9,80.7,65.2,Placed,12.5
+CIVIL20240227,CIVIL,8.13,2,1,"JavaScript, Communication, Java, Android, SQL",5,5,70.3,69.5,Not Placed,
+CIVIL20210228,CIVIL,7,1,3,"Data Structures, Django",2,9,72.6,71.4,Placed,11.3
+CSE20220229,CSE,8.29,0,0,"C++, Communication, Android, Django",4,2,65.9,74,Placed,12.4
+IT20230230,IT,7.1,0,0,"AWS, JavaScript, Python, Communication",4,5,74.2,63.7,Placed,14
+CSE20240231,CSE,8.91,0,3,Data Structures,1,9,82.8,70.6,Placed,12.9
+ECE20210232,ECE,6.49,0,1,React,1,6,69.1,90.9,Placed,8.3
+IT20220233,IT,7.66,0,1,"Communication, C++, JavaScript, Java, Excel",5,5,67.5,79.5,Placed,11.6
+ECE20230234,ECE,7.55,0,0,"Python, Java, Flask, AWS, Data Structures",5,2,73.6,93.7,Not Placed,
+MECH20240235,MECH,8.43,0,1,Python,1,4,87.1,59.4,Placed,12.7
+MECH20210236,MECH,6.23,0,0,"JavaScript, Machine Learning, C++, React, SQL",5,4,78.3,58.3,Placed,10.3
+ECE20220237,ECE,7.78,0,1,React,1,6,79.9,68.2,Not Placed,
+IT20230238,IT,8.26,0,0,Flask,1,7,71.4,64.5,Not Placed,
+ECE20240239,ECE,5.86,0,1,React,1,6,88.7,85.6,Not Placed,
+MECH20210240,MECH,6.84,0,0,"SQL, Python, Communication, Excel",4,5,63.5,65.5,Not Placed,
+CSE20220241,CSE,6.8,0,0,"Data Structures, Flask, Python, JavaScript",4,5,77.4,79.4,Placed,11.3
+CIVIL20230242,CIVIL,7,1,3,Machine Learning,1,8,72.5,61.4,Not Placed,
+EEE20240243,EEE,6.16,0,1,"Python, Data Structures, Machine Learning",3,6,80.9,75.1,Placed,7.5
+CIVIL20210244,CIVIL,8.13,0,0,"Excel, C++, Django",3,7,77.5,75.7,Placed,15.5
+ECE20220245,ECE,7.44,1,3,Python,1,5,58.8,79.1,Placed,11.1
+ECE20230246,ECE,8.06,0,3,"Flask, SQL",2,7,77.3,76.2,Placed,7.5
+CSE20240247,CSE,5.94,0,1,"React, Data Structures",2,8,74.9,79.6,Placed,9.4
+ECE20210248,ECE,5.93,0,3,"SQL, Flask, Android, JavaScript, C++",5,5,81.8,81.1,Placed,12.4
+IT20220249,IT,8.1,0,0,"Android, AWS, C++, JavaScript, Django",5,6,74.4,69.8,Not Placed,
+IT20230250,IT,8.18,3,2,Machine Learning,1,6,65,77.6,Placed,10.4
+ECE20240251,ECE,6.59,0,1,"JavaScript, C++, Data Structures, Android, React",5,6,81.1,74.6,Placed,10.1
+EEE20210252,EEE,7.49,0,2,"Communication, Java",2,9,76.7,73.4,Placed,9.4
+EEE20220253,EEE,6.9,0,2,"Data Structures, Excel, Communication, Django",4,9,76.1,62.7,Placed,12.7
+ECE20230254,ECE,8.15,2,0,"Communication, JavaScript, React, C++, Android",5,5,80.2,74.6,Not Placed,
+CSE20240255,CSE,7.36,0,0,"Android, React, Communication, C++",4,4,88.6,77.7,Placed,10
+ECE20210256,ECE,6.4,0,1,"Flask, Communication, Data Structures, C++, JavaScript",5,7,80.7,53.9,Placed,10.5
+MECH20220257,MECH,6.96,1,1,"SQL, React",2,7,73.3,68,Not Placed,
+EEE20230258,EEE,6.92,2,0,"React, Flask, Excel, Python",4,8,72.8,78.4,Placed,11.1
+CSE20240259,CSE,6.68,0,3,Django,1,1,90.1,78.6,Not Placed,
+MECH20210260,MECH,6.88,0,0,"Communication, Android, SQL, Flask",4,9,88.7,58.7,Not Placed,
+MECH20220261,MECH,8.64,1,0,"React, SQL",2,4,78.3,79.9,Not Placed,
+CIVIL20230262,CIVIL,8.57,1,3,"Python, Excel, AWS, Data Structures, JavaScript",5,7,63.1,82.8,Placed,13.9
+ECE20240263,ECE,6.87,0,1,"Communication, Machine Learning, C++, Java, Django",5,4,85.4,79.8,Placed,12.7
+CIVIL20210264,CIVIL,8.01,0,0,Django,1,4,88.5,76.2,Not Placed,
+MECH20220265,MECH,6.45,0,1,"Machine Learning, SQL, React, Python",4,7,65.3,69,Placed,11.7
+IT20230266,IT,5.67,0,2,"JavaScript, C++, Data Structures, AWS, Communication",5,4,71.6,81.9,Placed,11.7
+CSE20240267,CSE,7.11,0,0,Communication,1,3,72.3,69.5,Not Placed,
+IT20210268,IT,6.73,0,1,"AWS, Communication, Data Structures, Flask, React",5,3,91.5,91.6,Placed,13.3
+IT20220269,IT,7.25,0,1,"Python, C++, Communication, Django, Machine Learning",5,5,85.7,79.7,Placed,11.5
+EEE20230270,EEE,7.42,0,2,"Flask, Android, React, Python",4,7,86.5,72.1,Placed,12.8
+EEE20240271,EEE,8.21,1,1,"Java, Android, Excel, AWS, C++",5,7,67.4,74.2,Placed,12.1
+EEE20210272,EEE,8.38,2,0,"Python, AWS, C++, React",4,6,84.9,75.7,Not Placed,
+CSE20220273,CSE,7.74,1,0,"Android, JavaScript, SQL, Python",4,5,66,68,Not Placed,
+IT20230274,IT,7.46,0,0,"React, Flask, SQL, Communication, Machine Learning",5,9,75.6,98.1,Placed,14.7
+IT20240275,IT,7.92,0,1,"JavaScript, Excel",2,9,72.6,76.2,Placed,7.4
+ECE20210276,ECE,5.83,0,3,React,1,2,73.9,77.2,Placed,9
+MECH20220277,MECH,8.04,0,1,"Data Structures, Excel, Communication, Python",4,5,84.4,72.3,Placed,11.7
+CSE20230278,CSE,8.83,3,0,"SQL, Communication, Data Structures, Machine Learning, C++",5,5,80.2,70.4,Placed,13.4
+MECH20240279,MECH,7.44,1,3,"SQL, Java, Android",3,6,64.7,75.6,Placed,11.5
+CSE20210280,CSE,6.59,3,0,"Python, Django, SQL",3,3,71.6,76.3,Not Placed,
+ECE20220281,ECE,6.48,1,1,"Flask, JavaScript",2,4,79.4,78.9,Not Placed,
+CIVIL20230282,CIVIL,8.99,0,0,Machine Learning,1,10,98.1,74.6,Placed,12
+ECE20240283,ECE,5.31,0,2,"Data Structures, Communication, C++",3,5,72.2,59.5,Not Placed,
+EEE20210284,EEE,7.23,0,1,"Communication, Excel, Python, SQL",4,8,75.7,81.8,Placed,11.1
+EEE20220285,EEE,7.27,0,2,"Communication, Data Structures, Flask, JavaScript",4,6,90.2,75.7,Placed,14
+CIVIL20230286,CIVIL,6.39,1,1,"JavaScript, Communication, Flask, AWS, SQL",5,5,75.3,69.9,Placed,9.7
+ECE20240287,ECE,7,0,0,"Excel, Flask, Java, JavaScript",4,8,70.9,87.2,Placed,10.5
+ECE20210288,ECE,6.73,1,0,"React, Communication, C++, SQL",4,5,85.2,90.3,Placed,10.6
+ECE20220289,ECE,6.48,0,2,"Communication, JavaScript, SQL, Excel, Data Structures",5,7,74.5,74.5,Not Placed,
+ECE20230290,ECE,6.75,0,0,"Django, AWS, Machine Learning, SQL",4,5,80,82.2,Placed,11.2
+IT20240291,IT,8.2,0,1,"React, Python, Android, Java, SQL",5,6,70.9,99,Placed,10.2
+IT20210292,IT,8.25,3,1,"Data Structures, Java, Python, Django, AWS",5,5,99,77.4,Not Placed,
+ECE20220293,ECE,6.78,0,0,"Excel, Java, Communication",3,4,80.2,69.5,Not Placed,
+EEE20230294,EEE,8.28,1,1,"C++, Communication, Machine Learning, Django, Data Structures",5,7,72.4,61.2,Placed,12.2
+ECE20240295,ECE,6.78,0,0,"Machine Learning, Java, Data Structures",3,7,72.3,84.9,Not Placed,
+EEE20210296,EEE,7.18,0,1,"Data Structures, SQL",2,7,96,90.7,Placed,12.1
+CIVIL20220297,CIVIL,7.14,0,2,"Django, Communication",2,7,85.8,85.2,Placed,8.9
+CIVIL20230298,CIVIL,6.14,0,1,"Machine Learning, Java, Data Structures, SQL",4,7,85.8,80.7,Not Placed,
+CIVIL20240299,CIVIL,7.6,0,0,"Data Structures, JavaScript, Communication",3,5,77.9,68.9,Placed,10.5
+ECE20210300,ECE,6.27,0,1,Django,1,4,80.5,73.3,Placed,11.3
+IT20220301,IT,5.55,0,0,"Excel, Communication, SQL, Machine Learning",4,4,60.2,81.5,Placed,11.3
+CIVIL20230302,CIVIL,6.97,0,0,"JavaScript, Django",2,4,63.2,67.1,Not Placed,
+MECH20240303,MECH,7.01,0,0,"SQL, Flask",2,8,79.1,68,Not Placed,
+MECH20210304,MECH,6.8,0,2,"Flask, Android",2,4,68.7,84.5,Placed,9.6
+CIVIL20220305,CIVIL,6.44,0,0,Communication,1,6,76.8,70.4,Not Placed,
+CSE20230306,CSE,7.04,1,3,"AWS, C++, Flask, React, Java",5,8,85,68.8,Placed,12.9
+CIVIL20240307,CIVIL,7.33,0,2,"Data Structures, Flask",2,6,89,72.2,Placed,9.9
+MECH20210308,MECH,6.6,0,1,"Django, Data Structures, React",3,8,73.9,75.5,Placed,10.4
+MECH20220309,MECH,8.85,1,0,"Flask, SQL",2,8,72.8,75.5,Placed,12.9
+EEE20230310,EEE,8.65,0,1,"Django, C++, AWS, Excel",4,6,76.6,78.3,Placed,12.2
+CSE20240311,CSE,6.91,2,2,"Flask, Android",2,4,82.5,51.4,Placed,12.1
+ECE20210312,ECE,7.86,0,1,"Django, JavaScript, AWS",3,6,70.4,74.4,Not Placed,
+ECE20220313,ECE,6.89,0,0,AWS,1,8,82.2,73.3,Not Placed,
+CIVIL20230314,CIVIL,7.02,0,0,"Communication, C++, SQL",3,6,73.4,65.3,Placed,13
+CSE20240315,CSE,7.54,0,1,"Excel, C++, Python",3,6,78.2,78.2,Placed,11.3
+CIVIL20210316,CIVIL,4.5,0,0,Data Structures,1,5,83.3,83.8,Placed,8.2
+CIVIL20220317,CIVIL,4.5,1,0,"SQL, JavaScript",2,6,94,93.2,Placed,7.1
+IT20230318,IT,8.35,0,0,"Flask, React",2,5,68.7,81.4,Placed,12.5
+CSE20240319,CSE,7.78,0,1,"React, AWS, C++, SQL, Communication",5,6,77.8,85.8,Placed,9
+EEE20210320,EEE,7.05,3,2,React,1,6,75.5,73.2,Placed,8.6
+ECE20220321,ECE,6.53,1,0,Django,1,7,89.4,71.2,Placed,10.4
+EEE20230322,EEE,5.63,0,0,"Communication, Python",2,7,76.4,59.6,Not Placed,
+CSE20240323,CSE,7.5,1,1,"Data Structures, Python, JavaScript, Machine Learning, SQL",5,5,74.3,67.5,Placed,9.8
+IT20210324,IT,6.69,0,1,"Excel, React, C++, AWS",4,7,82.2,76.3,Not Placed,
+EEE20220325,EEE,7.69,0,1,"Machine Learning, React, C++, JavaScript, Flask",5,7,80.5,62.6,Placed,11.4
+IT20230326,IT,6.76,1,1,"Python, AWS, C++",3,4,78,62.5,Placed,10.1
+EEE20240327,EEE,7.25,0,2,"Java, Communication",2,8,77.8,82.1,Placed,15
+IT20210328,IT,7.94,0,2,"Communication, Python, Data Structures, SQL, JavaScript",5,5,82.8,67.7,Placed,11.9
+EEE20220329,EEE,6.81,0,1,"Machine Learning, Django",2,4,69.1,80.9,Placed,10.2
+ECE20230330,ECE,7.74,0,1,Machine Learning,1,9,85.2,83.7,Placed,11.6
+EEE20240331,EEE,5.95,2,0,"JavaScript, Java, Communication, C++, Machine Learning",5,8,95.6,85.8,Not Placed,
+MECH20210332,MECH,7.28,0,0,"Django, C++",2,4,69.4,84.3,Placed,13.6
+MECH20220333,MECH,7.09,0,3,"JavaScript, Excel, Communication",3,7,91.1,73,Placed,11.3
+CSE20230334,CSE,7.84,0,2,"Python, Java, Android, JavaScript",4,10,74.6,70.9,Placed,10.3
+ECE20240335,ECE,8.02,0,0,JavaScript,1,7,73.8,57.6,Placed,8.2
+EEE20210336,EEE,6.27,0,2,"Java, Android, Django",3,5,68.1,86.3,Not Placed,
+CIVIL20220337,CIVIL,7.43,0,2,"React, AWS, SQL, Android",4,6,93.1,66.6,Placed,11.2
+CIVIL20230338,CIVIL,7.87,0,0,Python,1,5,83.4,69.9,Placed,10.2
+CIVIL20240339,CIVIL,7.46,0,2,"Django, Flask, Android",3,5,67.3,74.7,Placed,9.9
+EEE20210340,EEE,7.97,0,1,"Flask, C++, SQL, JavaScript",4,7,78.3,68.4,Placed,11.9
+IT20220341,IT,8.91,1,1,"Excel, Data Structures, SQL",3,6,70.9,81.5,Placed,12.2
+IT20230342,IT,5.94,0,2,SQL,1,5,71.8,76.5,Placed,9.3
+IT20240343,IT,6.05,0,0,JavaScript,1,8,82.9,73,Not Placed,
+MECH20210344,MECH,7.43,1,0,Java,1,7,85.6,71.6,Not Placed,
+EEE20220345,EEE,7.67,3,0,Machine Learning,1,5,71,74.9,Placed,11.6
+CIVIL20230346,CIVIL,5.62,1,3,"AWS, Data Structures, Communication, SQL, Java",5,5,69,77.8,Placed,9
+EEE20240347,EEE,7.39,1,0,"Android, JavaScript, C++",3,6,83.3,73.3,Placed,11
+ECE20210348,ECE,8.49,0,2,"Django, React, Java, Excel, Android",5,5,85.4,72,Placed,11.8
+EEE20220349,EEE,7.85,0,2,Excel,1,6,71.8,82.3,Placed,12.1
+CIVIL20230350,CIVIL,7.86,0,2,"React, SQL, C++, Django",4,7,92.7,68.4,Placed,14.4
+ECE20240351,ECE,8.07,0,1,"Python, Django",2,6,84.6,78.8,Placed,12.4
+CSE20210352,CSE,5.65,1,1,Python,1,5,85.9,86.7,Not Placed,
+ECE20220353,ECE,6.78,1,0,"AWS, C++, Data Structures",3,4,67.9,68,Placed,11.1
+EEE20230354,EEE,6.77,1,2,"Machine Learning, Excel, Python, JavaScript",4,4,70.8,67.6,Placed,9
+MECH20240355,MECH,6.89,0,2,"Data Structures, SQL, React, Android, Machine Learning",5,6,81.9,75.7,Placed,10.9
+ECE20210356,ECE,6.19,1,2,"Data Structures, React",2,6,85.8,78.5,Placed,12.2
+IT20220357,IT,7.03,3,0,Python,1,5,74,70.4,Not Placed,
+ECE20230358,ECE,6.48,0,2,"React, JavaScript, SQL, AWS, Data Structures",5,6,77.8,73.6,Placed,10.7
+EEE20240359,EEE,5.73,0,0,"C++, Machine Learning, Data Structures",3,5,77.6,76,Placed,8.7
+EEE20210360,EEE,7.14,0,3,"Communication, SQL",2,8,81.2,81.8,Placed,12.1
+ECE20220361,ECE,8.42,0,3,"Flask, Android, Java, Communication, Data Structures",5,4,67.4,55.4,Placed,11.6
+CIVIL20230362,CIVIL,7.38,1,2,"Communication, Machine Learning",2,5,73,66.2,Not Placed,
+MECH20240363,MECH,8.23,1,0,"JavaScript, Django, Flask",3,5,62.2,69.9,Placed,10.1
+IT20210364,IT,6.51,0,0,"AWS, Java, Data Structures",3,3,78.9,71.9,Placed,9.8
+ECE20220365,ECE,6.34,1,1,"SQL, Machine Learning, Data Structures",3,5,78.6,77.7,Not Placed,
+IT20230366,IT,7.43,0,3,"Communication, Flask, SQL, Java, JavaScript",5,3,75.8,74.9,Placed,14.3
+IT20240367,IT,7.49,0,1,"Android, Data Structures, Java",3,6,80.4,82.4,Placed,12.3
+MECH20210368,MECH,7.46,0,1,"Machine Learning, Excel, JavaScript, Django",4,7,67.8,73.8,Placed,10.7
+CSE20220369,CSE,6.63,0,0,"Django, C++, JavaScript, React",4,3,71.7,67.9,Not Placed,
+ECE20230370,ECE,6.08,0,0,"Django, React, Python",3,4,72,69,Placed,12.5
+CIVIL20240371,CIVIL,6.53,1,0,"AWS, Machine Learning, React, JavaScript",4,7,84.2,68.5,Placed,10.9
+ECE20210372,ECE,6.74,0,1,Django,1,7,87,80.8,Not Placed,
+MECH20220373,MECH,6.92,0,1,C++,1,3,77.1,83.9,Placed,10.2
+EEE20230374,EEE,7.22,0,1,"SQL, Flask, Machine Learning, Data Structures",4,8,90.3,70,Not Placed,
+IT20240375,IT,6.97,0,0,"Excel, Django, Python, Communication",4,9,76.6,79.4,Placed,11.4
+EEE20210376,EEE,7.44,0,2,JavaScript,1,5,71.7,76.4,Placed,9.5
+ECE20220377,ECE,7.53,0,1,"Django, Excel, Machine Learning, AWS, Communication",5,5,78.7,88.1,Placed,14.2
+CSE20230378,CSE,8.64,0,1,"Java, Python, Machine Learning",3,7,86.6,84.1,Placed,12
+EEE20240379,EEE,6.37,0,1,Communication,1,3,70.3,73.6,Placed,7.1
+ECE20210380,ECE,6.22,1,3,"Communication, Android",2,6,76.8,79.6,Not Placed,
+MECH20220381,MECH,6.14,0,1,"Android, SQL, Django",3,6,80.3,76.3,Placed,10.5
+EEE20230382,EEE,7,0,2,Excel,1,4,75.1,67.2,Placed,11.3
+EEE20240383,EEE,7.61,0,1,"Django, Java, C++",3,6,74.5,90.5,Placed,12.9
+IT20210384,IT,7.08,3,1,"Data Structures, Excel, Machine Learning, Communication",4,6,74.9,71.6,Not Placed,
+CSE20220385,CSE,7.84,0,0,"AWS, Communication",2,5,79.6,74.8,Placed,9.8
+EEE20230386,EEE,7.98,0,1,SQL,1,4,76.4,64.5,Placed,8.9
+CIVIL20240387,CIVIL,8.69,1,2,Excel,1,4,83.8,76.5,Placed,10.2
+CIVIL20210388,CIVIL,7.1,0,0,"Machine Learning, React, Excel",3,9,65,52.4,Placed,12.6
+EEE20220389,EEE,8.14,0,1,"Machine Learning, AWS, C++, Python, JavaScript",5,6,87.5,73.9,Placed,8.9
+CIVIL20230390,CIVIL,8.6,0,1,"Excel, React, C++",3,3,92.7,80.4,Placed,11.9
+CIVIL20240391,CIVIL,6.13,0,0,"Machine Learning, React, AWS, Android",4,7,68.4,61.6,Placed,7.7
+MECH20210392,MECH,7.68,0,1,"React, Django",2,4,91.8,76.8,Placed,10.8
+IT20220393,IT,8.55,0,0,"Django, Java, C++",3,7,92.1,82.1,Not Placed,
+EEE20230394,EEE,6.06,0,0,Excel,1,2,75.2,73,Not Placed,
+CSE20240395,CSE,7.84,0,1,"Communication, Django, React, Machine Learning, C++",5,6,78.2,71.5,Placed,12.5
+CIVIL20210396,CIVIL,6.42,0,1,"SQL, Django, Data Structures, Flask, Excel",5,5,79.4,51.9,Not Placed,
+MECH20220397,MECH,7.71,1,1,C++,1,6,82.8,57.1,Placed,10.6
+MECH20230398,MECH,8.24,0,0,"React, Django, Android, Machine Learning",4,8,78,83.7,Not Placed,
+CSE20240399,CSE,7.81,1,0,"Machine Learning, Communication, Django, Excel",4,7,84.9,73.9,Placed,12.8
+MECH20210400,MECH,7.1,0,0,"Django, Java, AWS, Excel, Data Structures",5,5,80.3,64.2,Placed,14.1
+ECE20220401,ECE,6.69,0,1,"Django, Communication",2,6,79.1,63.2,Placed,9.7
+CIVIL20230402,CIVIL,7.58,0,2,"Java, Machine Learning, React, SQL",4,8,77.2,86.1,Placed,12.9
+CSE20240403,CSE,7.48,0,0,"Data Structures, AWS, C++, JavaScript, Python",5,5,78.7,84.1,Placed,12.1
+MECH20210404,MECH,7.65,0,0,"Java, Django",2,5,84.9,59.7,Placed,11.9
+MECH20220405,MECH,7.85,0,0,"React, SQL, AWS, JavaScript, Python",5,6,78.3,81.8,Placed,13
+ECE20230406,ECE,7.47,0,2,"Java, Excel, JavaScript",3,4,63.8,74.9,Placed,13.9
+EEE20240407,EEE,6.51,0,2,"Python, Django, C++, Data Structures",4,9,82.5,69.6,Placed,12.8
+MECH20210408,MECH,7.09,0,0,"AWS, Excel, Flask",3,5,84,76.1,Placed,13.8
+CIVIL20220409,CIVIL,7.32,0,1,"SQL, React, JavaScript, Android, Machine Learning",5,6,75.4,69.6,Placed,11.8
+MECH20230410,MECH,8.28,0,0,"C++, Data Structures, Android, Communication, Excel",5,9,83.5,76.1,Placed,14.1
+ECE20240411,ECE,6.69,0,3,"Machine Learning, Django, AWS",3,4,85.1,62.6,Placed,12.3
+CIVIL20210412,CIVIL,6.76,0,0,"JavaScript, React, Data Structures, Flask, C++",5,5,72.3,71.9,Placed,9
+CSE20220413,CSE,7.3,0,0,"Flask, Data Structures, JavaScript, React, Machine Learning",5,7,79.1,91.1,Placed,12.4
+CSE20230414,CSE,7.1,0,0,"Communication, Data Structures, Android, JavaScript, Excel",5,8,72.9,78.6,Placed,8.9
+CSE20240415,CSE,8.53,2,1,"JavaScript, Flask",2,3,89.5,64.6,Not Placed,
+IT20210416,IT,6.79,0,0,"Excel, AWS, C++, Communication",4,4,63.6,71.5,Placed,11.6
+CIVIL20220417,CIVIL,8.06,3,1,Data Structures,1,6,64.1,60.7,Not Placed,
+CSE20230418,CSE,8.07,1,1,Excel,1,9,95.4,71.3,Placed,11.7
+MECH20240419,MECH,6.84,0,3,"SQL, Java, JavaScript, C++, Communication",5,6,73.8,72.2,Not Placed,
+IT20210420,IT,6.47,2,0,"Java, SQL",2,5,79.1,75.7,Not Placed,
+CIVIL20220421,CIVIL,8.07,0,3,Django,1,6,77,65.4,Placed,8.5
+MECH20230422,MECH,7.57,2,1,"JavaScript, Communication, Data Structures",3,5,82.3,75.6,Not Placed,
+CSE20240423,CSE,6.62,1,0,"Communication, JavaScript, Android, Django",4,6,74.7,76.4,Placed,11.8
+MECH20210424,MECH,7.61,0,2,"Communication, Python, C++",3,7,82.2,76.4,Placed,10.6
+IT20220425,IT,6.37,1,0,"Excel, Java, Machine Learning, Communication",4,6,76.9,73.5,Placed,7.9
+CSE20230426,CSE,6.99,0,0,JavaScript,1,7,72.6,73.2,Not Placed,
+EEE20240427,EEE,6.73,0,3,"JavaScript, Communication, Java, Machine Learning, React",5,9,66.9,75.3,Placed,12.2
+EEE20210428,EEE,7.96,0,0,Excel,1,7,65.3,69,Placed,10.5
+CSE20220429,CSE,7.65,0,1,"C++, Android, Data Structures, JavaScript, Python",5,8,77,71.4,Placed,10.9
+ECE20230430,ECE,6.18,0,2,"Flask, Data Structures",2,5,73.6,79.6,Placed,10.5
+ECE20240431,ECE,6.91,3,1,Java,1,4,82.5,81.6,Not Placed,
+EEE20210432,EEE,6.12,0,0,AWS,1,6,83.9,83.1,Placed,9.5
+IT20220433,IT,7,1,1,"Flask, Communication",2,5,77.6,80.9,Not Placed,
+CIVIL20230434,CIVIL,6.75,0,0,"Flask, Python, Java",3,5,81,75.6,Placed,12.7
+IT20240435,IT,6.06,0,0,"React, JavaScript, SQL, Data Structures",4,4,83.3,82.2,Placed,11.1
+MECH20210436,MECH,6.1,0,1,"Django, Java, Communication, JavaScript, React",5,8,71.9,72.2,Placed,12.5
+ECE20220437,ECE,5.63,0,3,"Flask, AWS, C++, Python",4,7,80.4,56.5,Placed,8
+CIVIL20230438,CIVIL,6.34,0,0,"Flask, React, Python",3,7,73.9,65.8,Placed,9.9
+CSE20240439,CSE,6.25,0,0,"Machine Learning, Flask, Django, React, Communication",5,6,79,90,Not Placed,
+EEE20210440,EEE,6.98,0,0,Machine Learning,1,7,77.4,74.6,Placed,12.4
+CIVIL20220441,CIVIL,8.51,0,3,"Android, JavaScript, Django",3,7,76.8,84.9,Placed,12.8
+MECH20230442,MECH,4.79,0,0,"Excel, Java, JavaScript, Python, Communication",5,6,87.9,86,Not Placed,
+ECE20240443,ECE,8.12,0,2,"Data Structures, AWS, Excel, Python, SQL",5,4,69.6,76.6,Placed,12.6
+ECE20210444,ECE,7.54,1,0,"Flask, Java",2,8,65.5,79.1,Placed,10.5
+ECE20220445,ECE,7.16,0,0,C++,1,3,80.4,61.1,Placed,11.4
+MECH20230446,MECH,6.95,1,3,"Django, AWS, Communication",3,7,74.8,60.7,Placed,11.3
+EEE20240447,EEE,7.12,1,2,"Machine Learning, React, SQL, AWS",4,6,70.8,69.1,Placed,10.6
+EEE20210448,EEE,9.12,2,1,C++,1,8,86.1,81.1,Placed,13.6
+ECE20220449,ECE,7.07,0,2,"Java, Android, Communication",3,5,80.5,92.3,Placed,11
+EEE20230450,EEE,8.14,0,1,"Excel, Data Structures, SQL, AWS",4,6,82.5,84.8,Placed,13
+MECH20240451,MECH,7.66,0,3,"Flask, Machine Learning, Python, Data Structures",4,8,83.2,70.9,Placed,11.5
+IT20210452,IT,6.05,0,0,Android,1,8,72.7,72.1,Placed,10.3
+ECE20220453,ECE,7.57,2,0,"Flask, JavaScript",2,4,64.4,75,Not Placed,
+CSE20230454,CSE,7.11,0,3,"JavaScript, Data Structures, Android, Machine Learning, React",5,6,77.6,75.6,Placed,14.2
+ECE20240455,ECE,5.76,2,1,"SQL, AWS, Django",3,6,83.1,75.7,Placed,9
+ECE20210456,ECE,7.83,1,3,"Python, Communication, Data Structures, C++",4,4,78,66.3,Not Placed,
+ECE20220457,ECE,4.76,1,0,"Java, Flask",2,7,73.2,61.5,Not Placed,
+EEE20230458,EEE,7.19,0,1,Data Structures,1,7,65.3,71,Not Placed,
+IT20240459,IT,7.22,0,2,"React, Machine Learning, AWS, C++, Python",5,8,84.1,65.2,Placed,12.8
+CSE20210460,CSE,7.68,1,2,"JavaScript, SQL",2,8,90.1,85.1,Placed,13.7
+CIVIL20220461,CIVIL,8.59,0,0,Data Structures,1,8,99,63.8,Placed,12.1
+ECE20230462,ECE,7.71,0,1,"Excel, SQL, C++",3,7,73.8,68.6,Placed,10.7
+MECH20240463,MECH,8.09,0,1,"SQL, Django",2,5,51.2,71.3,Not Placed,
+EEE20210464,EEE,7.41,0,1,"Communication, React, Java",3,6,87.2,72.7,Placed,10.9
+CIVIL20220465,CIVIL,6.98,0,1,"SQL, Python, Excel",3,4,80.2,85.4,Placed,12.8
+CIVIL20230466,CIVIL,7.41,0,0,"Data Structures, Java, Android, SQL, Flask",5,6,76.1,77.2,Placed,12
+CIVIL20240467,CIVIL,8.41,1,1,"React, Python, C++, AWS, Data Structures",5,6,90.5,57.4,Placed,10.7
+CSE20210468,CSE,6.7,2,3,"Django, Excel, JavaScript, SQL",4,6,84.8,74,Placed,10.2
+IT20220469,IT,7.25,1,1,"SQL, Python, JavaScript, C++",4,6,89.7,87.1,Placed,11.7
+MECH20230470,MECH,7.5,0,1,SQL,1,6,74.6,72,Placed,11.3
+IT20240471,IT,6.89,1,0,"Android, SQL, AWS, Communication, JavaScript",5,5,82.6,70.5,Placed,10.7
+CIVIL20210472,CIVIL,6.18,0,1,"Java, SQL, Communication, Data Structures, Excel",5,6,77.8,92.6,Placed,12.2
+EEE20220473,EEE,7.99,0,2,"React, Communication, Machine Learning",3,8,88.3,87.6,Placed,11.9
+MECH20230474,MECH,5.5,1,1,Java,1,5,78.7,82.5,Not Placed,
+CIVIL20240475,CIVIL,7.6,0,0,"Python, Django, Flask, Android",4,4,85,74.6,Placed,13.4
+CIVIL20210476,CIVIL,6.86,0,1,"Communication, Android, Machine Learning, Django",4,6,91.7,80.9,Placed,11.3
+IT20220477,IT,7.76,0,0,"Communication, Python, Excel",3,4,67.1,76.1,Not Placed,
+CSE20230478,CSE,7.44,1,1,Communication,1,2,80.4,82.5,Not Placed,
+EEE20240479,EEE,7.83,0,1,"Excel, Python, JavaScript, SQL, Data Structures",5,5,77.1,92.1,Placed,12
+CIVIL20210480,CIVIL,7.72,1,1,"Excel, Java",2,6,64.1,74.5,Placed,9.2
+MECH20220481,MECH,5.47,3,2,AWS,1,7,91,78.5,Not Placed,
+IT20230482,IT,7.35,0,0,"Data Structures, JavaScript, SQL, React, Communication",5,7,69.3,77.5,Not Placed,
+MECH20240483,MECH,4.78,0,0,Flask,1,4,79.1,73.2,Not Placed,
+EEE20210484,EEE,7.66,0,0,Flask,1,6,89,74.9,Not Placed,
+EEE20220485,EEE,7.13,0,3,"Django, Communication, Java, JavaScript",4,7,81.2,77.2,Placed,10.9
+CIVIL20230486,CIVIL,7.55,2,3,"Machine Learning, AWS, Python",3,8,76.8,69.1,Placed,12.8
+EEE20240487,EEE,7,0,0,"Flask, Data Structures, Excel, Python",4,6,75.1,70.9,Placed,12
+MECH20210488,MECH,5.95,0,0,"Java, JavaScript, Machine Learning, Data Structures",4,6,67.4,81.3,Placed,9.3
+CSE20220489,CSE,6.73,0,0,"SQL, Flask, Java, React, Django",5,5,74.4,65.9,Not Placed,
+CSE20230490,CSE,6.19,2,2,"AWS, Django",2,8,90.9,95.2,Not Placed,
+MECH20240491,MECH,6.68,1,1,Android,1,5,81.3,82.7,Not Placed,
+MECH20210492,MECH,6.38,1,0,C++,1,6,85.2,63.5,Not Placed,
+MECH20220493,MECH,6.94,1,0,"React, Flask, Communication",3,9,84.2,86.7,Placed,9.5
+CSE20230494,CSE,8.14,0,1,"Python, Excel",2,4,82.5,68,Not Placed,
+IT20240495,IT,8.47,0,0,"React, JavaScript, Django",3,7,84.5,65.5,Placed,10.1
+MECH20210496,MECH,8.33,2,3,"Java, Django, C++",3,7,70.7,74.8,Placed,11.5
+CSE20220497,CSE,6.98,0,0,"C++, SQL",2,6,80.2,82,Not Placed,
+MECH20230498,MECH,6.99,1,2,"Flask, Excel, Communication",3,8,82.8,66.7,Placed,10.2
+CSE20240499,CSE,7.17,0,0,"Android, React, C++",3,7,74.3,72,Placed,12.1
+EEE20210500,EEE,8.43,3,3,"Android, C++, Excel, Communication, Java",5,6,78.2,83,Placed,11.9
+CSE20220501,CSE,7.45,0,1,"AWS, Data Structures, Excel, C++, Flask",5,10,78.4,84.4,Placed,10.4
+CIVIL20230502,CIVIL,7.03,0,0,"Machine Learning, SQL, AWS, React, Excel",5,7,65.7,82.1,Placed,12.6
+ECE20240503,ECE,7.34,0,1,"Java, JavaScript",2,7,77.8,70.8,Placed,9.4
+EEE20210504,EEE,5.36,0,0,"React, Flask, Machine Learning",3,5,77.7,70.3,Not Placed,
+MECH20220505,MECH,5.83,0,2,"React, AWS, SQL, JavaScript",4,7,77.8,72.9,Placed,8.1
+ECE20230506,ECE,6.31,0,3,"C++, SQL, Machine Learning, AWS, Android",5,5,81.9,59.4,Placed,9.6
+MECH20240507,MECH,7.24,1,0,"Java, AWS",2,7,60.1,73.6,Not Placed,
+CSE20210508,CSE,6.27,0,3,"Django, Java, Machine Learning",3,8,64.8,69.9,Placed,9.7
+ECE20220509,ECE,7.49,2,0,"Excel, C++",2,8,81.4,69.7,Not Placed,
+CSE20230510,CSE,7.71,0,0,"Flask, Android, Data Structures, AWS",4,6,65.7,80.8,Placed,12
+CIVIL20240511,CIVIL,7.09,0,1,"Android, Python, Machine Learning",3,5,82.1,99,Placed,11.5
+IT20210512,IT,8.37,0,1,"AWS, Java, JavaScript, Machine Learning, React",5,5,75.4,63.5,Placed,14.2
+ECE20220513,ECE,7.2,3,3,"Django, Flask",2,7,78,85.1,Not Placed,
+EEE20230514,EEE,7.01,1,2,"Machine Learning, Android, AWS, Python",4,8,74,79.9,Placed,12.1
+IT20240515,IT,7.97,0,1,"AWS, Machine Learning",2,7,79.6,78.9,Not Placed,
+ECE20210516,ECE,8.1,0,3,"Django, React, Flask",3,7,68.2,79.9,Placed,10.8
+EEE20220517,EEE,7.13,0,0,Excel,1,5,87.9,87.1,Placed,10.1
+CIVIL20230518,CIVIL,6.95,0,1,AWS,1,4,71.1,72.9,Placed,10.5
+MECH20240519,MECH,7.93,0,1,"SQL, Android, Excel, C++",4,8,77,88.1,Placed,13.2
+ECE20210520,ECE,6.38,1,1,Data Structures,1,7,85.7,80.2,Not Placed,
+MECH20220521,MECH,7.68,0,1,Python,1,5,74.4,75.7,Placed,12.7
+CSE20230522,CSE,6.45,0,0,Communication,1,5,76.7,70,Placed,10.5
+MECH20240523,MECH,6.03,0,3,Communication,1,7,84.1,62.1,Placed,10.5
+CIVIL20210524,CIVIL,6.3,2,0,"Machine Learning, React, Communication, JavaScript, Django",5,10,64.6,70.5,Not Placed,
+CSE20220525,CSE,7.08,1,1,"Communication, SQL, Python, Excel",4,7,69.7,80.5,Not Placed,
+ECE20230526,ECE,5.93,0,0,"Machine Learning, Django, Excel, JavaScript, Flask",5,5,84.9,82.3,Placed,10.2
+IT20240527,IT,6.38,0,3,"Flask, Java, JavaScript",3,4,76.1,86.6,Placed,10.6
+CIVIL20210528,CIVIL,7.34,2,1,Django,1,5,81.6,68.1,Placed,10.4
+EEE20220529,EEE,7.71,1,2,"Python, AWS, C++",3,6,79.3,75.4,Placed,8.4
+IT20230530,IT,7.73,0,0,"Java, Communication",2,3,81.6,75,Placed,10.4
+CIVIL20240531,CIVIL,9.24,0,0,"Data Structures, Django, Machine Learning, Flask",4,6,88.9,73.3,Placed,14
+MECH20210532,MECH,8.38,1,1,"JavaScript, Android, Excel, AWS",4,8,82.1,85.4,Placed,12.2
+CIVIL20220533,CIVIL,9.14,0,0,"SQL, Data Structures, Excel, JavaScript",4,5,79.3,77.7,Not Placed,
+IT20230534,IT,6.5,0,1,"C++, JavaScript, React",3,6,66.2,79.8,Not Placed,
+ECE20240535,ECE,5.36,0,2,SQL,1,7,82.6,85.9,Not Placed,
+CIVIL20210536,CIVIL,7.18,0,1,"React, Python, Machine Learning, SQL, Flask",5,6,74,73.4,Placed,12.9
+EEE20220537,EEE,9.97,0,1,"JavaScript, Communication, AWS",3,5,69.5,73.3,Placed,14.8
+ECE20230538,ECE,4.67,0,1,"Django, Flask, JavaScript",3,8,76.2,92.1,Not Placed,
+CSE20240539,CSE,7.58,0,1,"JavaScript, React, Python, Excel, Django",5,6,81,76.6,Placed,12.6
+ECE20210540,ECE,8.39,0,1,"AWS, Django",2,7,81.6,82.8,Placed,12.1
+IT20220541,IT,8.04,1,2,"JavaScript, Django, Machine Learning",3,5,71.6,56.3,Placed,12
+EEE20230542,EEE,7.27,0,2,"Flask, Python, C++, JavaScript, SQL",5,9,76.4,79.4,Placed,13.6
+CSE20240543,CSE,8.3,2,0,"React, SQL, Communication",3,6,74,78.9,Placed,13.7
+CSE20210544,CSE,7.92,3,2,"Android, AWS, Communication",3,8,74.4,76.6,Not Placed,
+ECE20220545,ECE,7.02,3,0,"Machine Learning, React, Communication, C++",4,6,81.7,77.3,Placed,10
+CIVIL20230546,CIVIL,7.74,1,0,"Android, Communication, React, AWS",4,8,75,69.7,Not Placed,
+CIVIL20240547,CIVIL,8.03,0,2,"Django, React",2,6,81.9,72,Placed,12.1
+CIVIL20210548,CIVIL,7.99,2,3,"Java, Communication, Excel, Flask",4,6,87.3,71.1,Placed,14
+EEE20220549,EEE,7.25,0,2,"Python, SQL, Excel, React, C++",5,5,93.3,72.5,Placed,12.2
+CSE20230550,CSE,7.24,0,0,"Excel, Data Structures, JavaScript",3,10,71.9,70.5,Placed,10.5
+EEE20240551,EEE,7.42,0,0,"Data Structures, Excel, React, Python, SQL",5,9,69.1,84.9,Placed,10.9
+IT20210552,IT,8.32,0,1,"AWS, JavaScript",2,7,80.1,72.3,Placed,12.5
+IT20220553,IT,6.88,1,1,"Django, Flask, C++, Java, Excel",5,5,67.2,75.2,Placed,11
+CIVIL20230554,CIVIL,6.91,1,1,"Android, React, Communication",3,6,76.5,74.2,Placed,11.6
+MECH20240555,MECH,7.58,0,0,"JavaScript, Java, AWS, Flask, Django",5,6,70,76,Placed,10.2
+MECH20210556,MECH,7.93,1,0,"Excel, SQL, Java, Android, Flask",5,1,79.2,65.8,Placed,13.4
+ECE20220557,ECE,7.54,0,2,"Android, Machine Learning, Communication, SQL, AWS",5,6,86.7,81.3,Placed,12.6
+EEE20230558,EEE,7.42,1,2,"Java, Python, Flask, JavaScript, Excel",5,5,76.5,82.6,Placed,12
+IT20240559,IT,6.89,0,3,Python,1,6,76.1,75.5,Placed,10.2
+EEE20210560,EEE,6.8,2,0,"Data Structures, AWS, Android, Java",4,4,75.9,93.1,Not Placed,
+ECE20220561,ECE,6.27,0,0,Communication,1,5,66.7,77.8,Placed,11.2
+EEE20230562,EEE,7.22,2,3,"SQL, AWS, Django, Android",4,6,78,76.6,Placed,10.1
+EEE20240563,EEE,7.58,1,2,Machine Learning,1,6,75.7,64.2,Placed,8.7
+CSE20210564,CSE,6.23,0,1,"C++, Machine Learning",2,6,83.7,54.2,Placed,12.8
+CIVIL20220565,CIVIL,6.68,2,0,"Java, Excel, Communication",3,6,73.6,70.4,Placed,10.3
+CIVIL20230566,CIVIL,8.69,0,0,"React, Android, Communication, Python, SQL",5,5,84.8,72,Placed,12
+CIVIL20240567,CIVIL,8.79,0,1,"Communication, JavaScript, SQL",3,8,79.1,66,Placed,10.5
+MECH20210568,MECH,7.86,3,0,Android,1,6,80,76.7,Not Placed,
+EEE20220569,EEE,8.77,0,0,"Flask, C++, Android, Excel, Communication",5,7,73.4,76.4,Placed,10.4
+CIVIL20230570,CIVIL,6.65,0,3,C++,1,6,71.2,67.1,Not Placed,
+CIVIL20240571,CIVIL,8.15,0,1,"Machine Learning, JavaScript, Android, C++, Python",5,7,62.2,74.4,Placed,8.2
+MECH20210572,MECH,7.54,1,1,"Android, Python, AWS, JavaScript, Data Structures",5,7,69.6,83.9,Placed,14.1
+MECH20220573,MECH,6.2,0,0,"Machine Learning, Android, Python, Flask, React",5,4,79.2,79.4,Not Placed,
+CSE20230574,CSE,7.27,0,0,Communication,1,8,67.4,68.3,Placed,11.3
+IT20240575,IT,6.47,2,0,"AWS, Machine Learning, Flask, Excel, Django",5,2,78.1,86.1,Not Placed,
+EEE20210576,EEE,7.67,1,0,"Android, Communication",2,7,68.7,74.1,Not Placed,
+MECH20220577,MECH,8.28,0,0,"AWS, Machine Learning, JavaScript",3,8,64.9,92.4,Placed,12.1
+IT20230578,IT,6.85,0,1,"C++, Communication, Java, Python",4,5,82.9,85.2,Placed,15
+CIVIL20240579,CIVIL,7.1,0,3,"Python, AWS, Android, React",4,2,73.4,69.6,Placed,12.5
+IT20210580,IT,6.5,3,3,"React, Java, JavaScript",3,4,83.7,72.6,Not Placed,
+IT20220581,IT,6.8,0,1,"C++, JavaScript",2,7,84.4,72.3,Not Placed,
+ECE20230582,ECE,6.93,0,1,"Django, Java, Communication, SQL, Machine Learning",5,9,85.8,77.1,Placed,13.3
+ECE20240583,ECE,7.15,0,0,"React, Django, JavaScript",3,8,97.8,77.4,Placed,9.6
+IT20210584,IT,7.26,0,2,AWS,1,8,79.1,71.5,Placed,9.4
+MECH20220585,MECH,7.06,2,1,"React, Excel, SQL, Communication",4,6,76.9,78.5,Placed,13.6
+IT20230586,IT,7.43,1,0,SQL,1,9,68.7,94.7,Placed,9
+MECH20240587,MECH,7.78,0,1,"Django, Python",2,3,79.9,72.9,Placed,12.4
+CSE20210588,CSE,6.27,0,2,Python,1,3,79.9,71.8,Not Placed,
+CIVIL20220589,CIVIL,7.42,0,1,"AWS, Java",2,6,76.4,75.5,Not Placed,
+MECH20230590,MECH,8.64,0,1,Communication,1,5,84.2,79.6,Placed,9
+IT20240591,IT,6.88,0,3,Data Structures,1,7,72.3,56,Placed,9.8
+CIVIL20210592,CIVIL,7.65,0,1,AWS,1,7,71.1,74.7,Placed,13.5
+ECE20220593,ECE,7.98,0,1,"Machine Learning, Flask, Django, Excel",4,7,67.1,65.3,Placed,12.5
+CIVIL20230594,CIVIL,5.76,0,3,AWS,1,5,73.9,82.5,Placed,12.3
+ECE20240595,ECE,6.62,0,1,"C++, Django, Python, AWS, Machine Learning",5,3,71.4,83.9,Placed,12.2
+ECE20210596,ECE,6.18,0,3,SQL,1,7,67.6,63.4,Not Placed,
+MECH20220597,MECH,5.39,0,1,"Java, Python, C++, Android, Data Structures",5,7,72.9,65.5,Not Placed,
+CIVIL20230598,CIVIL,7.6,2,1,"C++, Machine Learning, Python, Django",4,5,73.9,76.2,Placed,11
+CIVIL20240599,CIVIL,8,0,1,"Android, Django, React, C++, AWS",5,6,66.9,78.9,Placed,11.2
+CSE20210600,CSE,7.66,0,1,Django,1,7,70.1,78.4,Placed,11.4
+IT20220601,IT,7.37,0,1,"Django, Machine Learning, JavaScript, React, Java",5,5,85.2,72.5,Placed,11.5
+ECE20230602,ECE,6,1,1,"Machine Learning, JavaScript",2,5,83.9,69.3,Not Placed,
+ECE20240603,ECE,6.42,0,1,"Communication, Data Structures",2,8,80.8,74.6,Not Placed,
+IT20210604,IT,7.54,0,2,"Flask, Android",2,8,74.2,82.3,Placed,9.6
+CIVIL20220605,CIVIL,7.99,0,1,"Communication, SQL, Excel, Data Structures, React",5,6,72,90.3,Placed,13.5
+IT20230606,IT,7.82,0,0,"React, Excel, Android",3,6,84.7,93.6,Placed,11.3
+MECH20240607,MECH,5.8,1,0,Django,1,6,72.4,86.3,Placed,8
+MECH20210608,MECH,6.33,0,0,"AWS, Machine Learning, Python, Android",4,6,78.6,68.1,Not Placed,
+ECE20220609,ECE,9.03,0,1,"Machine Learning, Android, Data Structures, JavaScript",4,9,83.6,71.9,Placed,14.7
+EEE20230610,EEE,6.57,0,2,"React, SQL",2,9,72.1,87.7,Placed,10.6
+MECH20240611,MECH,8.16,2,1,"React, Data Structures",2,5,90.9,81.6,Not Placed,
+CSE20210612,CSE,7.71,0,1,"Data Structures, Flask, Python, Machine Learning, Java",5,8,80,77.5,Placed,12.3
+CSE20220613,CSE,7.33,0,0,"C++, Python, Android, Java",4,5,81.3,80.9,Placed,11.9
+MECH20230614,MECH,7.8,0,2,"Android, AWS, Django, Data Structures",4,8,68,66,Placed,11
+CIVIL20240615,CIVIL,8.25,0,0,"Communication, Excel, SQL",3,6,79.5,79.1,Placed,12.6
+MECH20210616,MECH,5.63,0,1,"JavaScript, Data Structures, C++",3,5,65,80.6,Placed,8.5
+CSE20220617,CSE,8.08,0,1,"Java, Android, Flask, Data Structures",4,6,85.1,61.9,Placed,10.7
+MECH20230618,MECH,6.83,2,0,Django,1,5,72.4,65.7,Not Placed,
+IT20240619,IT,6.87,0,2,"Java, Python",2,6,73.6,67.5,Not Placed,
+IT20210620,IT,6.35,0,3,SQL,1,5,86.5,77.6,Placed,11.3
+EEE20220621,EEE,7.91,0,1,"Flask, React, Data Structures",3,4,75,69.9,Placed,12.2
+MECH20230622,MECH,6.29,0,0,"Flask, SQL, Android, Data Structures, Excel",5,4,78.7,65.9,Placed,8.9
+CSE20240623,CSE,7.57,0,0,"SQL, Java, Flask, JavaScript, Android",5,6,74.6,68.3,Placed,11.5
+CIVIL20210624,CIVIL,8.19,0,3,"SQL, Data Structures, Django, Machine Learning",4,7,77,63,Placed,12.9
+ECE20220625,ECE,6.49,0,3,"Python, Excel, Java, SQL, Communication",5,5,72.9,99,Not Placed,
+CIVIL20230626,CIVIL,7.75,0,1,"Django, Flask",2,7,83.4,75.6,Placed,12.5
+ECE20240627,ECE,7.04,0,3,"Machine Learning, Django, SQL, C++",4,7,78.8,76.3,Placed,12.8
+IT20210628,IT,8.15,3,1,Android,1,8,66,72.1,Placed,13.2
+EEE20220629,EEE,9,0,1,Android,1,5,72.3,74.2,Placed,11.4
+ECE20230630,ECE,6.45,1,2,"C++, SQL",2,2,71.3,63.4,Placed,11.1
+MECH20240631,MECH,7.17,0,1,"Data Structures, Machine Learning, Java, AWS, Django",5,5,71.7,76.1,Placed,10.5
+CIVIL20210632,CIVIL,6.84,3,0,"AWS, Django, React, Data Structures, Flask",5,6,76,77.6,Not Placed,
+EEE20220633,EEE,7.45,0,0,"Flask, Android, Machine Learning, Django",4,5,79.8,66.1,Placed,9.3
+EEE20230634,EEE,5.48,0,3,"SQL, Python, Android, Django",4,8,73,89.3,Placed,11
+CSE20240635,CSE,7.83,1,1,"AWS, C++, JavaScript",3,6,83.9,73.7,Not Placed,
+IT20210636,IT,8.16,0,1,"Data Structures, JavaScript, AWS",3,8,79.9,74.5,Placed,12.4
+ECE20220637,ECE,7.73,0,0,"Data Structures, React, Django",3,5,66.1,86.7,Not Placed,
+CSE20230638,CSE,4.91,0,0,"Data Structures, JavaScript, Machine Learning, React, C++",5,6,78.4,72.3,Not Placed,
+CSE20240639,CSE,5.84,0,3,SQL,1,5,85.2,86.2,Placed,11.4
+IT20210640,IT,8.98,0,2,"Android, Django, React, Data Structures, Machine Learning",5,8,83,85.5,Placed,11.6
+IT20220641,IT,7.94,1,0,"Python, Communication, Flask, Excel",4,5,67.7,72.3,Not Placed,
+CIVIL20230642,CIVIL,8,0,0,"Machine Learning, Flask, Excel",3,5,65.6,75.9,Not Placed,
+ECE20240643,ECE,7.71,0,2,"Android, C++",2,8,81.8,75.9,Placed,10.3
+EEE20210644,EEE,7.76,0,0,"Data Structures, AWS, SQL",3,4,75.3,88.2,Placed,9.4
+CSE20220645,CSE,8.33,0,1,"Java, C++, Flask, AWS",4,8,70.2,74.7,Placed,11.3
+CIVIL20230646,CIVIL,6.51,0,0,"React, C++",2,8,76.2,70.5,Not Placed,
+CSE20240647,CSE,6.46,0,1,C++,1,5,94.3,93,Placed,10
+CIVIL20210648,CIVIL,6.09,0,0,"Flask, SQL, JavaScript, Django, AWS",5,5,90.8,87.8,Placed,11.5
+ECE20220649,ECE,6.55,3,1,"React, Data Structures, Excel, Communication",4,7,83.6,87.8,Placed,11.4
+IT20230650,IT,8.36,0,3,Python,1,3,70,86,Placed,12.5
+CSE20240651,CSE,7.89,0,1,"React, Communication",2,6,85.4,82.7,Placed,11.7
+CIVIL20210652,CIVIL,6.98,0,3,"Flask, C++",2,7,82.3,67.7,Placed,8.8
+EEE20220653,EEE,7.55,0,1,Django,1,8,88.5,79.9,Placed,9.4
+CSE20230654,CSE,7.58,0,0,Communication,1,5,85.4,78.7,Placed,10
+EEE20240655,EEE,6.99,0,2,Django,1,4,70.9,60.2,Placed,8.5
+CSE20210656,CSE,7.52,0,3,Communication,1,7,80.8,70,Placed,10.4
+EEE20220657,EEE,7.52,0,0,Communication,1,6,70.4,69.7,Not Placed,
+IT20230658,IT,8.32,0,1,"Communication, SQL, React, Data Structures",4,4,66.3,69.5,Placed,11.6
+CIVIL20240659,CIVIL,8.46,0,1,"C++, Excel, Python",3,7,79.8,71.3,Placed,11.5
+CIVIL20210660,CIVIL,8.63,0,0,"AWS, Python",2,8,68.9,64.5,Placed,10.9
+IT20220661,IT,6.69,0,0,"Excel, C++, AWS, Python",4,7,82.4,93.5,Placed,8.7
+MECH20230662,MECH,6.03,0,1,"Android, Flask, Data Structures, Django",4,5,89.1,77.9,Placed,10.8
+CIVIL20240663,CIVIL,6.74,0,0,"Python, Django, Java, AWS, Excel",5,5,71.2,70.9,Placed,10.6
+MECH20210664,MECH,8.08,0,2,"Data Structures, C++",2,4,77.7,83.7,Placed,9.6
+EEE20220665,EEE,6.94,2,0,"Excel, React, Python",3,7,82.8,93.1,Not Placed,
+EEE20230666,EEE,8.49,0,1,"JavaScript, Communication, SQL, Django, Python",5,8,77.5,60.7,Placed,11.2
+CSE20240667,CSE,6.94,0,1,"SQL, AWS, Excel, Java, Flask",5,5,82.3,79.2,Not Placed,
+ECE20210668,ECE,6.97,0,0,"Machine Learning, Android, SQL",3,6,73.4,68.3,Not Placed,
+IT20220669,IT,7.36,3,0,"React, Flask",2,7,69.2,73.5,Placed,10.6
+IT20230670,IT,6.69,1,2,"AWS, Android, SQL, C++",4,4,88.6,53.1,Placed,11.8
+ECE20240671,ECE,7.99,0,2,"AWS, Data Structures, JavaScript, Flask, Machine Learning",5,5,84.5,83.3,Placed,13.6
+CIVIL20210672,CIVIL,6.92,0,2,React,1,4,80.3,71,Placed,11.4
+IT20220673,IT,8.99,2,2,"Data Structures, Communication, Excel, Machine Learning",4,6,72.5,64.7,Placed,13.2
+IT20230674,IT,8.66,3,0,Java,1,7,90.2,78.3,Not Placed,
+EEE20240675,EEE,6.84,1,0,"Java, React, Communication",3,8,70.9,71,Placed,12.2
+MECH20210676,MECH,8.56,1,0,"Java, Android, Django, SQL, Python",5,5,73.6,81.4,Placed,14.8
+ECE20220677,ECE,5.31,0,0,AWS,1,5,82.5,74,Not Placed,
+CIVIL20230678,CIVIL,6.72,0,1,"Excel, Data Structures",2,7,65.3,81.5,Placed,8.7
+CIVIL20240679,CIVIL,7.66,0,3,"JavaScript, Python",2,7,72.4,74.4,Placed,10.8
+IT20210680,IT,7.57,3,2,"C++, AWS, JavaScript, Android, Excel",5,6,82.7,75.5,Placed,12.5
+MECH20220681,MECH,7.11,1,0,"Data Structures, React, Flask",3,6,86.6,77.1,Not Placed,
+CSE20230682,CSE,8.76,0,0,"C++, JavaScript",2,7,83,69.3,Placed,16.2
+CIVIL20240683,CIVIL,4.76,0,2,"Communication, SQL, C++, React, Django",5,5,64.9,65.7,Placed,6.7
+ECE20210684,ECE,7.2,0,3,"Machine Learning, JavaScript, Flask, Java",4,8,88.9,79.1,Placed,11.9
+ECE20220685,ECE,6.65,0,3,Data Structures,1,6,85.5,80.8,Placed,10.8
+EEE20230686,EEE,8.15,0,0,"Excel, Python, Communication, Android, Flask",5,7,73.2,85.7,Placed,16.1
+CIVIL20240687,CIVIL,8.46,0,1,"JavaScript, Android",2,7,77.2,73.1,Placed,12
+CIVIL20210688,CIVIL,8.55,0,0,"Data Structures, Python, Android, JavaScript, React",5,7,76.7,81.9,Placed,13.2
+CSE20220689,CSE,8.97,1,0,"Python, Communication, Data Structures",3,8,78.9,78.5,Placed,13.1
+CSE20230690,CSE,6.91,0,0,"Django, React, Data Structures",3,3,76.2,64.6,Placed,9.8
+IT20240691,IT,7.58,0,3,"Android, Communication",2,5,63,81.4,Placed,10.9
+EEE20210692,EEE,7.3,0,0,"Android, React, Data Structures, AWS",4,8,78.6,83.3,Not Placed,
+ECE20220693,ECE,6.21,0,3,"Java, Android",2,6,74.8,62.1,Placed,10
+CIVIL20230694,CIVIL,6.4,0,1,"C++, React, JavaScript, AWS",4,6,61.5,77.4,Placed,11.4
+EEE20240695,EEE,6.08,0,1,"AWS, C++, Java, Excel",4,7,68.5,90.9,Not Placed,
+CSE20210696,CSE,6.29,0,1,"Flask, Excel, Django, Android",4,5,63.9,95.1,Placed,7.7
+IT20220697,IT,8.83,0,1,"Excel, Flask, Java, AWS, Python",5,7,86.7,71.8,Placed,12.1
+ECE20230698,ECE,7.72,0,3,"Excel, Communication, Android, Machine Learning, Django",5,3,73,63.6,Placed,9.7
+CSE20240699,CSE,5.78,0,0,"JavaScript, Machine Learning, Android, Python",4,6,83.8,77.4,Not Placed,
+CSE20210700,CSE,6.26,0,2,"AWS, Communication",2,7,82.2,60,Not Placed,
+CSE20220701,CSE,6.53,1,3,Excel,1,4,75.8,75.1,Placed,10.1
+ECE20230702,ECE,6.79,0,2,Communication,1,7,78.7,70.5,Placed,8.9
+IT20240703,IT,8.49,1,2,AWS,1,6,78.4,71.6,Not Placed,
+IT20210704,IT,7.23,0,1,"Machine Learning, SQL, React, Flask",4,5,81.1,85,Placed,11.3
+IT20220705,IT,6.27,0,1,"Machine Learning, Python, Django",3,7,63.1,92.9,Placed,9.7
+MECH20230706,MECH,7.77,0,1,Communication,1,7,86.3,71,Not Placed,
+MECH20240707,MECH,6.2,1,1,"Excel, Machine Learning, Python, SQL, AWS",5,7,77,61,Placed,11.3
+IT20210708,IT,7.06,0,2,"Django, Flask",2,6,80.3,73.2,Placed,11
+CIVIL20220709,CIVIL,7.83,1,1,React,1,6,73.1,86.6,Not Placed,
+EEE20230710,EEE,7.59,0,2,"Data Structures, React, Android, Python, C++",5,6,70.3,80.9,Placed,12.5
+MECH20240711,MECH,7.52,0,0,"C++, AWS, SQL, Android, Django",5,7,92.8,75.1,Placed,12
+ECE20210712,ECE,7.79,1,1,"Android, JavaScript, Data Structures, AWS",4,8,82.5,85.3,Placed,13.8
+CSE20220713,CSE,6.56,0,1,"SQL, Communication, React, Android",4,6,76,52.9,Not Placed,
+ECE20230714,ECE,8.94,0,0,"Django, SQL, Communication, React, Android",5,9,80.7,71.7,Placed,10.6
+IT20240715,IT,7.23,0,1,"Communication, Excel, Android",3,3,93.6,80.7,Placed,13.1
+ECE20210716,ECE,8.13,1,0,"Data Structures, C++, Android, React",4,5,78.8,73.4,Not Placed,
+IT20220717,IT,7.9,2,1,"Excel, Flask, Data Structures, Communication, C++",5,7,82.8,72.5,Placed,13.3
+IT20230718,IT,7.04,0,1,"Python, Java",2,5,66.6,57.7,Not Placed,
+ECE20240719,ECE,8.72,2,1,Django,1,4,68.7,59.5,Not Placed,
+EEE20210720,EEE,6.73,0,1,"React, Excel, C++, Python, Django",5,6,83.1,67.9,Not Placed,
+CSE20220721,CSE,5.97,0,0,"Flask, JavaScript",2,5,80.2,84.8,Not Placed,
+EEE20230722,EEE,7.61,0,1,"Machine Learning, Excel, Data Structures",3,7,79.1,92.7,Placed,14.7
+EEE20240723,EEE,8.78,0,0,"C++, Communication, Flask",3,7,66.6,72.3,Placed,15.1
+CIVIL20210724,CIVIL,5.35,2,1,"Android, React",2,8,81.1,73.5,Not Placed,
+CIVIL20220725,CIVIL,6.56,2,0,"Flask, C++, Excel, SQL",4,6,74.3,71.9,Placed,10.7
+CSE20230726,CSE,7.79,0,0,"Java, SQL",2,8,80.3,70,Placed,10.9
+CIVIL20240727,CIVIL,7.82,0,3,"SQL, React",2,7,75.1,78.1,Placed,12.5
+IT20210728,IT,5.58,0,0,"C++, React",2,7,67.5,84,Not Placed,
+CIVIL20220729,CIVIL,6.72,1,0,"Android, JavaScript, Excel",3,8,80.3,81.2,Placed,11.8
+IT20230730,IT,6.84,1,2,"Machine Learning, Communication, Data Structures, Flask, Python",5,8,80.3,66.5,Placed,11.1
+CIVIL20240731,CIVIL,7.44,0,1,"Flask, Machine Learning, Data Structures",3,3,79.7,74.3,Placed,12.7
+IT20210732,IT,6.48,0,1,"Java, JavaScript, React, C++",4,6,69.8,72.4,Placed,8.4
+ECE20220733,ECE,7.29,1,2,AWS,1,5,82.7,90.5,Not Placed,
+IT20230734,IT,5.84,2,2,"Java, Django, Communication",3,8,82.8,81.2,Placed,8.3
+CIVIL20240735,CIVIL,6.24,0,1,"JavaScript, Machine Learning, Data Structures, Java",4,6,83.6,83.4,Placed,10.4
+ECE20210736,ECE,6.71,0,2,"JavaScript, Flask, AWS",3,5,92.6,93.1,Placed,15
+CIVIL20220737,CIVIL,7.76,0,0,"C++, Communication, Android, SQL, AWS",5,6,87.9,67.9,Placed,9.9
+CSE20230738,CSE,7.94,1,0,"Django, JavaScript, AWS, Excel, React",5,5,75.9,69,Not Placed,
+CSE20240739,CSE,6.53,2,2,"JavaScript, Java, Android, Flask",4,4,66.7,54.7,Placed,11.3
+ECE20210740,ECE,8.3,1,1,"React, Flask, C++, Django, Python",5,5,90.6,61.3,Placed,12.7
+ECE20220741,ECE,6.53,0,0,"C++, AWS, Django, Android",4,6,77.5,62.1,Not Placed,
+IT20230742,IT,7.44,0,2,"JavaScript, Java, AWS, C++, Flask",5,5,72.6,69.9,Placed,13.2
+CSE20240743,CSE,6.49,0,2,"Machine Learning, Java",2,3,60.9,60.6,Not Placed,
+CSE20210744,CSE,8.6,0,0,AWS,1,4,77.8,85.9,Placed,11.1
+CSE20220745,CSE,6.03,0,1,"React, AWS, Communication",3,5,69.5,86,Placed,13.1
+MECH20230746,MECH,7.23,3,1,"Excel, Flask, Machine Learning, Django",4,5,81.5,74.3,Placed,13.4
+MECH20240747,MECH,6.4,0,1,Data Structures,1,5,70.6,50.9,Not Placed,
+IT20210748,IT,6.77,0,0,Python,1,9,77.7,58.6,Placed,10.6
+CSE20220749,CSE,9.24,0,0,"React, Communication, Django",3,6,77.1,74,Placed,12.8
+CSE20230750,CSE,6.74,2,0,"Flask, Communication, Java",3,5,75.1,76.7,Not Placed,
+CIVIL20240751,CIVIL,6.99,1,2,"Android, React, JavaScript",3,6,69.3,91.4,Placed,10.6
+CIVIL20210752,CIVIL,6.64,1,3,"Java, Android, Machine Learning",3,9,75.7,83.6,Placed,11.3
+IT20220753,IT,8.08,0,0,"Communication, JavaScript, Excel, Python, Java",5,4,83.2,75.7,Placed,9.7
+CSE20230754,CSE,8.05,0,1,"Flask, AWS, Machine Learning, Android",4,6,77.5,76.2,Placed,12.5
+MECH20240755,MECH,6.9,2,0,Java,1,2,78,70.9,Not Placed,
+IT20210756,IT,6.24,1,1,"Data Structures, React",2,6,77.8,82.7,Placed,11.1
+IT20220757,IT,7.11,0,0,Python,1,4,73.8,70,Placed,12.3
+ECE20230758,ECE,8.85,1,0,"Android, Communication",2,5,85.2,83.8,Placed,15.4
+CIVIL20240759,CIVIL,7.75,0,1,"Android, Communication, Django, Flask, JavaScript",5,7,73.3,89.8,Placed,13.5
+CIVIL20210760,CIVIL,7.57,0,0,"Excel, AWS, Django, Python, C++",5,7,83.8,80,Not Placed,
+MECH20220761,MECH,7.09,0,2,"Python, Java, Communication",3,7,81.3,63.2,Placed,13.3
+CSE20230762,CSE,6.58,1,1,"Android, Flask, React, Django",4,6,87.8,79.1,Placed,11.2
+MECH20240763,MECH,7.77,0,1,"C++, Python",2,6,60.8,74.7,Not Placed,
+ECE20210764,ECE,5.98,0,0,"SQL, Communication, Java",3,5,86.2,82.9,Placed,10.2
+CIVIL20220765,CIVIL,6.7,1,3,"Python, Android, Flask, Machine Learning, Django",5,6,80.8,77.8,Placed,11
+EEE20230766,EEE,7.48,0,0,"Communication, SQL, Java",3,6,78.3,68.5,Placed,11.2
+ECE20240767,ECE,6.51,1,1,"Java, C++",2,8,72.9,56.8,Not Placed,
+ECE20210768,ECE,8.1,0,0,Java,1,5,70.2,61.7,Placed,13.5
+MECH20220769,MECH,7.14,0,0,"Excel, Machine Learning",2,4,87.6,77.1,Not Placed,
+IT20230770,IT,7.77,0,1,"Flask, C++",2,4,79.1,66.3,Placed,7.8
+CIVIL20240771,CIVIL,7,0,0,"Excel, Data Structures, Android",3,6,74,70.2,Not Placed,
+ECE20210772,ECE,6.5,1,3,C++,1,10,75.2,73.1,Placed,12.2
+CIVIL20220773,CIVIL,6.7,0,1,Machine Learning,1,5,81.3,57.8,Placed,9.4
+IT20230774,IT,6.21,1,0,"Java, SQL",2,5,71.9,62.3,Placed,10.4
+EEE20240775,EEE,6.81,1,2,"Data Structures, Communication, JavaScript",3,7,61.9,76.1,Placed,9.3
+MECH20210776,MECH,7.71,0,2,Python,1,5,74.6,75.2,Placed,11.8
+MECH20220777,MECH,8.17,0,0,"Communication, Java, Machine Learning, Excel, JavaScript",5,4,74.1,75.2,Placed,12
+IT20230778,IT,7.17,0,3,"Machine Learning, Django, Communication, SQL, Android",5,6,74.4,86.7,Not Placed,
+MECH20240779,MECH,7.63,0,0,Java,1,5,75.2,83.1,Placed,14.6
+EEE20210780,EEE,8.83,1,1,Django,1,8,83.9,75.5,Placed,11
+EEE20220781,EEE,8.56,1,2,"Machine Learning, Django",2,1,87.2,74.4,Placed,8.5
+EEE20230782,EEE,6.58,0,0,Django,1,5,84.5,71.6,Not Placed,
+EEE20240783,EEE,6.08,0,0,"Flask, SQL, Communication, Machine Learning",4,7,76.2,84.1,Placed,9.6
+MECH20210784,MECH,7.12,0,0,"Android, React, AWS",3,7,91,68.7,Not Placed,
+MECH20220785,MECH,7.6,0,2,"Communication, Android, Java",3,4,70.3,87.2,Placed,13.1
+EEE20230786,EEE,8.02,2,2,"Excel, Flask",2,8,71.9,75.2,Not Placed,
+CSE20240787,CSE,6.82,1,0,"React, JavaScript, Android, Java",4,4,97.6,83.4,Placed,11
+MECH20210788,MECH,7.03,0,0,"Machine Learning, Excel",2,7,82.3,65.2,Not Placed,
+CSE20220789,CSE,6.66,1,1,"Django, Excel, Python, Java, SQL",5,8,81.3,77.2,Not Placed,
+CIVIL20230790,CIVIL,6.7,2,2,"Flask, AWS, Excel, Java",4,6,74.7,84.4,Placed,10.5
+EEE20240791,EEE,7.12,1,0,"Java, Machine Learning, C++, Python",4,9,83.4,61,Not Placed,
+EEE20210792,EEE,8.55,3,1,"Java, Data Structures, Python, C++, SQL",5,5,74.5,75.7,Placed,11.8
+ECE20220793,ECE,7.84,1,3,Excel,1,8,66.1,79.1,Placed,10.2
+ECE20230794,ECE,6.64,0,1,SQL,1,6,77.4,79,Not Placed,
+MECH20240795,MECH,8.17,2,0,C++,1,6,83.9,70.9,Placed,13
+IT20210796,IT,5.38,0,2,"Excel, Communication, JavaScript",3,5,77.5,75.4,Placed,8.2
+IT20220797,IT,7.51,1,1,"Communication, Android, SQL, React, JavaScript",5,2,76.3,75.5,Placed,8.5
+EEE20230798,EEE,6.9,0,2,"Excel, Java",2,5,80.2,65.7,Not Placed,
+CIVIL20240799,CIVIL,6.58,0,1,"Machine Learning, Excel, Data Structures, JavaScript",4,6,76.9,68.5,Placed,9.7
+IT20210800,IT,6.72,0,1,"AWS, JavaScript, SQL",3,4,81.5,82.5,Placed,8.9
+CIVIL20220801,CIVIL,7.91,1,3,"C++, Excel, Flask",3,5,72.9,89.9,Placed,11.5
+CIVIL20230802,CIVIL,8.73,0,1,"Data Structures, JavaScript, Machine Learning, React, Python",5,5,68.4,86.5,Not Placed,
+EEE20240803,EEE,4.9,1,0,"React, C++, Android, Communication",4,6,78.3,64.2,Placed,8.7
+MECH20210804,MECH,7.03,0,0,"Communication, AWS, Python, Excel, JavaScript",5,5,87.3,71,Not Placed,
+MECH20220805,MECH,7.37,0,3,"Java, Machine Learning",2,4,83.4,71.7,Placed,7.6
+ECE20230806,ECE,8.4,0,3,Data Structures,1,4,77.3,55.3,Not Placed,
+ECE20240807,ECE,6.53,0,0,"Excel, Django",2,4,78.6,81.3,Not Placed,
+CSE20210808,CSE,8.35,0,0,"SQL, Flask",2,4,82.7,60.5,Placed,13.5
+ECE20220809,ECE,8.71,1,1,Machine Learning,1,2,80.6,80.3,Placed,9.5
+CSE20230810,CSE,8.64,0,1,"JavaScript, Android",2,6,68.3,67.5,Placed,8.9
+CSE20240811,CSE,9.06,0,0,"C++, SQL, React, Communication",4,6,78.3,71.6,Placed,9.7
+IT20210812,IT,6.38,0,0,"Java, JavaScript",2,5,87.1,61.7,Placed,11
+CIVIL20220813,CIVIL,5.62,0,1,"Excel, C++, Django, Machine Learning, Python",5,10,85.2,66.5,Placed,10.2
+CSE20230814,CSE,7.65,1,3,Python,1,7,91.1,88,Placed,8.8
+ECE20240815,ECE,8.1,0,2,"AWS, Data Structures",2,8,84.7,66.9,Placed,8.1
+IT20210816,IT,6.96,1,1,"Android, Communication, Django, Machine Learning",4,5,77.1,65.1,Placed,12
+ECE20220817,ECE,7.25,0,1,"Django, JavaScript, Android, Machine Learning, AWS",5,4,74.6,56.3,Placed,11
+MECH20230818,MECH,6.61,0,0,"Communication, Data Structures",2,5,87.1,82.7,Placed,9.8
+IT20240819,IT,6.9,0,1,"SQL, Communication",2,7,70.9,74.8,Not Placed,
+ECE20210820,ECE,5.95,0,1,"Data Structures, Android, C++, Django, Java",5,6,87.8,71.1,Not Placed,
+CSE20220821,CSE,8.49,1,0,"Django, Android, Flask, SQL",4,6,88.7,62.7,Not Placed,
+ECE20230822,ECE,6.61,0,0,"Java, Python, SQL, AWS",4,7,66.6,73.1,Placed,11.3
+IT20240823,IT,7.44,0,0,"SQL, Android, React, Java",4,8,73.6,74,Placed,12.7
+CSE20210824,CSE,6.4,0,0,"Machine Learning, JavaScript, Django, AWS, React",5,5,76.7,64.3,Not Placed,
+CSE20220825,CSE,7.42,0,0,Data Structures,1,4,74.3,63.3,Placed,11.6
+ECE20230826,ECE,5.64,0,0,"C++, SQL",2,6,81.5,69.3,Placed,11.2
+ECE20240827,ECE,5.5,0,1,"AWS, Java, Python",3,2,80.6,73.4,Not Placed,
+MECH20210828,MECH,7.52,0,1,"React, JavaScript, Android, Data Structures",4,6,75.4,64.6,Placed,12.6
+ECE20220829,ECE,7.63,1,0,"Flask, Django, JavaScript, Excel, AWS",5,6,77.6,69.1,Placed,10
+ECE20230830,ECE,5.86,0,1,"C++, Java",2,3,69.4,66.4,Not Placed,
+CSE20240831,CSE,6.57,0,0,"Excel, C++",2,7,92.1,88.1,Placed,7.7
+ECE20210832,ECE,5.77,0,1,"Flask, C++, JavaScript, Data Structures",4,7,98.3,75.8,Not Placed,
+ECE20220833,ECE,6.96,0,0,Excel,1,7,83.5,73.2,Placed,11.5
+IT20230834,IT,7.13,0,1,Excel,1,6,80,75.8,Not Placed,
+CIVIL20240835,CIVIL,7.62,0,1,"Android, Excel",2,4,72.4,62.9,Not Placed,
+ECE20210836,ECE,6.43,0,0,"JavaScript, React",2,9,80.6,74,Placed,11.2
+CIVIL20220837,CIVIL,5.7,0,0,"Android, Machine Learning, JavaScript, Data Structures, AWS",5,5,70.6,89.2,Not Placed,
+CIVIL20230838,CIVIL,7.71,1,0,"Java, AWS, Communication, React, SQL",5,7,81.9,88.2,Placed,12.9
+MECH20240839,MECH,7.02,0,0,Django,1,4,98.2,87.3,Placed,10.3
+EEE20210840,EEE,7.77,0,0,"Flask, SQL, Machine Learning, AWS",4,5,78.9,71.8,Placed,13.1
+EEE20220841,EEE,6.29,0,1,Python,1,4,69.7,72.9,Not Placed,
+CSE20230842,CSE,8.46,0,0,Data Structures,1,4,79.2,70.1,Placed,12.1
+MECH20240843,MECH,5.77,0,1,Android,1,8,60.5,65.6,Placed,8.2
+CSE20210844,CSE,8.13,0,0,"Django, Data Structures",2,7,75.3,69.7,Placed,10.1
+ECE20220845,ECE,6.61,1,2,"AWS, Communication",2,10,68.3,75.8,Placed,9.5
+CIVIL20230846,CIVIL,8.92,1,1,SQL,1,6,75,78.5,Placed,11.7
+CIVIL20240847,CIVIL,6.48,0,3,"Data Structures, Flask, Excel",3,6,76.9,83.8,Placed,12.1
+EEE20210848,EEE,7.48,0,0,JavaScript,1,8,59.6,64.9,Not Placed,
+CIVIL20220849,CIVIL,6.75,0,3,"JavaScript, Data Structures, Flask, SQL",4,5,77.1,68.6,Placed,10.7
+ECE20230850,ECE,8.04,0,0,C++,1,5,86.9,84.9,Placed,10.4
+ECE20240851,ECE,7.65,3,2,"Machine Learning, Excel, Android",3,3,77.1,76.2,Not Placed,
+MECH20210852,MECH,7.15,1,1,"Python, React",2,4,79,84.8,Not Placed,
+CSE20220853,CSE,6.58,0,2,"Java, SQL, Django, React",4,8,66.9,70.3,Placed,11.3
+EEE20230854,EEE,5.07,0,1,JavaScript,1,5,83.4,79,Placed,7.9
+ECE20240855,ECE,7.18,0,2,"Data Structures, Python",2,7,70,87.2,Placed,9.8
+CIVIL20210856,CIVIL,6.63,0,0,"SQL, Excel",2,7,86.8,71.1,Placed,8.4
+EEE20220857,EEE,7.06,0,2,"Django, Machine Learning, Flask, C++, Python",5,4,80.8,81.5,Placed,10
+CIVIL20230858,CIVIL,7.32,1,2,Python,1,5,83.8,84.1,Not Placed,
+MECH20240859,MECH,6.19,1,1,React,1,6,61.7,66.2,Not Placed,
+CIVIL20210860,CIVIL,8.08,0,1,"Communication, Data Structures, SQL, AWS, Django",5,8,86.8,73.8,Placed,11.8
+CSE20220861,CSE,8.49,0,1,"Machine Learning, C++, Flask, AWS, Django",5,8,63.6,64,Placed,12.8
+CIVIL20230862,CIVIL,5.88,0,0,"SQL, Data Structures, Flask, Django, JavaScript",5,7,82.5,63.1,Placed,10.8
+IT20240863,IT,7.92,0,0,Excel,1,4,71.2,88.8,Not Placed,
+ECE20210864,ECE,6.55,0,1,"Data Structures, React, Machine Learning",3,5,70.7,82.3,Not Placed,
+CSE20220865,CSE,7.65,1,3,"AWS, Android",2,4,79.9,75.7,Not Placed,
+EEE20230866,EEE,6.28,0,2,"JavaScript, Communication, SQL, AWS",4,6,81,75.1,Placed,13.4
+IT20240867,IT,6.17,0,0,Machine Learning,1,7,76.8,70.5,Placed,8.1
+EEE20210868,EEE,6.55,0,1,"SQL, Communication, Python, Flask",4,4,68,74.2,Placed,10
+CSE20220869,CSE,6.64,2,0,"Excel, SQL, Java, JavaScript, Flask",5,8,85.7,78,Placed,13.7
+CSE20230870,CSE,8.28,0,2,"Python, Java, SQL, Android, JavaScript",5,6,76.7,86.1,Placed,11.9
+EEE20240871,EEE,7.92,2,2,"AWS, Java, Python",3,8,75.6,67.7,Placed,12.9
+ECE20210872,ECE,7.72,0,0,"Communication, JavaScript, Data Structures",3,7,73,79.5,Placed,8.6
+ECE20220873,ECE,6.17,3,1,"Django, Android, Flask",3,3,70.6,73.7,Not Placed,
+EEE20230874,EEE,6.4,0,3,"C++, JavaScript, Flask, Django",4,5,79,94.2,Placed,13.3
+ECE20240875,ECE,6.62,3,1,"Android, Django, Flask",3,3,83.4,75.7,Not Placed,
+IT20210876,IT,8.28,0,1,"C++, Data Structures, Communication, SQL",4,7,80.3,89.2,Not Placed,
+MECH20220877,MECH,6.89,0,0,"JavaScript, AWS, C++, Machine Learning, Data Structures",5,6,66.8,75.5,Placed,10.9
+IT20230878,IT,7.46,0,2,"AWS, Excel",2,6,67.9,81.9,Placed,10.3
+MECH20240879,MECH,7.48,0,1,"Flask, Django, Data Structures",3,9,75.9,73.9,Placed,8.6
+MECH20210880,MECH,7.94,0,1,"Machine Learning, Java, Flask",3,4,84.6,68.5,Placed,12.9
+CSE20220881,CSE,7.08,3,1,"C++, Excel, Django, SQL",4,6,74.4,78.3,Not Placed,
+EEE20230882,EEE,6.71,2,3,"Android, React, JavaScript, Communication, Flask",5,5,78.4,99,Not Placed,
+IT20240883,IT,7.51,0,0,"JavaScript, AWS, SQL, C++",4,7,84.3,77.3,Placed,11.2
+MECH20210884,MECH,7.71,0,1,"Flask, C++",2,5,99,66.3,Placed,12.9
+CSE20220885,CSE,5.88,0,2,"React, Data Structures, JavaScript, Python, Machine Learning",5,6,87.8,58.8,Placed,12
+EEE20230886,EEE,6.02,1,2,"Data Structures, Excel, SQL, Java, Django",5,6,89.7,69.5,Placed,11.3
+IT20240887,IT,7,0,2,"React, C++, Python",3,8,79.7,77.4,Placed,13.2
+IT20210888,IT,7.32,0,0,"Java, Flask",2,7,90.3,86.8,Placed,12.3
+ECE20220889,ECE,5.94,0,0,"React, SQL, JavaScript, Python",4,5,87.1,76.4,Placed,11.1
+CIVIL20230890,CIVIL,6.7,2,3,"Django, Android, Communication",3,7,77.3,72.1,Placed,11.2
+MECH20240891,MECH,7.8,3,1,"Communication, Android, Excel",3,8,75.9,79.4,Placed,10.5
+MECH20210892,MECH,7.01,1,1,"Data Structures, C++",2,4,66,76.4,Not Placed,
+IT20220893,IT,7.26,0,1,"Data Structures, React, JavaScript, Android",4,5,85.3,80.8,Placed,9.9
+ECE20230894,ECE,6.47,0,1,"AWS, SQL",2,7,86.9,69.7,Placed,8
+IT20240895,IT,7.78,0,3,"Python, Django, AWS",3,5,76.6,76.2,Placed,12.1
+IT20210896,IT,6.72,2,0,"JavaScript, Django, Data Structures",3,9,76.6,74.1,Placed,11
+CIVIL20220897,CIVIL,8.16,0,1,"C++, Android, Excel, Communication",4,4,77.3,78.2,Placed,11.9
+ECE20230898,ECE,8.1,0,1,"Excel, AWS, Communication",3,7,84.3,67.4,Not Placed,
+ECE20240899,ECE,7.94,0,0,"C++, Communication, AWS, SQL, Data Structures",5,5,82.4,63.7,Placed,10
+IT20210900,IT,6.29,0,2,"Machine Learning, Communication, React, Data Structures",4,6,75.5,81.4,Placed,11.5
+EEE20220901,EEE,9.28,0,1,"Data Structures, SQL, Excel",3,6,82.5,78.4,Placed,14.3
+CIVIL20230902,CIVIL,7.35,0,2,"Data Structures, Flask",2,8,77.5,75.6,Placed,11.5
+EEE20240903,EEE,6.29,2,1,"SQL, Communication, Django, Java, Android",5,7,55.4,71.5,Placed,11.7
+ECE20210904,ECE,8.39,3,0,"Excel, Android, React, Django",4,7,80.9,67.3,Not Placed,
+CSE20220905,CSE,8.38,0,1,React,1,6,82.4,77.5,Placed,8.6
+EEE20230906,EEE,6.71,0,0,"React, Data Structures, Java",3,6,59.9,74.1,Not Placed,
+ECE20240907,ECE,7.84,1,1,"Android, Data Structures, Flask, Java, Machine Learning",5,3,76.7,69.8,Not Placed,
+ECE20210908,ECE,6.4,0,0,"Excel, AWS, JavaScript",3,7,53.3,78.6,Placed,10.9
+IT20220909,IT,7.53,0,1,"C++, Communication, Flask",3,8,72.9,55,Placed,13.7
+CIVIL20230910,CIVIL,5.5,0,0,"SQL, AWS, Django",3,5,82.8,67.3,Not Placed,
+EEE20240911,EEE,7.25,0,1,"Flask, C++, JavaScript, Data Structures, React",5,5,83.8,79.7,Placed,10.5
+CIVIL20210912,CIVIL,6.48,2,1,"Django, JavaScript, Data Structures, Java, Excel",5,8,80.5,67,Placed,11.5
+MECH20220913,MECH,6.83,0,2,"JavaScript, Python, Android, C++",4,5,84.8,65.5,Placed,12.5
+EEE20230914,EEE,7.91,0,1,"Machine Learning, AWS, JavaScript, Excel",4,8,82.5,69.8,Placed,12.2
+IT20240915,IT,6.84,0,0,"Python, SQL, Android",3,9,77.2,59.6,Placed,8.5
+IT20210916,IT,7.57,0,2,"SQL, Communication, AWS",3,8,60.5,79.2,Placed,10.7
+EEE20220917,EEE,7.6,0,0,"AWS, JavaScript",2,5,70.9,77.6,Not Placed,
+EEE20230918,EEE,8,0,0,Machine Learning,1,5,90.1,83.3,Placed,8.4
+MECH20240919,MECH,5.16,0,0,"Django, React, Data Structures, Machine Learning, AWS",5,7,73.2,83.4,Placed,13.5
+CSE20210920,CSE,7.59,0,0,"C++, Excel, Flask, SQL",4,8,75.9,69.1,Placed,12.9
+CIVIL20220921,CIVIL,6.48,0,1,"Communication, C++, Android, JavaScript",4,6,68.5,73.2,Not Placed,
+EEE20230922,EEE,6.2,0,0,"Machine Learning, JavaScript, Data Structures, React, AWS",5,4,74.4,75.5,Placed,12.5
+ECE20240923,ECE,6.82,0,1,"React, JavaScript, SQL",3,6,91.5,61.6,Placed,7.3
+IT20210924,IT,7.99,0,1,"Python, Excel, React, Java",4,6,82.5,73.5,Placed,11
+IT20220925,IT,7.83,0,0,"AWS, Data Structures, Communication, Android",4,5,72.9,66,Placed,13.7
+CIVIL20230926,CIVIL,7.28,2,0,"Django, JavaScript, Android",3,6,64.1,97,Not Placed,
+CSE20240927,CSE,6.78,0,3,"Flask, Django",2,4,84,81.8,Not Placed,
+EEE20210928,EEE,5.85,0,2,Communication,1,10,79.1,68.6,Placed,6.3
+ECE20220929,ECE,7.18,0,0,"Android, Python, Data Structures, Django, AWS",5,5,73.1,65.1,Placed,12.9
+CIVIL20230930,CIVIL,7.59,0,2,"Django, JavaScript",2,9,86.4,76.5,Placed,11.5
+IT20240931,IT,7.32,0,1,"SQL, Java, Excel, Django, Data Structures",5,6,80.4,70.4,Placed,12.9
+IT20210932,IT,8.06,0,2,"Flask, React, JavaScript, Data Structures, SQL",5,7,80.7,79.8,Placed,11.1
+ECE20220933,ECE,6.59,1,1,"Machine Learning, Data Structures",2,8,91,57.4,Not Placed,
+MECH20230934,MECH,7.07,0,0,"C++, Data Structures, Communication",3,4,69.2,75.3,Not Placed,
+ECE20240935,ECE,8.08,0,0,"C++, JavaScript, Android, Flask",4,4,79.7,75.3,Placed,17
+MECH20210936,MECH,7.83,1,1,"C++, Excel, Data Structures, Machine Learning",4,8,79.5,82.7,Not Placed,
+EEE20220937,EEE,7.5,3,1,"Android, Machine Learning, Communication",3,4,78.3,77.6,Placed,13.4
+CIVIL20230938,CIVIL,6.07,0,3,"React, Communication",2,7,83.2,70.6,Placed,11
+MECH20240939,MECH,7.83,0,0,"SQL, JavaScript, Python",3,10,84.5,97.3,Placed,10.9
+CIVIL20210940,CIVIL,6.82,0,3,"Java, C++, AWS, SQL",4,8,73.2,71.6,Placed,13
+EEE20220941,EEE,7.65,1,1,"Communication, Android, Java, Django, Data Structures",5,6,90.2,73.2,Placed,12.6
+ECE20230942,ECE,5.53,0,0,"Java, AWS, Excel",3,9,73.2,72,Not Placed,
+ECE20240943,ECE,5.9,1,0,Machine Learning,1,6,82.7,71.8,Not Placed,
+EEE20210944,EEE,6.55,0,2,"C++, Java",2,9,73.3,70.4,Not Placed,
+IT20220945,IT,7.32,0,2,"JavaScript, SQL",2,5,67.7,80.5,Not Placed,
+IT20230946,IT,6.49,1,0,"Flask, Data Structures, SQL",3,5,76.1,70.6,Placed,10.2
+ECE20240947,ECE,7.17,0,0,"Android, JavaScript, Flask, Python",4,6,89.1,65.3,Not Placed,
+MECH20210948,MECH,7.68,1,1,"C++, SQL, Data Structures",3,5,76.8,82.2,Not Placed,
+MECH20220949,MECH,6.99,0,3,"Java, C++, JavaScript, Machine Learning",4,6,76,85.5,Placed,10.7
+CSE20230950,CSE,7.59,0,1,"Machine Learning, Communication, Java, AWS",4,7,83,85.3,Placed,11.9
+EEE20240951,EEE,7.59,0,1,"React, Android",2,6,81.8,79,Placed,10.9
+MECH20210952,MECH,7.61,0,1,"Android, React, Machine Learning",3,5,81.8,67,Placed,13.2
+EEE20220953,EEE,7.06,0,1,"Excel, C++, React, Python, SQL",5,3,88,84.3,Placed,13
+MECH20230954,MECH,6.36,0,1,"Java, Communication, Data Structures, AWS, SQL",5,5,78.7,95.9,Placed,10.1
+MECH20240955,MECH,6.37,0,2,"Flask, Excel, Python, JavaScript",4,8,75.9,79.4,Placed,12.2
+CSE20210956,CSE,6.69,3,3,"Android, Python, SQL, Java",4,8,81.4,73.6,Not Placed,
+IT20220957,IT,6.84,0,0,"JavaScript, Data Structures, Java, Machine Learning, Android",5,5,79.7,78.8,Placed,10.8
+CSE20230958,CSE,7.06,0,0,"React, Java, Android",3,7,78,72.7,Placed,9.5
+MECH20240959,MECH,6.24,0,1,Communication,1,6,71.1,77.5,Placed,10.4
+CIVIL20210960,CIVIL,7.44,0,1,"React, Flask, Django, C++, Android",5,7,57.7,79,Placed,10.1
+CIVIL20220961,CIVIL,8.2,0,0,"Android, Flask, AWS, C++",4,5,89.4,67.7,Not Placed,
+MECH20230962,MECH,7.81,1,2,React,1,8,83.4,84.5,Placed,11.8
+CIVIL20240963,CIVIL,7.7,0,2,"Java, C++, React, Data Structures, Excel",5,6,77.8,78.1,Placed,15.9
+CIVIL20210964,CIVIL,8.07,0,3,"React, Data Structures, Communication, Android",4,6,83.8,58.7,Placed,10.6
+EEE20220965,EEE,8.49,0,0,Communication,1,4,74.4,65.3,Placed,13.5
+EEE20230966,EEE,7.19,0,2,"Data Structures, JavaScript, Excel, React",4,6,71.5,85.8,Not Placed,
+IT20240967,IT,8.14,0,1,"Excel, Flask, Python, SQL, Android",5,5,74.1,72.9,Placed,13.4
+ECE20210968,ECE,8.14,0,0,"Django, Android, Java, Excel, Machine Learning",5,6,71,76.5,Placed,14.1
+EEE20220969,EEE,8.4,0,1,"AWS, Django",2,6,75.9,73.5,Placed,10.4
+CIVIL20230970,CIVIL,7.64,0,0,"Machine Learning, React, Excel, Android",4,5,73.1,79.8,Not Placed,
+ECE20240971,ECE,7.49,1,0,Machine Learning,1,7,60.3,69.1,Not Placed,
+MECH20210972,MECH,9.29,0,1,"Android, Data Structures, Excel, SQL, Flask",5,8,88.9,72.9,Placed,9.9
+EEE20220973,EEE,5.47,2,0,"Data Structures, Flask, Excel, Python",4,6,79.1,90.6,Not Placed,
+CIVIL20230974,CIVIL,6.99,0,1,"Excel, Android",2,4,66.1,63.6,Placed,11.2
+ECE20240975,ECE,8.16,2,3,"Machine Learning, Data Structures, Android, React",4,7,74.1,67.6,Placed,12.3
+MECH20210976,MECH,8.39,0,2,"React, Excel",2,3,68.8,72.8,Placed,13.6
+CIVIL20220977,CIVIL,7.59,0,3,"React, Machine Learning, Flask, Python",4,6,78.8,86,Placed,10.1
+CSE20230978,CSE,8.3,0,1,"Android, AWS, React",3,6,79.3,82.8,Placed,11
+CIVIL20240979,CIVIL,6.36,0,3,"Communication, React, Python, Excel, AWS",5,4,84.8,76.1,Placed,9.2
+EEE20210980,EEE,6.42,0,1,"SQL, Machine Learning, Java",3,6,85.4,74.2,Not Placed,
+CIVIL20220981,CIVIL,7.74,0,3,"Django, Java, Data Structures",3,6,72.7,69.7,Placed,12.5
+CSE20230982,CSE,6.94,0,1,"Java, JavaScript, C++, Python, Communication",5,8,68.8,53.4,Placed,9.6
+IT20240983,IT,7.44,1,2,"Excel, SQL, AWS, Communication, Android",5,7,88.9,75.3,Placed,13.5
+CSE20210984,CSE,8.2,0,2,"JavaScript, Django, Python, Android",4,8,81.4,83.6,Not Placed,
+MECH20220985,MECH,5.96,1,2,"Java, React, Flask, SQL",4,5,68.1,66.6,Placed,10.9
+MECH20230986,MECH,8.45,0,1,"JavaScript, Java",2,5,76.2,81.7,Placed,10.7
+IT20240987,IT,5.51,0,2,"Python, React",2,6,91.4,76.4,Placed,13.1
+CSE20210988,CSE,6.84,1,2,"JavaScript, Communication, AWS",3,7,75.9,63.6,Placed,11.7
+CIVIL20220989,CIVIL,6.68,0,3,"Java, AWS, C++, Data Structures, Excel",5,8,76.8,75.3,Placed,9.3
+MECH20230990,MECH,8.05,2,0,"SQL, Flask, JavaScript, Data Structures, Android",5,5,81.4,80,Placed,11.2
+MECH20240991,MECH,7.99,3,1,"C++, Python, Java, AWS, SQL",5,7,85.1,76.9,Placed,11.7
+CSE20210992,CSE,7.09,0,2,"AWS, Flask, SQL, Data Structures",4,6,80.6,84,Placed,9.8
+CSE20220993,CSE,6.81,0,0,"Machine Learning, Flask, C++, Communication, JavaScript",5,6,82.1,89,Placed,11.8
+CSE20230994,CSE,7.48,1,2,"Django, React, AWS, Python, SQL",5,8,63.7,81.1,Placed,12.5
+CSE20240995,CSE,7.93,0,0,"Python, Flask",2,7,75.9,75.8,Placed,10
+IT20210996,IT,5.81,1,3,"Flask, Java, Python, Data Structures, Android",5,5,81.6,85.5,Placed,11
+EEE20220997,EEE,7.66,2,1,"Machine Learning, Excel, C++, Flask, Java",5,8,84.9,82.3,Placed,12.5
+MECH20230998,MECH,7.52,2,0,Data Structures,1,8,85.5,66.7,Placed,11.8
+EEE20240999,EEE,5.65,1,0,"Machine Learning, Python, JavaScript, Flask",4,5,77.6,86.8,Not Placed,
+MECH20211000,MECH,6.29,0,2,"JavaScript, Django",2,5,88.5,75.7,Not Placed,
+CIVIL20221001,CIVIL,7.24,0,1,"Flask, Data Structures, Java",3,7,77.9,72,Placed,11.2
+MECH20231002,MECH,6.45,0,3,"C++, AWS, Data Structures, React, JavaScript",5,6,90.6,79.4,Placed,9
+CSE20241003,CSE,6.47,1,2,"Python, Communication, Data Structures, JavaScript",4,9,73.5,73.3,Placed,9.8
+MECH20211004,MECH,6.22,2,1,"Python, C++, SQL, Java, Machine Learning",5,7,74.6,85.8,Not Placed,
+EEE20221005,EEE,7.41,0,0,"AWS, Data Structures, Excel, Python",4,5,80.6,73.3,Placed,10.4
+MECH20231006,MECH,7.16,0,2,"Django, Android",2,5,66.5,70.8,Not Placed,
+EEE20241007,EEE,8.31,1,1,"Machine Learning, React, Android, Java",4,5,66.4,76.7,Placed,13.5
+ECE20211008,ECE,7.87,0,0,Machine Learning,1,8,72,87,Placed,9.7
+MECH20221009,MECH,6.8,3,3,"AWS, Python",2,6,77.9,70.5,Placed,11
+CIVIL20231010,CIVIL,6.1,1,1,"Excel, Machine Learning",2,8,58.3,72.3,Not Placed,
+EEE20241011,EEE,6.63,0,2,"JavaScript, Communication, Excel, Machine Learning, Python",5,5,73,66.2,Placed,11.1
+EEE20211012,EEE,7.14,0,3,"AWS, Django, Machine Learning, Python, Android",5,5,89.8,76.6,Placed,13.7
+MECH20221013,MECH,6.54,0,2,"Machine Learning, Data Structures, Django, C++",4,2,76.6,82.3,Placed,12.2
+MECH20231014,MECH,7.19,0,3,"JavaScript, Excel, C++",3,9,79.5,72.1,Placed,10.4
+ECE20241015,ECE,7.84,0,3,"Flask, AWS, Django, React, Python",5,5,69.5,82.9,Placed,13.4
+MECH20211016,MECH,8,0,0,"Django, Python, AWS, Android, Flask",5,8,85.9,75.2,Placed,12.8
+EEE20221017,EEE,7.16,3,0,"Android, C++",2,6,84,86.7,Not Placed,
+IT20231018,IT,7.6,0,1,JavaScript,1,7,89.6,80,Not Placed,
+ECE20241019,ECE,7.77,0,2,"Excel, SQL, Flask, Communication",4,4,79.1,78.5,Placed,11.4
+EEE20211020,EEE,6.97,0,1,Android,1,6,77,68.8,Placed,9.6
+EEE20221021,EEE,7.28,0,2,"C++, Flask, Communication",3,7,83.1,86.4,Placed,12.5
+IT20231022,IT,8.05,0,2,"Android, Django, SQL, Machine Learning, C++",5,3,82.1,85.8,Not Placed,
+CIVIL20241023,CIVIL,7.52,3,1,SQL,1,5,78.7,70.6,Not Placed,
+MECH20211024,MECH,6.97,0,1,"React, Data Structures, SQL",3,6,82.5,76.1,Not Placed,
+MECH20221025,MECH,6.08,0,0,React,1,7,86.5,64.7,Not Placed,
+CSE20231026,CSE,5.82,0,2,React,1,8,79.8,65.7,Not Placed,
+IT20241027,IT,8.25,0,1,"Flask, Machine Learning, Communication",3,7,68.3,72.8,Placed,9.5
+MECH20211028,MECH,7.19,0,0,"Data Structures, Flask",2,7,81,70.5,Placed,13.2
+CSE20221029,CSE,6.98,0,2,"JavaScript, React, Python, Java",4,6,86.2,64.4,Placed,11.8
+CSE20231030,CSE,7.1,0,1,"Android, Communication",2,5,78.7,73.4,Placed,10.3
+CSE20241031,CSE,6.4,0,2,"Python, Django, Data Structures, React",4,5,85.9,87.5,Not Placed,
+CSE20211032,CSE,8.23,0,1,"AWS, Android, SQL",3,7,75.7,73.6,Placed,13
+IT20221033,IT,5.67,3,1,"Java, Data Structures, Android, Machine Learning",4,7,87.3,85.3,Placed,11.2
+ECE20231034,ECE,9.33,2,1,"Data Structures, Python, Flask",3,5,83.2,82.6,Placed,12
+ECE20241035,ECE,6,2,2,"Python, Java, JavaScript, Android, Machine Learning",5,9,77.2,75.2,Placed,10.3
+IT20211036,IT,6.29,0,1,"React, Python, Data Structures, Machine Learning",4,5,81.2,66.2,Not Placed,
+CIVIL20221037,CIVIL,8.11,1,2,"Django, Python, C++",3,6,85,82.3,Not Placed,
+MECH20231038,MECH,7.94,0,2,"SQL, Machine Learning, AWS, C++, Communication",5,8,70.4,69.8,Placed,12.5
+EEE20241039,EEE,7.32,0,2,"Java, Android, Python, C++, Flask",5,8,73.3,67.1,Placed,11.4
+CSE20211040,CSE,6.96,1,0,Android,1,5,75.5,72.2,Not Placed,
+CIVIL20221041,CIVIL,8.01,0,0,"Android, Data Structures, Django, SQL, Java",5,5,89.6,70.8,Placed,14
+MECH20231042,MECH,6.03,0,1,Excel,1,7,75,75.3,Not Placed,
+EEE20241043,EEE,7.11,1,0,"Django, AWS",2,5,88.9,84.6,Not Placed,
+EEE20211044,EEE,8.67,0,1,"SQL, AWS, Python, Android",4,8,80.1,74.8,Placed,9.9
+EEE20221045,EEE,6.79,3,0,Java,1,6,65.2,80.9,Not Placed,
+EEE20231046,EEE,7.95,0,2,Excel,1,7,80.4,78.2,Not Placed,
+ECE20241047,ECE,7.29,0,1,"C++, Python",2,6,76.6,72.6,Placed,11.9
+CIVIL20211048,CIVIL,9.13,0,0,"Communication, C++, Android, Flask",4,8,80,82.8,Placed,11.8
+EEE20221049,EEE,6.64,0,1,Flask,1,4,82.5,80.5,Not Placed,
+CIVIL20231050,CIVIL,8.37,0,1,"Flask, Communication, Android",3,8,77.5,66.2,Placed,14.3
+ECE20241051,ECE,8.69,1,0,"AWS, Android, C++, Excel",4,4,89.9,73.8,Placed,11.8
+MECH20211052,MECH,6.41,1,3,"JavaScript, Flask, Java, Django, Python",5,8,85.3,67.5,Placed,13.4
+IT20221053,IT,7.25,0,0,"AWS, Flask, Excel",3,6,84.5,75,Not Placed,
+EEE20231054,EEE,6.42,0,3,"Python, React, SQL",3,7,69.6,68.9,Placed,9.3
+ECE20241055,ECE,7.27,0,0,"Excel, Data Structures",2,5,75.9,49.2,Not Placed,
+CIVIL20211056,CIVIL,7.55,2,0,"Machine Learning, Android",2,7,73.1,77.7,Placed,12.1
+MECH20221057,MECH,8.65,3,1,Android,1,2,70.2,77.5,Placed,9.4
+ECE20231058,ECE,6.3,0,2,"JavaScript, Data Structures",2,7,80.9,73.9,Placed,9.1
+MECH20241059,MECH,6.94,0,3,"Flask, Django, Excel, JavaScript",4,6,73.8,58.6,Placed,9.7
+CSE20211060,CSE,6.04,2,0,"Communication, SQL, C++, Python",4,6,80.7,68,Not Placed,
+EEE20221061,EEE,6.91,0,0,Django,1,7,71.9,65.8,Placed,12
+EEE20231062,EEE,7.87,2,3,"Machine Learning, Communication, SQL",3,6,72.8,80.3,Placed,13.2
+IT20241063,IT,6.2,0,1,"Python, SQL, JavaScript, Communication, Django",5,5,89,75.6,Placed,14.1
+EEE20211064,EEE,8.19,0,1,"Python, Flask, React, Communication",4,9,69.1,66,Placed,15
+ECE20221065,ECE,8.54,1,3,"Excel, Android, C++, React, JavaScript",5,2,77.8,72.8,Not Placed,
+CIVIL20231066,CIVIL,7.99,0,0,"Android, JavaScript",2,5,86.7,70.6,Placed,12.1
+ECE20241067,ECE,7.78,0,0,"Communication, Machine Learning",2,4,95.9,67.7,Placed,10.7
+ECE20211068,ECE,6.26,0,0,"Data Structures, Communication, C++, React",4,6,85.2,57.1,Placed,8.7
+EEE20221069,EEE,8.44,0,2,Java,1,8,70.3,75.7,Placed,14.9
+MECH20231070,MECH,7.85,0,0,"AWS, Flask",2,8,74.3,86.9,Not Placed,
+CSE20241071,CSE,6.58,3,2,"JavaScript, SQL",2,8,73.9,68.1,Placed,12
+MECH20211072,MECH,7.82,0,2,"Python, Machine Learning, Java, Django",4,5,87.2,71.2,Placed,13
+CIVIL20221073,CIVIL,7.35,1,1,"Machine Learning, Django, Java, Python, AWS",5,7,61.8,73.9,Not Placed,
+CSE20231074,CSE,7.03,0,2,"AWS, React, SQL, Excel",4,6,81.8,85.7,Placed,11
+EEE20241075,EEE,7.47,1,2,"AWS, Android",2,6,75.1,96.1,Placed,12.1
+CSE20211076,CSE,8.09,3,1,"Android, React, Data Structures, Flask, Excel",5,2,78.1,72.7,Placed,12.9
+MECH20221077,MECH,6.81,0,0,"Machine Learning, Excel",2,8,81.6,68.6,Not Placed,
+ECE20231078,ECE,5.79,0,1,"AWS, Data Structures, Excel, Communication",4,9,77,77.2,Placed,10.1
+IT20241079,IT,7.36,1,1,"Excel, Flask",2,4,69.7,86.9,Placed,8.8
+EEE20211080,EEE,6.3,0,2,"Machine Learning, Android",2,6,89.3,81.6,Placed,11.6
+CIVIL20221081,CIVIL,6.35,0,0,"Flask, Machine Learning, AWS, C++, Java",5,5,83.7,86.4,Placed,10.7
+MECH20231082,MECH,8.28,0,1,"JavaScript, React",2,6,84.8,70.4,Placed,11.6
+CSE20241083,CSE,6.14,1,3,Communication,1,8,87.1,87.9,Not Placed,
+ECE20211084,ECE,8.51,0,2,"Communication, Flask, React, AWS",4,4,77.6,66.9,Placed,11.9
+EEE20221085,EEE,6.9,0,2,"SQL, JavaScript, Data Structures, Java, Excel",5,6,80,77.4,Placed,11.3
+IT20231086,IT,6.55,2,0,Android,1,6,74.1,57.7,Not Placed,
+EEE20241087,EEE,6.94,0,0,"C++, Communication, Machine Learning",3,3,91.9,71.8,Not Placed,
+ECE20211088,ECE,5.97,0,0,"AWS, Django, Communication, SQL",4,7,87.1,90.4,Placed,9.3
+EEE20221089,EEE,5.73,2,1,"Data Structures, Excel, JavaScript, Communication",4,7,83.6,60.2,Placed,8.9
+ECE20231090,ECE,6.59,2,0,"Flask, Django",2,8,75.3,99,Placed,12.5
+CIVIL20241091,CIVIL,6.8,3,1,"Excel, C++, Python, Machine Learning, Android",5,7,90.5,67.5,Placed,9.8
+IT20211092,IT,4.89,0,0,"React, Machine Learning, C++, Python",4,7,73.3,81.6,Not Placed,
+EEE20221093,EEE,7.01,0,0,"Excel, Android, Data Structures, Communication, JavaScript",5,5,76.8,73.3,Not Placed,
+CSE20231094,CSE,6.99,0,2,"JavaScript, SQL, AWS, React",4,4,79.6,94.9,Placed,10.3
+CSE20241095,CSE,6.29,0,3,"Machine Learning, JavaScript, SQL, Communication",4,10,85.4,91.2,Placed,12.4
+MECH20211096,MECH,6.08,0,0,"C++, Python, Excel, Java, Data Structures",5,8,73.3,76.7,Not Placed,
+CIVIL20221097,CIVIL,6.51,0,1,"Python, C++, Flask",3,6,89.1,71,Not Placed,
+IT20231098,IT,8.07,0,3,"C++, Communication, Java, Excel, JavaScript",5,7,59.3,65.9,Placed,10.6
+CSE20241099,CSE,5.62,1,1,JavaScript,1,7,80.1,64.4,Placed,7.4
+ECE20211100,ECE,9.59,0,0,"Flask, SQL, Android, Python, JavaScript",5,5,80.2,68.4,Placed,10.1
+ECE20221101,ECE,6.59,1,0,"Python, Flask, Data Structures",3,7,82.3,86.7,Placed,12.2
+MECH20231102,MECH,7.73,0,1,"Python, Machine Learning, Flask, Android",4,8,73.2,74.2,Placed,11.7
+ECE20241103,ECE,7.07,2,2,React,1,8,84.2,70.7,Placed,11.3
+IT20211104,IT,8.53,0,3,"AWS, SQL, JavaScript",3,8,89.9,66.6,Placed,14.6
+EEE20221105,EEE,8.43,0,1,AWS,1,8,75.6,79,Placed,12.9
+CIVIL20231106,CIVIL,5.88,1,0,"SQL, AWS, Android, Java",4,7,77.1,64.4,Not Placed,
+EEE20241107,EEE,6.77,0,2,"Flask, Python, SQL, Machine Learning, Excel",5,6,75.1,88.9,Placed,13
+EEE20211108,EEE,6.77,0,0,"Flask, C++",2,6,87.5,91.4,Not Placed,
+ECE20221109,ECE,5.03,0,1,"JavaScript, Data Structures, React",3,7,78,77,Placed,9.5
+MECH20231110,MECH,6.71,0,3,"Machine Learning, JavaScript, Java, Python",4,7,78.1,86.2,Placed,9.8
+MECH20241111,MECH,7.03,0,0,"Machine Learning, Communication, AWS, SQL, Flask",5,5,84.2,87.8,Placed,13.3
+CIVIL20211112,CIVIL,7.45,1,2,"Android, Machine Learning, SQL, Excel, C++",5,6,77,70.8,Placed,10.5
+EEE20221113,EEE,8.35,0,0,"Android, Data Structures, SQL",3,4,80.7,78.3,Placed,13.8
+CSE20231114,CSE,6.08,0,2,"C++, Java, Android",3,7,70,77.2,Placed,10.6
+IT20241115,IT,7.38,0,3,Java,1,8,72,67.2,Placed,11.3
+CIVIL20211116,CIVIL,6.41,0,0,"Excel, Java, React, Android, Django",5,5,79.4,82.5,Placed,11.2
+MECH20221117,MECH,7.86,0,0,"Flask, AWS, Django, React, Python",5,7,73.3,88.7,Placed,10.9
+IT20231118,IT,7.83,0,0,AWS,1,6,69,69.3,Placed,12.3
+ECE20241119,ECE,8.41,0,3,"JavaScript, Machine Learning",2,8,69.1,78.4,Placed,12.3
+EEE20211120,EEE,7.38,0,0,Communication,1,10,88.9,76.5,Placed,10.3
+EEE20221121,EEE,7.83,0,2,"JavaScript, Machine Learning, Python, React",4,6,86.2,75.1,Placed,10.8
+MECH20231122,MECH,8.01,0,1,"Machine Learning, C++, Excel, Android",4,5,82.1,78.2,Placed,12.8
+CSE20241123,CSE,8.63,1,2,Flask,1,3,70.9,77.3,Placed,12.2
+IT20211124,IT,6.31,0,0,"Excel, AWS, Django, SQL, Data Structures",5,7,83.1,67.2,Not Placed,
+MECH20221125,MECH,7.79,2,0,"Data Structures, Django",2,5,74.9,76,Not Placed,
+IT20231126,IT,6.24,0,1,"Machine Learning, Excel, Flask, Android",4,7,73.2,66.2,Placed,11.3
+ECE20241127,ECE,6.59,1,1,"React, Java",2,5,74.2,82.3,Not Placed,
+CIVIL20211128,CIVIL,7.96,0,0,Machine Learning,1,8,72.5,71.5,Placed,9.9
+IT20221129,IT,7.88,1,0,"SQL, Python, Java, Excel",4,5,71.6,77.9,Not Placed,
+MECH20231130,MECH,7.11,0,1,"Android, SQL, Flask, AWS",4,4,79.2,82.4,Placed,14.6
+EEE20241131,EEE,6.17,0,0,"Data Structures, SQL, JavaScript, Android",4,6,78.3,73.8,Placed,12.5
+ECE20211132,ECE,6.98,0,1,"Machine Learning, Python, C++, Data Structures",4,7,71.6,80.6,Not Placed,
+CSE20221133,CSE,7.4,2,0,"Machine Learning, Android, React, Flask, Java",5,4,86,84.3,Placed,11.7
+MECH20231134,MECH,6.94,1,2,"Java, Data Structures, Django, Android, AWS",5,7,78.9,65.6,Not Placed,
+EEE20241135,EEE,7.16,0,0,"Data Structures, Android, Communication, Java",4,8,80.6,59.7,Not Placed,
+CSE20211136,CSE,7.93,0,0,"C++, Django, Communication",3,2,81,69,Placed,13.7
+IT20221137,IT,6.48,0,2,"Data Structures, Machine Learning, AWS, Java",4,4,66.7,75.8,Not Placed,
+CIVIL20231138,CIVIL,6.69,0,2,"C++, Android, SQL, Excel, Machine Learning",5,7,86.7,77.5,Placed,11.3
+ECE20241139,ECE,8.37,0,0,Communication,1,5,71.9,77.5,Placed,11.8
+EEE20211140,EEE,7.43,0,3,"React, Machine Learning, Android, Communication",4,5,78.4,87,Placed,11.4
+CSE20221141,CSE,6.52,1,2,"Java, Android, JavaScript, Flask, Machine Learning",5,4,80.9,72.9,Placed,10.2
+IT20231142,IT,6.26,0,1,Python,1,5,96.8,91.4,Not Placed,
+EEE20241143,EEE,5.63,0,1,Data Structures,1,9,83.5,78.6,Placed,10.7
+CSE20211144,CSE,6.35,0,2,"Machine Learning, Flask",2,5,68.4,75.7,Not Placed,
+ECE20221145,ECE,8.84,0,1,"Android, Java",2,3,68.6,79.2,Placed,13.8
+EEE20231146,EEE,8.84,1,0,"Flask, Django, SQL, JavaScript, Data Structures",5,6,78,71,Placed,11.4
+EEE20241147,EEE,7.91,0,1,"Java, JavaScript, SQL, React",4,6,85.1,80.1,Placed,12.1
+EEE20211148,EEE,7.39,0,1,"SQL, Flask, Django, Android, JavaScript",5,7,71.9,87.4,Placed,11
+EEE20221149,EEE,6.82,0,1,"Java, Django, Flask, React, Communication",5,6,82.6,67.6,Placed,11
+CIVIL20231150,CIVIL,5.84,1,3,"Excel, Python, Communication, SQL, Android",5,7,77.8,58.1,Not Placed,
+EEE20241151,EEE,9.18,0,2,"Django, SQL, C++, Data Structures, Excel",5,6,63.1,75.2,Not Placed,
+IT20211152,IT,7.32,1,0,"Java, Data Structures, Communication, AWS",4,6,93.6,92.4,Not Placed,
+IT20221153,IT,6.98,1,0,JavaScript,1,9,97.8,61.9,Not Placed,
+ECE20231154,ECE,6.82,0,0,"Data Structures, Excel, SQL, C++, React",5,7,92,62.5,Not Placed,
+IT20241155,IT,7.82,0,0,"React, Communication",2,6,77.6,86.3,Placed,14.2
+CSE20211156,CSE,7.75,0,0,"Communication, Python, Java",3,3,80.8,93.6,Placed,9.2
+CSE20221157,CSE,8,2,1,Django,1,4,84.9,79.6,Not Placed,
+CIVIL20231158,CIVIL,5.98,1,0,"Java, Flask, AWS, Machine Learning",4,7,88.2,74.2,Placed,11.6
+ECE20241159,ECE,7.22,0,1,"Python, Data Structures, Communication, React",4,5,73.7,78.5,Placed,10.7
+EEE20211160,EEE,6.58,1,1,"Flask, Excel, SQL",3,7,73.4,76.2,Not Placed,
+CSE20221161,CSE,6.94,0,0,"Machine Learning, Java, Android",3,6,85.4,83.8,Not Placed,
+EEE20231162,EEE,6.31,0,1,Machine Learning,1,5,76.3,71.9,Placed,8.6
+MECH20241163,MECH,5.84,0,2,"C++, Communication, React, Excel",4,5,77.6,79.6,Placed,9
+ECE20211164,ECE,8.89,3,0,"Android, AWS, React",3,5,67.6,90.5,Placed,14.5
+EEE20221165,EEE,6.98,0,2,"Android, React, Python, Django, Machine Learning",5,4,73.4,86.5,Placed,11.5
+EEE20231166,EEE,7.16,0,1,JavaScript,1,8,80.4,79.9,Not Placed,
+CSE20241167,CSE,7.13,1,1,"Excel, Data Structures",2,6,87.6,76,Placed,10.9
+IT20211168,IT,6.64,0,3,SQL,1,7,67.1,78.6,Placed,9.7
+CIVIL20221169,CIVIL,7.39,2,0,"Data Structures, React, Android",3,7,78.9,72.7,Placed,11.5
+ECE20231170,ECE,8.1,0,1,"Java, Python",2,5,73.5,61.1,Placed,10.6
+CSE20241171,CSE,7.05,0,2,"Data Structures, SQL, C++",3,6,78.3,73,Placed,9.1
+ECE20211172,ECE,6.85,0,1,Python,1,5,72.8,71.4,Not Placed,
+MECH20221173,MECH,6.29,0,1,"SQL, Flask, AWS, Communication, React",5,6,74.3,77,Placed,12.1
+IT20231174,IT,8.69,0,1,"Machine Learning, C++, Java",3,6,69.4,62.1,Placed,12.3
+IT20241175,IT,5.95,0,2,"Communication, Django, Android",3,8,61.1,72.5,Placed,9.3
+EEE20211176,EEE,7.5,0,0,"Data Structures, Java, Communication, Flask, AWS",5,5,79.5,61.4,Placed,10.9
+MECH20221177,MECH,7.96,0,1,"Django, Flask, Python, AWS",4,5,87.8,68.9,Placed,12.9
+CSE20231178,CSE,6.67,0,2,"Java, Excel, React, Flask, Machine Learning",5,7,76.4,83.5,Placed,12.5
+IT20241179,IT,6.43,1,2,"React, Data Structures, SQL",3,6,68.7,77.7,Not Placed,
+MECH20211180,MECH,8.28,0,0,"Flask, Machine Learning, C++, Data Structures, Excel",5,5,79.2,75,Placed,12
+EEE20221181,EEE,8.13,0,0,"Communication, C++, Django",3,6,82.5,67.2,Placed,13.5
+ECE20231182,ECE,7.84,0,1,"Communication, Android, AWS, SQL",4,5,88,81.3,Placed,13.5
+CIVIL20241183,CIVIL,8.9,0,1,"Communication, Django, AWS, Android, Flask",5,7,82.1,82.5,Placed,12.6
+EEE20211184,EEE,7.03,0,2,"C++, Machine Learning",2,4,74.1,77.7,Placed,10.8
+CSE20221185,CSE,6.48,2,1,"AWS, React, Communication, Java",4,8,77.7,77.6,Not Placed,
+CIVIL20231186,CIVIL,7.5,0,0,"Data Structures, Java, Communication",3,6,76.3,63.7,Not Placed,
+MECH20241187,MECH,7.16,0,0,C++,1,7,94.1,75.5,Placed,9.4
+ECE20211188,ECE,6.89,3,1,"SQL, JavaScript, React",3,4,86.7,85.6,Not Placed,
+CSE20221189,CSE,5.85,1,3,"Data Structures, Python, AWS, JavaScript, Communication",5,6,72.8,70.2,Placed,11.3
+CSE20231190,CSE,7.1,0,0,"Flask, React, Java",3,7,67.4,76.8,Not Placed,
+CSE20241191,CSE,7.69,0,1,"AWS, SQL, Communication",3,7,72.5,85.8,Not Placed,
+IT20211192,IT,7.66,1,0,C++,1,7,72.4,67.2,Placed,12.2
+CIVIL20221193,CIVIL,6.49,0,0,Data Structures,1,7,84.7,88,Not Placed,
+MECH20231194,MECH,9.43,3,3,Data Structures,1,8,93.1,65.4,Not Placed,
+ECE20241195,ECE,7.24,0,1,"Java, Flask, Android, AWS, Machine Learning",5,6,79.6,86.8,Placed,11.9
+MECH20211196,MECH,7.5,0,0,"Communication, AWS, Django",3,8,69.7,91.7,Placed,7.3
+CIVIL20221197,CIVIL,5.83,0,0,"SQL, Java, Communication, React",4,6,83.8,88.4,Placed,10.7
+ECE20231198,ECE,5.89,1,1,"Machine Learning, Java, Android, Python",4,3,88.4,73.9,Not Placed,
+ECE20241199,ECE,8.17,0,1,"Data Structures, C++, Django, Android, Java",5,8,78,65,Placed,13.9
+ECE20211200,ECE,6.85,0,0,"Python, AWS, Django",3,4,83.7,63.3,Not Placed,
+CSE20221201,CSE,7.65,0,1,"Communication, React, Excel",3,3,67.3,67.1,Placed,13.9
+CSE20231202,CSE,7.05,1,0,Django,1,3,88.7,59.6,Not Placed,
+CIVIL20241203,CIVIL,6.45,0,0,"Python, C++",2,5,78.2,71,Not Placed,
+IT20211204,IT,6.5,0,0,"Java, Python, Excel, Communication, Django",5,5,80.3,84.7,Placed,13.8
+CSE20221205,CSE,8.42,2,2,"Android, AWS",2,7,76.3,75.1,Placed,11.5
+CSE20231206,CSE,7.87,0,0,"JavaScript, Data Structures, Communication, Excel",4,5,74.9,65.7,Not Placed,
+CSE20241207,CSE,6.4,0,1,"Java, AWS, React, Android, Excel",5,6,89.9,77.1,Placed,13
+MECH20211208,MECH,7.22,2,0,C++,1,4,84.6,90,Not Placed,
+MECH20221209,MECH,7.59,0,1,C++,1,5,74.3,71.3,Placed,12.5
+CSE20231210,CSE,6.7,1,1,"Java, Android, Python, JavaScript, Data Structures",5,5,74.6,67.7,Not Placed,
+EEE20241211,EEE,9.11,0,0,"Android, AWS",2,3,70.2,97.6,Placed,11.5
+MECH20211212,MECH,6.81,0,0,"C++, Communication, AWS",3,7,71.7,82.1,Not Placed,
+CIVIL20221213,CIVIL,7.87,1,0,"Python, SQL, Data Structures, Java",4,6,64.2,66.2,Not Placed,
+ECE20231214,ECE,7.03,0,1,"Machine Learning, Python",2,5,77.9,63.4,Not Placed,
+MECH20241215,MECH,6.7,3,0,"C++, React",2,7,75.9,83.5,Not Placed,
+CSE20211216,CSE,7.72,0,0,SQL,1,5,82.3,80.7,Placed,8.6
+EEE20221217,EEE,7.73,1,3,"C++, Flask, Python, Data Structures",4,5,84.8,83.9,Placed,13
+IT20231218,IT,7.79,0,0,Communication,1,7,79.1,77,Not Placed,
+MECH20241219,MECH,6.54,0,1,"Flask, Machine Learning, Django",3,4,83.1,68.8,Not Placed,
+MECH20211220,MECH,6.85,0,0,"Java, Django, Python, React, Flask",5,5,72.1,73.6,Placed,11.3
+ECE20221221,ECE,8.34,1,2,"React, Communication, Flask",3,5,74.7,87.9,Placed,11.8
+ECE20231222,ECE,7.58,0,1,AWS,1,5,78,89.3,Placed,10.9
+CSE20241223,CSE,8.34,0,0,"AWS, Flask",2,5,83.5,71.1,Not Placed,
+MECH20211224,MECH,6.97,0,1,"Python, Excel, Machine Learning, Communication, Django",5,5,91.7,76.1,Placed,11.2
+CSE20221225,CSE,6.88,1,0,"Excel, Communication, React, Python",4,2,76.7,77.7,Placed,10.8
+CIVIL20231226,CIVIL,7.36,2,2,"Flask, AWS, SQL, C++, Data Structures",5,4,81.1,78,Not Placed,
+EEE20241227,EEE,7.14,0,3,"React, JavaScript, C++, Python",4,8,73.1,83.2,Placed,12.5
+ECE20211228,ECE,7.09,1,1,"Flask, Android, C++, Java, Data Structures",5,7,79.8,56.6,Placed,12.1
+CSE20221229,CSE,7.31,0,0,"C++, Machine Learning",2,8,71.2,68.4,Placed,11.3
+ECE20231230,ECE,7.38,0,2,"Django, Machine Learning",2,5,75.2,70.7,Placed,10.9
+IT20241231,IT,7.83,0,0,"JavaScript, AWS, Data Structures, Django",4,4,80.9,54.1,Placed,11.9
+EEE20211232,EEE,7.97,0,0,"Machine Learning, SQL, AWS, Flask, Data Structures",5,5,81.8,63.2,Placed,11.8
+CIVIL20221233,CIVIL,7.79,0,1,"React, SQL",2,6,86.6,75.9,Not Placed,
+CIVIL20231234,CIVIL,6.6,2,1,"Flask, Communication, Django, AWS",4,6,69.6,74,Placed,12.1
+EEE20241235,EEE,8.11,0,2,"Communication, Excel, Java",3,7,67.8,84.5,Placed,11.7
+IT20211236,IT,8.1,0,1,"React, SQL, Machine Learning",3,6,75.7,79.7,Placed,13.3
+IT20221237,IT,4.99,0,1,JavaScript,1,7,91.2,79.5,Placed,9.7
+CSE20231238,CSE,8.39,0,1,"Django, Data Structures",2,5,77.4,53.6,Placed,11.1
+ECE20241239,ECE,7.19,0,2,"AWS, Flask",2,7,85.2,66.6,Placed,11
+EEE20211240,EEE,8.4,0,2,"Data Structures, Android",2,8,67.1,71.3,Placed,10.3
+EEE20221241,EEE,8.44,1,2,"Django, Communication, Python, AWS, JavaScript",5,5,78.3,69.1,Placed,12.9
+IT20231242,IT,7.26,1,1,"Machine Learning, Flask",2,5,76,80,Not Placed,
+CIVIL20241243,CIVIL,7.79,1,0,AWS,1,7,82.8,69.7,Not Placed,
+IT20211244,IT,6.67,0,0,"AWS, React, Java",3,8,75.8,75.7,Not Placed,
+CSE20221245,CSE,6.82,0,3,"Communication, SQL, JavaScript, Flask",4,7,70.6,87,Placed,11.5
+CIVIL20231246,CIVIL,7.09,0,0,"AWS, React",2,5,78.3,63.3,Not Placed,
+CIVIL20241247,CIVIL,8.22,0,3,Data Structures,1,4,79.2,74.1,Placed,11.9
+EEE20211248,EEE,7.27,0,0,"Data Structures, JavaScript, SQL, Communication",4,7,78.8,76.2,Not Placed,
+ECE20221249,ECE,6.87,0,1,"React, Machine Learning, Django, C++, Python",5,6,81.2,64.5,Placed,13.2
+IT20231250,IT,5.98,0,1,"AWS, Android, Java, Data Structures, JavaScript",5,5,78,75.2,Placed,8.3
+CIVIL20241251,CIVIL,7.53,0,2,Java,1,2,70.6,65,Not Placed,
+CSE20211252,CSE,8.01,1,1,C++,1,6,83.4,76.8,Placed,9.2
+MECH20221253,MECH,8.18,1,1,"Excel, JavaScript, C++, Python",4,6,74.8,77.7,Not Placed,
+CSE20231254,CSE,6.56,2,1,"AWS, C++, Django, Data Structures, Python",5,6,79.8,79.2,Placed,8.9
+CIVIL20241255,CIVIL,6.68,0,1,"Flask, Django",2,9,94.2,71.1,Not Placed,
+IT20211256,IT,7.6,0,3,"Excel, C++",2,6,70.6,65.1,Placed,11.4
+MECH20221257,MECH,7.34,0,1,"Data Structures, Java, Machine Learning, Flask, Android",5,6,72.6,81.2,Placed,13.2
+EEE20231258,EEE,7.01,0,2,"Django, Android, Python",3,7,83.1,86,Not Placed,
+IT20241259,IT,6.88,2,1,"AWS, Android, Python, JavaScript, Flask",5,4,72.6,77,Not Placed,
+IT20211260,IT,6.79,1,1,"Communication, Machine Learning, Java, Python, C++",5,5,84.6,69.7,Not Placed,
+EEE20221261,EEE,6.25,1,1,"Android, Django, Excel, Python",4,7,83.5,71.9,Not Placed,
+ECE20231262,ECE,8.72,3,2,"Python, Android",2,6,71.7,65.5,Placed,12
+ECE20241263,ECE,6.5,0,0,"Java, Python, Machine Learning, Communication, JavaScript",5,8,73.4,87.2,Placed,11.3
+MECH20211264,MECH,7.1,0,0,"Excel, Java, React, Communication",4,4,88.7,89.5,Placed,10.4
+IT20221265,IT,7.06,0,0,"JavaScript, Flask",2,5,94.3,77.4,Placed,10.5
+ECE20231266,ECE,6.25,0,1,"Communication, AWS",2,6,72.8,71.1,Placed,8.5
+IT20241267,IT,8.28,0,3,"Python, Communication, Java, Django",4,6,75.6,80,Placed,10.3
+CSE20211268,CSE,6.47,0,0,"Machine Learning, React, C++, Flask, Excel",5,6,74.4,69,Placed,11.4
+MECH20221269,MECH,7.17,0,1,Java,1,6,70.1,66.4,Not Placed,
+ECE20231270,ECE,5.45,0,1,Data Structures,1,4,89.2,81.8,Placed,8
+IT20241271,IT,7.8,0,1,"Excel, Machine Learning, Flask, JavaScript",4,3,72.3,75.5,Not Placed,
+CIVIL20211272,CIVIL,7.16,3,0,"Flask, Communication",2,6,84.6,63.1,Not Placed,
+CIVIL20221273,CIVIL,6.66,0,1,Machine Learning,1,6,81,80,Placed,9.3
+EEE20231274,EEE,6.3,0,0,Flask,1,6,72.4,70.5,Placed,11.4
+EEE20241275,EEE,8.61,0,0,"React, C++, Android, Flask, Excel",5,5,71,68.7,Not Placed,
+ECE20211276,ECE,7.21,0,1,"Data Structures, React, Communication, Flask, JavaScript",5,6,92.5,68.7,Placed,14.2
+CSE20221277,CSE,8.01,0,1,"React, Machine Learning, Data Structures, Excel, Android",5,6,63.1,67.7,Placed,10.5
+ECE20231278,ECE,5.88,0,1,"Python, Flask",2,5,73.8,61.7,Placed,9.8
+ECE20241279,ECE,8.4,0,0,"Django, Python, Flask, C++, Data Structures",5,8,69.9,92.5,Placed,11.8
+CSE20211280,CSE,7.43,2,1,"C++, Communication",2,5,74.3,89.2,Placed,9.9
+IT20221281,IT,7.23,0,2,JavaScript,1,5,81.9,96.7,Placed,10.8
+EEE20231282,EEE,7,1,2,"Django, Flask, Machine Learning, AWS, JavaScript",5,5,73,82.3,Not Placed,
+EEE20241283,EEE,7.75,1,3,"Python, Django, C++, React",4,6,81.9,83.4,Not Placed,
+MECH20211284,MECH,8.16,0,2,SQL,1,4,68.9,76.5,Not Placed,
+CIVIL20221285,CIVIL,8.15,0,3,"Flask, JavaScript, Excel, Django",4,6,71.2,90.9,Placed,12.4
+EEE20231286,EEE,7.22,0,2,"C++, React, Communication",3,4,76.1,94.5,Placed,11.4
+ECE20241287,ECE,7.79,0,0,"React, Data Structures, Flask",3,5,76.5,91.1,Placed,13.7
+EEE20211288,EEE,7.55,0,1,"SQL, Django, Data Structures, Android, Flask",5,6,84.4,59.3,Placed,12.3
+MECH20221289,MECH,7.42,0,1,"Android, SQL",2,7,94.1,64.7,Placed,10.7
+MECH20231290,MECH,7.78,0,1,"Machine Learning, SQL, Python, Data Structures",4,8,75.4,61.1,Placed,12.8
+CIVIL20241291,CIVIL,8.53,0,0,"Python, Data Structures, Communication, Java, JavaScript",5,5,74.8,79.9,Placed,10.4
+CSE20211292,CSE,7.57,0,1,"Django, Communication",2,6,75.2,85.6,Placed,12.8
+CSE20221293,CSE,6.31,0,0,"JavaScript, Communication, Android",3,7,80.9,71.3,Placed,10.8
+ECE20231294,ECE,8.48,0,2,"Excel, Data Structures, JavaScript",3,7,79.8,75.5,Not Placed,
+CSE20241295,CSE,7.98,0,0,"JavaScript, Django, Java",3,7,80.5,72.7,Placed,10.9
+ECE20211296,ECE,7.3,0,1,"Machine Learning, Django",2,7,80.1,85.8,Placed,10.1
+IT20221297,IT,7.51,0,1,"Excel, Machine Learning, Data Structures, Python",4,6,82.8,83.3,Placed,11.7
+CSE20231298,CSE,8.43,0,2,"Java, Communication",2,6,83.4,99,Placed,11.8
+MECH20241299,MECH,7.47,0,2,"Flask, AWS, Machine Learning",3,6,79.9,84.4,Placed,12.6
+ECE20211300,ECE,5.95,0,3,"Android, JavaScript, Django, Flask",4,7,72.3,84.3,Placed,9.2
+CSE20221301,CSE,7.67,0,2,"Python, Django, Android",3,5,80.3,69.1,Placed,9.6
+CSE20231302,CSE,6.97,0,1,"Python, Excel, C++, SQL",4,6,88.1,84,Placed,11.7
+EEE20241303,EEE,7.72,1,1,"Data Structures, Flask, Python, React, Android",5,8,74.4,64.2,Placed,11.7
+EEE20211304,EEE,8.25,2,1,C++,1,7,74.1,76.8,Placed,13.5
+CIVIL20221305,CIVIL,7.33,0,1,"Data Structures, JavaScript, Django",3,7,89.7,87,Placed,11.3
+ECE20231306,ECE,7.07,0,0,Android,1,8,80.7,75.7,Placed,9.8
+MECH20241307,MECH,7.99,0,2,"Python, SQL",2,6,84.6,69.4,Placed,12.2
+ECE20211308,ECE,4.63,1,2,"C++, Flask, Communication",3,7,77.7,62.2,Not Placed,
+EEE20221309,EEE,7.34,0,0,"Django, JavaScript, SQL",3,8,88.8,71.9,Not Placed,
+MECH20231310,MECH,7.46,0,1,Python,1,5,66.5,74.6,Not Placed,
+EEE20241311,EEE,7.06,0,1,"Machine Learning, Android",2,5,89.9,75.1,Not Placed,
+IT20211312,IT,6.74,0,0,"Django, Android, Communication, React, Data Structures",5,7,88.1,75.8,Placed,12.3
+EEE20221313,EEE,8.28,0,1,"Excel, React, JavaScript, AWS, C++",5,7,84.7,66,Placed,12.8
+CIVIL20231314,CIVIL,7.01,0,1,Python,1,5,71.3,58.8,Not Placed,
+IT20241315,IT,5.39,1,0,"React, C++, Java",3,7,85,71.1,Placed,14.1
+CIVIL20211316,CIVIL,8.97,0,2,"Django, Excel, Machine Learning, AWS, Java",5,7,65,54.1,Placed,12.5
+EEE20221317,EEE,5.99,0,0,"React, Flask, Python, JavaScript, Machine Learning",5,7,74.9,79.1,Placed,10.7
+CSE20231318,CSE,6.83,3,0,"Flask, Python, Machine Learning, Excel, SQL",5,5,72.7,72.8,Placed,11.1
+CSE20241319,CSE,6.85,0,0,"Flask, Python, React, Machine Learning",4,8,72.4,72.8,Placed,10.8
+CSE20211320,CSE,7.79,0,0,Communication,1,7,80,78.3,Placed,14.6
+CIVIL20221321,CIVIL,7.09,1,1,"SQL, Communication, Android, React, Django",5,6,80.7,75.4,Placed,11.1
+CIVIL20231322,CIVIL,7.8,0,0,"Java, Python, Machine Learning, Flask, React",5,8,81,83.3,Not Placed,
+MECH20241323,MECH,6.45,1,2,"Data Structures, React, Flask, Android",4,9,90.7,71.5,Placed,11.2
+ECE20211324,ECE,6.56,1,2,Java,1,5,99,73.2,Placed,7.7
+ECE20221325,ECE,7.33,3,1,"Android, React",2,5,71.9,64.2,Not Placed,
+MECH20231326,MECH,6.69,0,3,"Machine Learning, Python, React, Communication",4,8,74.6,75.1,Placed,8.8
+CSE20241327,CSE,6.9,0,1,"Django, Android, Data Structures",3,3,69.8,80.1,Placed,14.3
+MECH20211328,MECH,6.52,2,2,"Python, AWS, Android, Flask, Java",5,4,65.2,75.9,Not Placed,
+CSE20221329,CSE,7.22,1,0,"AWS, Flask",2,6,73.4,76,Placed,11.3
+EEE20231330,EEE,7.96,0,2,"Android, Java",2,4,77.8,97,Placed,9.2
+MECH20241331,MECH,6.06,0,2,"Communication, Excel, Flask, SQL",4,6,74.6,81.1,Placed,9.3
+ECE20211332,ECE,7.62,0,2,"JavaScript, Communication, Excel",3,8,68.5,81.2,Placed,11.5
+MECH20221333,MECH,7.7,0,3,"Django, Python, Flask",3,7,91.7,63.2,Placed,11.4
+CSE20231334,CSE,7.38,0,1,"Data Structures, Flask, C++, Django",4,5,73.3,67.4,Placed,14.2
+CIVIL20241335,CIVIL,8.33,0,1,"Data Structures, C++",2,4,72.9,76.8,Not Placed,
+MECH20211336,MECH,7.73,0,0,"Excel, Data Structures, Django",3,4,75.2,59.7,Not Placed,
+ECE20221337,ECE,6.59,3,2,"Android, AWS, Django, SQL",4,6,76.6,75.8,Not Placed,
+EEE20231338,EEE,7.81,0,0,React,1,10,91.5,80.9,Placed,8.1
+CIVIL20241339,CIVIL,7.74,1,0,"Django, Flask",2,5,75.9,76.8,Not Placed,
+EEE20211340,EEE,8.98,0,2,"Android, JavaScript, C++, Communication, Python",5,5,69.9,79.1,Placed,11.2
+MECH20221341,MECH,7.23,0,0,"AWS, Java, Django, Flask, SQL",5,4,68.9,51.5,Placed,14
+ECE20231342,ECE,6.95,0,1,"Communication, Excel, Java, AWS, C++",5,7,67.3,95.6,Placed,12.9
+ECE20241343,ECE,7.64,1,0,"Excel, Communication, JavaScript, Django, SQL",5,4,74.5,90.8,Placed,11.2
+IT20211344,IT,7.31,0,3,"Python, Excel, Machine Learning, AWS, Android",5,7,92.7,73.6,Placed,12
+IT20221345,IT,8.11,0,0,"Data Structures, SQL",2,7,82.6,75.8,Placed,11.3
+MECH20231346,MECH,7.93,0,0,Android,1,8,73.3,76.3,Placed,8.9
+CSE20241347,CSE,8.3,0,0,SQL,1,4,56.6,65.2,Not Placed,
+ECE20211348,ECE,7.72,0,3,"Excel, JavaScript, AWS, C++",4,7,84.3,85,Placed,9.2
+CSE20221349,CSE,5.62,0,1,"Django, Machine Learning, Data Structures, React, Python",5,9,73.7,58.7,Placed,11.8
+MECH20231350,MECH,6.96,0,0,React,1,4,80.1,67,Not Placed,
+CSE20241351,CSE,5.92,0,0,"SQL, Python, JavaScript, Excel, Java",5,7,71.6,70.4,Placed,10.9
+CIVIL20211352,CIVIL,7.92,0,2,Machine Learning,1,3,79.3,70.9,Placed,9.1
+CSE20221353,CSE,7.29,0,1,"SQL, Data Structures, Communication, Android",4,5,77.1,63,Placed,13.6
+ECE20231354,ECE,6.01,0,2,"Flask, Data Structures, JavaScript",3,8,82.3,73,Not Placed,
+MECH20241355,MECH,6.74,0,0,"Java, AWS, C++, SQL, Django",5,6,77.2,78.1,Not Placed,
+MECH20211356,MECH,6.5,0,0,"React, Flask, Data Structures",3,5,79.2,72.7,Not Placed,
+MECH20221357,MECH,6.72,0,0,"AWS, Data Structures, JavaScript, Android",4,5,82.9,69,Placed,12.3
+EEE20231358,EEE,7.2,0,0,"Java, Excel, Python, React, AWS",5,7,79.3,55.9,Placed,13.6
+ECE20241359,ECE,6.5,1,0,"Communication, Django, Flask, Android, AWS",5,7,84.1,66.8,Not Placed,
+MECH20211360,MECH,7.24,0,1,"React, C++, Python, Django, Android",5,8,77.5,69.9,Placed,12.8
+IT20221361,IT,7.2,3,1,"C++, Python, Java",3,8,71.2,69.4,Not Placed,
+ECE20231362,ECE,7.17,3,1,"JavaScript, Excel",2,6,84.5,74,Placed,11
+MECH20241363,MECH,6.31,0,0,"JavaScript, Machine Learning, Python, Excel, Communication",5,6,89.5,61.9,Not Placed,
+CSE20211364,CSE,8.22,1,2,Data Structures,1,5,76.1,67.5,Placed,12.5
+ECE20221365,ECE,6.21,0,3,"Machine Learning, Communication",2,4,75.7,85,Placed,9.8
+MECH20231366,MECH,8.28,0,1,Java,1,8,87.6,84.6,Placed,11.6
+MECH20241367,MECH,6.07,1,0,"Java, SQL, Django, Android",4,4,82.5,70.1,Not Placed,
+EEE20211368,EEE,7.85,0,0,"Data Structures, AWS, Machine Learning",3,7,75.4,84.6,Placed,10.7
+ECE20221369,ECE,6.7,2,0,"Machine Learning, Android",2,5,76.7,72.1,Not Placed,
+MECH20231370,MECH,8.61,1,0,"C++, Python, Data Structures, React",4,8,75.2,72.1,Placed,12.8
+MECH20241371,MECH,7.51,3,0,Machine Learning,1,8,81.4,74.9,Not Placed,
+CIVIL20211372,CIVIL,6.44,1,1,"JavaScript, SQL",2,6,64.2,80.3,Not Placed,
+CSE20221373,CSE,6.17,1,0,"Java, Machine Learning, Communication, Python, AWS",5,4,70.7,78.1,Placed,8.7
+CIVIL20231374,CIVIL,7.51,0,3,"Android, SQL, Communication",3,5,76.3,68.2,Placed,11.8
+EEE20241375,EEE,7.98,0,2,"React, Machine Learning, Data Structures",3,5,87.9,71.6,Placed,13.4
+EEE20211376,EEE,7.24,0,0,"Excel, AWS, Data Structures, Machine Learning",4,7,87.7,64.1,Placed,8.9
+ECE20221377,ECE,6.93,0,0,Flask,1,8,71.2,84.3,Placed,10.6
+MECH20231378,MECH,7.38,0,3,"Excel, Communication",2,5,77.7,69.9,Placed,13.1
+CSE20241379,CSE,7.26,2,1,"AWS, Android, C++",3,3,81.1,65.6,Not Placed,
+IT20211380,IT,6.9,0,2,"JavaScript, Excel, SQL, AWS",4,7,87.3,71.5,Placed,12.9
+IT20221381,IT,6.67,0,0,"Django, JavaScript, Machine Learning",3,5,61.1,86.6,Placed,12.9
+ECE20231382,ECE,7.15,1,0,"Flask, Django, Excel, Machine Learning, Python",5,6,81.2,76.6,Placed,12
+MECH20241383,MECH,8.56,0,0,"JavaScript, AWS, Flask",3,5,75.2,89.9,Placed,9.5
+IT20211384,IT,7.39,2,1,"Django, Java, SQL, Data Structures",4,8,86.9,79.6,Placed,13.4
+EEE20221385,EEE,6.82,0,0,"C++, AWS, Excel",3,5,68.6,61.4,Placed,11.1
+CSE20231386,CSE,6.04,0,1,"Python, Django, React, Communication",4,6,76,59.6,Placed,10.5
+CSE20241387,CSE,7.57,1,0,"Java, JavaScript, AWS",3,6,77.6,85.1,Not Placed,
+ECE20211388,ECE,7.43,0,1,React,1,7,74.1,94.9,Placed,10.3
+CIVIL20221389,CIVIL,7.27,1,1,Data Structures,1,3,72,94,Placed,10.6
+IT20231390,IT,5.3,0,2,"Android, C++, JavaScript",3,6,68.2,85.4,Not Placed,
+EEE20241391,EEE,8.34,1,0,"React, Communication, JavaScript",3,5,83.9,71,Placed,12.1
+CIVIL20211392,CIVIL,7.16,0,1,"Data Structures, Django, Android, JavaScript, SQL",5,7,65.2,63,Placed,11.4
+ECE20221393,ECE,6.57,0,0,Flask,1,4,77.6,72.6,Placed,12.1
+CSE20231394,CSE,6.84,0,0,"Data Structures, JavaScript, Flask, Excel, Python",5,4,65.4,66.9,Placed,11.7
+CSE20241395,CSE,5.72,0,2,Java,1,8,68.4,72.3,Placed,10.2
+CSE20211396,CSE,4.92,0,0,"SQL, Java, Flask, Communication, Machine Learning",5,7,88.8,75.8,Placed,12.8
+CIVIL20221397,CIVIL,8.11,0,1,"AWS, Excel, Django",3,3,87.5,79.6,Placed,12
+MECH20231398,MECH,7.47,0,0,"Machine Learning, Flask, Python",3,6,73.4,57.6,Placed,10.4
+ECE20241399,ECE,6.4,0,3,"AWS, Django",2,6,87.3,82.6,Placed,12.2
+MECH20211400,MECH,7.81,0,1,"Python, Communication",2,8,77.3,71.3,Placed,7.4
+ECE20221401,ECE,6.86,0,0,"Excel, Python, React",3,6,85.6,75.8,Placed,13
+CSE20231402,CSE,5.99,2,0,SQL,1,6,84.2,87.7,Not Placed,
+CIVIL20241403,CIVIL,6.5,0,0,"Flask, React, JavaScript, Data Structures",4,8,67.7,62.7,Not Placed,
+IT20211404,IT,6.62,1,1,"C++, Python",2,5,76.4,85.6,Not Placed,
+EEE20221405,EEE,6.09,0,1,"Python, React, Excel, JavaScript",4,8,91.9,84.7,Placed,11.4
+ECE20231406,ECE,6.37,0,1,"JavaScript, Communication",2,7,79.3,70.7,Placed,10.2
+IT20241407,IT,7.56,0,1,"Machine Learning, Communication",2,6,84.2,74.5,Placed,11.7
+CSE20211408,CSE,7.76,2,1,"Excel, Python, Flask",3,5,83,85.5,Placed,11.2
+CIVIL20221409,CIVIL,7.28,0,1,"Python, Machine Learning, AWS, Android",4,5,66.8,95.8,Placed,14.5
+CSE20231410,CSE,6.64,1,0,"SQL, Communication, Excel, AWS",4,6,65.8,82.1,Placed,11
+EEE20241411,EEE,8.49,0,1,Android,1,7,71.7,76.1,Placed,11.8
+IT20211412,IT,6.98,0,0,"Android, SQL, Java",3,5,73.8,66.4,Placed,10.3
+MECH20221413,MECH,6.81,0,3,"Java, JavaScript",2,7,70.8,76.7,Not Placed,
+EEE20231414,EEE,6.36,0,2,"Excel, Android",2,9,77.6,95,Placed,9.6
+EEE20241415,EEE,8.36,0,1,SQL,1,7,76.3,72.2,Placed,12.9
+EEE20211416,EEE,7.12,0,0,"Python, Android",2,5,68.6,81.1,Not Placed,
+ECE20221417,ECE,8.84,2,3,"Flask, AWS, Communication, React",4,5,73.8,68.4,Placed,12.8
+ECE20231418,ECE,7.26,0,2,Communication,1,8,78,78,Placed,10.6
+CIVIL20241419,CIVIL,9.14,0,2,"AWS, Excel, Django",3,7,77,79.7,Placed,12.9
+ECE20211420,ECE,6.91,0,2,"SQL, Flask, Communication, JavaScript",4,6,73.7,71.7,Placed,10.2
+MECH20221421,MECH,5.97,0,2,"Data Structures, Machine Learning",2,6,75.2,84.6,Placed,7.4
+EEE20231422,EEE,6.91,0,1,Flask,1,6,76,66.3,Not Placed,
+MECH20241423,MECH,8.08,0,3,"JavaScript, Django",2,5,85.6,80.3,Placed,11.8
+EEE20211424,EEE,8.29,0,0,"Python, SQL",2,5,87.3,81.5,Placed,13.2
+IT20221425,IT,7.96,0,1,"JavaScript, SQL, Android, React, Python",5,8,91.3,86.4,Placed,14.4
+MECH20231426,MECH,7.1,2,1,Data Structures,1,7,89.3,84.8,Not Placed,
+ECE20241427,ECE,8.08,0,2,Excel,1,6,89.9,75.8,Placed,11.5
+MECH20211428,MECH,5.31,1,2,"React, Excel, JavaScript, Communication",4,6,74.9,84.3,Not Placed,
+CIVIL20221429,CIVIL,8.01,0,0,"Django, Android, Communication, Data Structures",4,7,75.7,74.7,Placed,13.1
+EEE20231430,EEE,5.67,0,3,"AWS, Android, Communication, Data Structures, Excel",5,5,76.3,77.4,Placed,10.8
+CIVIL20241431,CIVIL,7.45,0,0,"React, AWS, C++, Python",4,6,74.6,73,Placed,11.8
+IT20211432,IT,6.96,0,0,"SQL, Java",2,7,80,78.6,Placed,11.9
+MECH20221433,MECH,5.77,2,2,"JavaScript, Excel",2,5,88.6,81.9,Placed,10
+ECE20231434,ECE,7.37,0,2,"Java, C++, Communication, AWS",4,4,88.9,70.3,Placed,10.2
+MECH20241435,MECH,5.08,0,1,"JavaScript, Django",2,6,68.9,82.8,Not Placed,
+EEE20211436,EEE,7.93,0,0,"Excel, Django",2,4,79.5,88.5,Placed,11.8
+CSE20221437,CSE,8.06,0,0,"Android, AWS, Java",3,6,89,75,Placed,11.7
+CIVIL20231438,CIVIL,7.32,0,0,"C++, SQL",2,5,84,99,Placed,9.7
+CIVIL20241439,CIVIL,7.82,0,2,"Communication, JavaScript, Java",3,3,86.4,86.2,Placed,13.1
+IT20211440,IT,7.3,1,0,"Flask, Java, Python, SQL",4,5,88.1,85.4,Not Placed,
+MECH20221441,MECH,8.29,0,0,"Data Structures, Python",2,9,72.5,65.7,Placed,11.3
+CIVIL20231442,CIVIL,5.84,0,2,"Communication, C++",2,9,73.1,65.7,Placed,12.4
+ECE20241443,ECE,5.46,0,2,"Python, JavaScript",2,4,87.6,79.8,Not Placed,
+CIVIL20211444,CIVIL,7.22,3,0,"Excel, Android",2,5,77.5,71.4,Placed,9.7
+MECH20221445,MECH,8.32,1,1,"JavaScript, C++, Data Structures, Java, SQL",5,7,75.8,77,Placed,10
+IT20231446,IT,8.32,0,0,Data Structures,1,7,84.1,76.9,Placed,12.2
+ECE20241447,ECE,8.31,0,0,AWS,1,5,85.7,77.2,Not Placed,
+IT20211448,IT,7.46,3,1,"JavaScript, Data Structures",2,5,79.9,80.4,Not Placed,
+ECE20221449,ECE,7.96,2,0,"SQL, Java, Python, Communication, Excel",5,6,81.5,68.7,Placed,11.4
+ECE20231450,ECE,6.52,0,1,"Communication, Flask, Data Structures, JavaScript, Java",5,3,67.7,74.3,Not Placed,
+IT20241451,IT,7.74,0,2,Django,1,6,61.5,82.4,Placed,12.1
+MECH20211452,MECH,6.44,0,0,"Machine Learning, SQL",2,6,85.9,76.2,Placed,10.6
+EEE20221453,EEE,7.93,1,2,Machine Learning,1,6,82.6,67.3,Placed,12.5
+ECE20231454,ECE,6.42,0,1,"Data Structures, Excel, AWS",3,6,76.1,76.4,Not Placed,
+IT20241455,IT,7.7,3,0,"Android, SQL",2,8,82.1,68.5,Not Placed,
+CIVIL20211456,CIVIL,8.52,1,1,"Django, Excel",2,6,74.6,78.8,Placed,8.9
+MECH20221457,MECH,7.42,0,0,"Django, Excel, Communication",3,5,76.9,83.4,Not Placed,
+EEE20231458,EEE,5.98,0,0,"Data Structures, Excel, C++, Flask, Communication",5,5,75.6,72.1,Placed,10.9
+MECH20241459,MECH,6.44,0,1,Python,1,5,81.4,62.5,Placed,8.5
+CIVIL20211460,CIVIL,6.64,0,1,"C++, JavaScript, Java, Android, Data Structures",5,5,76.9,84.3,Placed,13.5
+CIVIL20221461,CIVIL,8.12,0,2,"SQL, AWS, Data Structures, Django",4,8,80.3,70.5,Placed,13.6
+MECH20231462,MECH,7.01,0,0,"Communication, Data Structures, Python, Machine Learning",4,9,74.3,78.2,Placed,8.5
+CIVIL20241463,CIVIL,5.11,1,2,"Machine Learning, C++, JavaScript, React",4,8,73.9,69.2,Placed,11.3
+IT20211464,IT,8.09,2,2,"Java, C++",2,5,85.6,90.3,Placed,10.5
+CIVIL20221465,CIVIL,7.09,0,2,"Flask, React",2,7,79.6,76.6,Placed,10.8
+CSE20231466,CSE,7.15,1,3,"Data Structures, Communication",2,5,85.7,64.5,Placed,12.5
+ECE20241467,ECE,6.24,0,0,"Android, Excel",2,8,89.1,87.6,Placed,8.8
+IT20211468,IT,8.12,0,2,SQL,1,7,87.9,64.4,Placed,9.5
+ECE20221469,ECE,6.77,0,1,"Python, AWS, Flask, C++",4,6,74.8,66.6,Placed,10.4
+MECH20231470,MECH,8.45,1,0,"Android, C++",2,7,61.3,63.8,Placed,10
+ECE20241471,ECE,6.8,1,2,"Django, Excel, Python, Data Structures",4,5,70.3,75.6,Placed,9.4
+CSE20211472,CSE,6.91,0,2,C++,1,4,89.2,76.5,Not Placed,
+CSE20221473,CSE,6.66,0,1,"Machine Learning, React, Django, Communication",4,8,83.3,75.8,Placed,10.2
+IT20231474,IT,6.81,0,0,"Machine Learning, SQL",2,7,79.6,53.2,Not Placed,
+MECH20241475,MECH,7.58,0,2,"Java, Excel, JavaScript, C++, AWS",5,7,70.3,70.6,Placed,15.7
+MECH20211476,MECH,7.81,2,2,"Python, Communication, JavaScript",3,8,69,77.4,Placed,11.1
+CIVIL20221477,CIVIL,9.02,1,3,"SQL, Python, React, AWS",4,6,79.5,77.3,Placed,11.4
+CSE20231478,CSE,5.59,0,0,"Python, Flask",2,5,80.4,73.6,Placed,8.5
+MECH20241479,MECH,6.85,0,1,"Android, Flask, SQL",3,4,86.8,79.6,Placed,10.1
+CIVIL20211480,CIVIL,7.6,3,0,"Machine Learning, AWS, Flask, Java",4,6,70.2,69.9,Not Placed,
+CIVIL20221481,CIVIL,8.49,0,1,"SQL, React",2,7,76.5,72.8,Placed,9
+ECE20231482,ECE,8.87,0,1,"Python, Android, Django, SQL, C++",5,6,78.8,77.5,Placed,10.9
+IT20241483,IT,7.68,1,2,"Python, AWS, Machine Learning, JavaScript, SQL",5,6,80.3,77.6,Not Placed,
+ECE20211484,ECE,8.39,3,1,"Excel, JavaScript",2,8,73.9,66.9,Placed,10.8
+EEE20221485,EEE,7.37,1,0,"React, Data Structures, SQL",3,7,73.6,80.6,Placed,13.5
+CIVIL20231486,CIVIL,6.18,2,1,"Android, JavaScript, Data Structures, Java",4,4,81.5,78.2,Not Placed,
+CIVIL20241487,CIVIL,6.82,2,3,"React, Python",2,6,90.4,89.3,Not Placed,
+CIVIL20211488,CIVIL,6.01,0,0,"JavaScript, Excel",2,7,71.9,73.6,Placed,7.8
+EEE20221489,EEE,5.84,1,0,"Flask, Java, Python",3,6,78.4,66.6,Not Placed,
+CIVIL20231490,CIVIL,6.83,1,1,"Excel, AWS, JavaScript",3,7,86,97.9,Placed,11.2
+CIVIL20241491,CIVIL,6.12,0,2,"C++, Machine Learning, Django",3,5,78.4,75,Not Placed,
+EEE20211492,EEE,7.42,0,1,"Communication, C++, Python, SQL",4,6,77,85.2,Placed,13.5
+MECH20221493,MECH,7.33,0,0,"JavaScript, Android, Excel, Data Structures",4,6,67.1,80.3,Not Placed,
+IT20231494,IT,6.76,0,2,"Django, React, JavaScript, Flask",4,3,69.1,74.6,Placed,11
+EEE20241495,EEE,6.81,0,2,"Flask, C++",2,6,79.4,78.9,Placed,10.3
+MECH20211496,MECH,7.45,0,2,"JavaScript, React",2,5,81.5,77.5,Placed,12.2
+IT20221497,IT,6.68,0,1,"Machine Learning, Communication",2,7,85.9,82.7,Not Placed,
+EEE20231498,EEE,7.49,0,0,"Flask, Communication",2,8,91.9,65.6,Placed,11.7
+IT20241499,IT,8.05,0,1,"Machine Learning, Flask, Java, Python",4,5,82.8,94.9,Placed,10.2
+MECH20211500,MECH,7.05,0,2,"Data Structures, Excel, Android, React, Communication",5,7,72.1,71.7,Placed,8.5
+MECH20221501,MECH,6.29,0,1,"Data Structures, Communication",2,6,73.1,64.3,Not Placed,
+MECH20231502,MECH,5.79,0,1,Communication,1,7,74.7,66.9,Placed,11.9
+IT20241503,IT,7.82,0,2,React,1,6,80.3,79.8,Placed,11.2
+EEE20211504,EEE,6.93,0,1,Django,1,6,79.8,80.9,Placed,9.8
+EEE20221505,EEE,6.85,0,1,"JavaScript, React, Excel, Android, Django",5,8,81.4,65.3,Not Placed,
+CSE20231506,CSE,5.42,0,1,"AWS, Communication, Python, SQL, Django",5,6,81.1,85.8,Placed,12.1
+CSE20241507,CSE,6.64,0,0,"Django, JavaScript",2,6,79.7,79.9,Placed,7.8
+EEE20211508,EEE,7.4,1,1,SQL,1,5,61.1,86.5,Not Placed,
+IT20221509,IT,7.86,1,2,"AWS, Java, Python, JavaScript, React",5,6,63.8,70.9,Placed,10.8
+CSE20231510,CSE,6.24,0,0,"Django, Machine Learning",2,5,86.5,73.9,Placed,9.4
+CSE20241511,CSE,6.15,1,1,"Excel, Android, Java, SQL, Communication",5,6,90.6,73.7,Placed,9.2
+EEE20211512,EEE,9.43,0,3,"Android, SQL, Python, Machine Learning",4,4,85.6,63.7,Placed,11.2
+CIVIL20221513,CIVIL,6.94,2,2,"React, JavaScript",2,3,90.5,79.4,Not Placed,
+CSE20231514,CSE,5.75,0,0,"Communication, Python, Excel, Java",4,8,75.1,54.4,Not Placed,
+EEE20241515,EEE,7.05,0,3,"Data Structures, React",2,5,99,80.7,Placed,10
+CSE20211516,CSE,8.8,0,1,"Android, Java, Excel, Python",4,4,83.9,87.7,Placed,11.2
+ECE20221517,ECE,7.45,0,0,"Flask, Machine Learning, Django, React, Android",5,7,84.7,83.7,Placed,11.2
+CSE20231518,CSE,8.03,3,0,"Python, JavaScript",2,5,81.4,88.5,Not Placed,
+EEE20241519,EEE,7.44,1,2,Java,1,5,82.1,62.8,Not Placed,
+CIVIL20211520,CIVIL,8.06,1,1,"Flask, AWS",2,7,74.3,89.1,Not Placed,
+MECH20221521,MECH,7.14,0,2,"Machine Learning, Excel",2,6,78.1,87.9,Placed,12.7
+EEE20231522,EEE,8.31,0,1,Java,1,4,63.7,87.3,Placed,13.1
+IT20241523,IT,7.39,0,2,"Machine Learning, Django, Excel, SQL",4,4,83.8,82,Not Placed,
+IT20211524,IT,7.87,1,0,"Django, Excel, JavaScript",3,8,76.5,85.4,Placed,11.8
+EEE20221525,EEE,5.13,2,0,"Excel, Java",2,6,72.2,64.9,Not Placed,
+IT20231526,IT,6.88,1,0,Java,1,5,71.4,80.9,Not Placed,
+ECE20241527,ECE,5.46,0,3,"Django, Communication, Java, Flask",4,4,74.4,65.5,Placed,13.4
+MECH20211528,MECH,7.16,0,1,Data Structures,1,5,83.7,82.3,Placed,11.1
+MECH20221529,MECH,7.5,0,1,"React, AWS, Communication, JavaScript, Python",5,5,62.8,81.7,Placed,11.7
+MECH20231530,MECH,6.24,0,1,Java,1,5,78.7,87.4,Placed,11.3
+CIVIL20241531,CIVIL,8.87,0,1,React,1,6,81.2,77,Not Placed,
+CSE20211532,CSE,6.65,0,1,"Java, React, SQL, Data Structures",4,7,72.8,76.6,Placed,15
+ECE20221533,ECE,6.79,2,1,"Data Structures, AWS, Python",3,5,82.1,57.7,Placed,14.3
+IT20231534,IT,7.41,1,2,"Data Structures, C++, SQL, React, Flask",5,2,74.2,74.2,Placed,11.5
+EEE20241535,EEE,7.93,0,1,"SQL, JavaScript, Django, Machine Learning, Excel",5,7,75.9,64.8,Placed,12.7
+CIVIL20211536,CIVIL,6.09,1,1,"Data Structures, Java, C++, AWS, Communication",5,4,83.8,82.7,Not Placed,
+EEE20221537,EEE,6.34,1,2,SQL,1,7,66.6,65.6,Placed,10.5
+EEE20231538,EEE,6.93,0,1,"Excel, Android, Django, Flask, C++",5,6,80.9,68.8,Not Placed,
+ECE20241539,ECE,7.11,0,1,"Machine Learning, Communication, SQL, React, Flask",5,9,94.7,67.9,Placed,12.7
+IT20211540,IT,6.85,0,1,"AWS, React",2,5,83.5,94,Placed,10.1
+CSE20221541,CSE,6.65,0,1,"C++, Machine Learning",2,4,86.2,64.6,Placed,10
+IT20231542,IT,6.35,2,1,"Data Structures, C++, Machine Learning",3,7,82.9,74.6,Placed,13.9
+CSE20241543,CSE,6.81,2,0,"Java, Data Structures, Machine Learning",3,5,74.7,56.9,Not Placed,
+IT20211544,IT,7.4,0,2,"Android, Java, React, Django",4,6,97.7,77.1,Placed,10.8
+CSE20221545,CSE,6.87,1,2,"JavaScript, Python",2,6,61.9,79.8,Not Placed,
+ECE20231546,ECE,6.91,1,3,"JavaScript, SQL, AWS, Flask",4,8,72.2,67.7,Placed,8.8
+CSE20241547,CSE,6.86,0,1,"JavaScript, Flask",2,7,85.7,56.8,Placed,9.2
+MECH20211548,MECH,6.96,1,0,"SQL, Android",2,8,73.9,74.1,Not Placed,
+EEE20221549,EEE,6.27,0,0,Flask,1,6,81.1,84.4,Not Placed,
+EEE20231550,EEE,6.27,2,3,"Machine Learning, Android, Excel",3,5,77.2,84.7,Placed,8.9
+CSE20241551,CSE,7.39,0,1,"React, Data Structures, Flask, JavaScript, Communication",5,6,82.2,75.9,Placed,9.6
+CSE20211552,CSE,8.08,0,1,"Django, C++, Java",3,7,76.9,70.6,Placed,11.7
+EEE20221553,EEE,7.95,1,1,"Machine Learning, Flask, Data Structures, Communication, Python",5,4,76.1,82.7,Placed,11
+CIVIL20231554,CIVIL,7.29,0,3,"Machine Learning, Android, JavaScript, Communication",4,6,77.3,69.4,Placed,12.4
+ECE20241555,ECE,5.8,0,2,"SQL, Python, Communication, Django",4,7,78.4,61.1,Placed,8.7
+IT20211556,IT,6.56,0,0,"Android, Django, Machine Learning",3,5,90.8,61.9,Placed,10.3
+CIVIL20221557,CIVIL,7.01,1,2,"Django, Java",2,5,94.5,75.1,Placed,11.3
+MECH20231558,MECH,6.93,0,0,"JavaScript, AWS, Excel",3,7,80.2,81.6,Not Placed,
+MECH20241559,MECH,5.96,0,1,Flask,1,8,70.4,81.7,Placed,10
+IT20211560,IT,6.01,0,3,Machine Learning,1,6,78,75.3,Placed,11.5
+MECH20221561,MECH,6.62,0,1,"Communication, Django, React, AWS",4,8,78.9,74.1,Placed,10.3
+IT20231562,IT,6.51,2,0,"JavaScript, SQL, Excel",3,6,64.6,57.9,Not Placed,
+MECH20241563,MECH,6.3,0,1,"SQL, Android",2,7,69.8,71.1,Not Placed,
+ECE20211564,ECE,8.41,1,2,"C++, React, Java, Django",4,6,84.6,66.4,Placed,11.2
+CIVIL20221565,CIVIL,6.92,0,1,"React, Java, Django",3,7,74.2,74.4,Not Placed,
+CIVIL20231566,CIVIL,6.15,0,2,"React, Machine Learning, AWS, Java, Communication",5,3,78.9,77.7,Placed,12.8
+IT20241567,IT,6.12,0,1,"Excel, C++, Django, Flask",4,8,88.9,72.2,Placed,11.2
+ECE20211568,ECE,5.88,0,2,"Django, JavaScript",2,6,57.3,67.2,Placed,7.9
+EEE20221569,EEE,6.99,3,1,"Communication, Java, Android, Django",4,5,73.6,95.6,Placed,10.8
+EEE20231570,EEE,7.84,2,1,"JavaScript, C++, Communication",3,8,88.7,65.1,Placed,12.1
+IT20241571,IT,8.8,0,2,React,1,4,90.5,99,Placed,14.3
+CIVIL20211572,CIVIL,8.75,0,3,"Android, Excel, Python, SQL, AWS",5,8,70.2,71.8,Placed,14.5
+MECH20221573,MECH,7.14,2,1,"AWS, Machine Learning, JavaScript, Android",4,3,70.1,92.2,Placed,12.5
+CSE20231574,CSE,7.38,0,1,"C++, Java, Python",3,4,90.5,61.4,Placed,11.7
+CSE20241575,CSE,8.44,1,0,"Flask, SQL",2,8,87.2,77.5,Not Placed,
+CIVIL20211576,CIVIL,7.81,0,0,Java,1,6,85,74.9,Placed,11.8
+EEE20221577,EEE,7.75,1,0,"Flask, Communication",2,9,88.7,71.5,Placed,13.6
+CIVIL20231578,CIVIL,7.11,0,0,"Java, AWS, Machine Learning, React, Excel",5,7,73.9,61.5,Not Placed,
+IT20241579,IT,7.43,3,1,"Excel, Communication, SQL, AWS",4,8,77.1,63.2,Not Placed,
+IT20211580,IT,7.54,0,1,"Excel, Java, Android",3,6,76.9,71.9,Not Placed,
+ECE20221581,ECE,8.28,1,1,Python,1,7,85,71.1,Not Placed,
+CSE20231582,CSE,5.85,0,2,"Communication, Java, SQL, Django, Android",5,4,68.6,83.5,Placed,11.8
+EEE20241583,EEE,7.39,0,0,"SQL, Java, Data Structures, JavaScript",4,7,74.7,81.7,Placed,13.3
+CSE20211584,CSE,6.94,0,0,"Data Structures, Java",2,5,73.8,73.1,Not Placed,
+CIVIL20221585,CIVIL,6.99,1,0,"SQL, Flask, Java",3,6,74.9,66.3,Placed,9.8
+CSE20231586,CSE,6.72,0,3,"JavaScript, Django, AWS",3,5,67.9,89.9,Placed,12.1
+CIVIL20241587,CIVIL,6.07,0,0,Excel,1,5,82.3,65.9,Placed,12
+IT20211588,IT,7.67,0,3,"AWS, SQL",2,6,82.6,71.4,Not Placed,
+ECE20221589,ECE,6.09,0,3,React,1,5,73.2,78.9,Placed,5.1
+CSE20231590,CSE,8.48,0,0,"Data Structures, Java, React, C++, JavaScript",5,5,72.1,89.5,Placed,12.2
+MECH20241591,MECH,5.68,3,1,"Java, Android, AWS, C++, Data Structures",5,5,76,84.8,Not Placed,
+ECE20211592,ECE,5.43,0,2,"AWS, C++",2,8,84.4,67.8,Placed,10.5
+CSE20221593,CSE,8.2,0,0,"Python, Android, Flask",3,7,72.3,84.8,Placed,11.9
+ECE20231594,ECE,6.43,0,2,"Android, C++, React",3,8,75.4,82,Placed,12.4
+CIVIL20241595,CIVIL,7.11,0,0,"Data Structures, Excel, Android, JavaScript",4,6,82.9,69.7,Placed,13
+MECH20211596,MECH,6.01,0,2,"Communication, Flask, Excel, Machine Learning",4,6,79,76.9,Placed,6.5
+CSE20221597,CSE,7.27,1,3,"Python, Communication, React, Machine Learning, Android",5,7,68.6,77.2,Placed,14.4
+CSE20231598,CSE,8.23,0,1,Java,1,5,74.8,67.4,Placed,10.9
+MECH20241599,MECH,7.3,0,2,"C++, Flask, Django, SQL, Data Structures",5,6,78.9,73.2,Placed,12.6
+EEE20211600,EEE,7.77,0,0,React,1,5,81.6,80,Placed,11.8
+ECE20221601,ECE,7.47,0,2,"Django, Communication, Excel, JavaScript, AWS",5,7,77.9,81.4,Placed,10.4
+CSE20231602,CSE,6.74,0,2,Machine Learning,1,5,58.4,68.5,Placed,12.2
+CSE20241603,CSE,7.18,0,1,Machine Learning,1,5,68,73.1,Placed,13.8
+IT20211604,IT,7.88,1,2,"Django, Python, Communication, SQL, AWS",5,8,79.3,99,Placed,13.1
+MECH20221605,MECH,6.92,0,1,"Flask, Excel",2,7,70.5,74.8,Placed,9.3
+EEE20231606,EEE,6.29,0,2,"Python, SQL, Java",3,3,78.3,67.3,Placed,10.3
+CSE20241607,CSE,7.38,0,0,Flask,1,4,72,82.9,Placed,9.7
+MECH20211608,MECH,6.25,3,0,"C++, Communication",2,6,68.4,49.9,Not Placed,
+CIVIL20221609,CIVIL,8.16,2,2,"SQL, Communication",2,6,82,77.3,Not Placed,
+CIVIL20231610,CIVIL,7.86,0,1,"Machine Learning, C++",2,6,85.7,75.2,Not Placed,
+EEE20241611,EEE,7.93,0,0,"Django, Communication, Excel, Data Structures",4,6,61.4,75.5,Placed,11
+EEE20211612,EEE,6.17,0,0,Data Structures,1,5,77.9,80.5,Not Placed,
+CIVIL20221613,CIVIL,8.87,0,2,"React, C++, Flask, Python",4,7,80.5,85.5,Placed,14.6
+CSE20231614,CSE,6.93,0,0,"React, Machine Learning, Django, C++",4,8,82.3,81.1,Placed,12.7
+ECE20241615,ECE,7.88,0,0,"React, C++, Excel, Python",4,6,71.5,94.6,Placed,10.1
+ECE20211616,ECE,7.36,0,0,"AWS, Android",2,7,78.3,79.7,Placed,13.4
+MECH20221617,MECH,6.47,0,2,"Flask, Django, Java, Excel",4,5,78,79.6,Placed,11.8
+IT20231618,IT,6.61,2,0,"Java, Android, Communication, Data Structures, AWS",5,5,65.8,79.7,Not Placed,
+EEE20241619,EEE,7.86,1,0,Java,1,6,75.7,78.4,Placed,9
+IT20211620,IT,6.18,1,1,"Android, Data Structures",2,7,78.1,59.2,Not Placed,
+CIVIL20221621,CIVIL,6.05,3,0,"C++, Flask",2,4,76.7,87.4,Not Placed,
+CIVIL20231622,CIVIL,4.9,2,2,C++,1,7,79.9,64.7,Not Placed,
+CIVIL20241623,CIVIL,8.24,0,2,"React, SQL, Machine Learning, AWS",4,9,76.4,83.2,Placed,13.6
+EEE20211624,EEE,7.45,0,3,C++,1,5,87.7,76.6,Not Placed,
+EEE20221625,EEE,6.68,0,0,Android,1,4,80.2,73.8,Not Placed,
+CSE20231626,CSE,7.35,1,1,"Django, C++",2,4,88.4,86.4,Placed,11.5
+ECE20241627,ECE,6.83,0,1,"JavaScript, Django, Data Structures",3,4,82,83.3,Not Placed,
+CIVIL20211628,CIVIL,4.8,0,2,"Data Structures, Flask, Python, JavaScript, Excel",5,7,64.1,68.1,Not Placed,
+EEE20221629,EEE,7.37,1,3,"Django, Java",2,5,72.4,80.6,Placed,13.3
+IT20231630,IT,7.33,3,1,"Flask, SQL, Communication",3,6,89.9,73.5,Not Placed,
+ECE20241631,ECE,7.23,0,2,"Android, Flask, Excel",3,8,85,65.2,Placed,9.9
+MECH20211632,MECH,8.92,0,1,"Android, React, SQL",3,4,96.5,77.4,Not Placed,
+ECE20221633,ECE,7.87,1,0,"Java, Excel, C++",3,7,85.5,79.8,Placed,11.2
+MECH20231634,MECH,6.38,3,0,Django,1,6,88.7,76.7,Not Placed,
+IT20241635,IT,6.9,0,1,"React, Communication, Excel, Machine Learning, Django",5,5,68.9,78.6,Placed,12.6
+CSE20211636,CSE,6.91,0,1,"Django, Python",2,5,82.3,70.1,Placed,10
+EEE20221637,EEE,7.45,0,3,Python,1,7,64.9,71.9,Placed,9.9
+MECH20231638,MECH,6.49,0,0,"C++, Flask, Android",3,4,92.9,70.6,Placed,9.8
+CSE20241639,CSE,6.16,0,2,"C++, Machine Learning, Python, Android, Flask",5,5,72.5,65.9,Placed,11.2
+ECE20211640,ECE,7.31,0,0,Python,1,8,70.4,74.2,Not Placed,
+IT20221641,IT,6.58,1,1,"Machine Learning, Android, Django",3,6,91,81.3,Placed,11.8
+MECH20231642,MECH,7.26,0,0,"Android, SQL",2,5,79,67.3,Placed,8
+CSE20241643,CSE,8.28,0,2,"Android, SQL",2,9,75.7,79.4,Placed,13.3
+ECE20211644,ECE,8.02,1,0,Android,1,8,85.3,72.8,Not Placed,
+IT20221645,IT,6.82,0,2,"Communication, Data Structures, Python",3,5,76.9,78.7,Placed,12.5
+CSE20231646,CSE,8.57,0,3,"AWS, Excel, Data Structures",3,9,92.2,77.3,Placed,14.7
+IT20241647,IT,6.96,0,2,"Data Structures, AWS, Communication",3,8,86.1,65.2,Placed,11.9
+ECE20211648,ECE,8.16,0,1,"Excel, Java, AWS",3,4,81.5,74,Placed,13.9
+IT20221649,IT,9.21,1,1,"Java, Django",2,7,88.3,64.6,Placed,11.3
+CSE20231650,CSE,8.48,0,0,"Communication, C++, Flask, JavaScript",4,4,77.1,87.7,Placed,11.5
+MECH20241651,MECH,8.45,0,2,"AWS, Python, Django, SQL, Android",5,8,73.2,59,Placed,12.7
+EEE20211652,EEE,6.74,2,1,"Excel, AWS",2,8,73,77.5,Placed,8
+IT20221653,IT,7.08,0,0,Python,1,6,83.1,77.9,Not Placed,
+CIVIL20231654,CIVIL,8.28,0,2,SQL,1,8,70.1,81.5,Not Placed,
+IT20241655,IT,8.65,0,1,"Java, Excel, SQL, Python",4,6,71,79.7,Placed,11
+ECE20211656,ECE,6.7,0,2,JavaScript,1,7,87.4,83.3,Placed,8.7
+CSE20221657,CSE,5.78,0,1,"Django, Excel, React, Flask",4,5,77,65.7,Placed,8.8
+EEE20231658,EEE,9.11,1,1,"Python, AWS",2,7,76.4,70.3,Placed,11.2
+EEE20241659,EEE,5.66,0,2,"React, JavaScript, Android",3,5,83.9,88.2,Placed,11.6
+CSE20211660,CSE,6.98,0,0,"Python, Excel, Communication, Machine Learning",4,5,80.2,83.2,Placed,10.2
+IT20221661,IT,7.51,0,0,"React, SQL",2,6,76.8,64.6,Not Placed,
+ECE20231662,ECE,6.96,0,1,"JavaScript, C++, Communication, Data Structures",4,6,82.7,84.2,Not Placed,
+CIVIL20241663,CIVIL,7.69,3,0,AWS,1,4,74.7,88.4,Not Placed,
+CSE20211664,CSE,5.99,0,2,Django,1,7,82.9,72.5,Not Placed,
+EEE20221665,EEE,6.31,0,0,"Machine Learning, Flask, Excel, AWS",4,6,78,75,Not Placed,
+CSE20231666,CSE,7.75,0,2,"SQL, Data Structures, JavaScript, C++",4,3,94.2,83.7,Placed,10.4
+ECE20241667,ECE,6.76,0,2,"Machine Learning, C++, Excel",3,2,88.5,84.8,Placed,9.7
+CIVIL20211668,CIVIL,8.2,2,1,Python,1,6,73.9,71.3,Not Placed,
+CSE20221669,CSE,8.7,0,1,Django,1,8,77.9,70.2,Placed,10
+CIVIL20231670,CIVIL,6.19,0,0,"Flask, AWS, Data Structures, Communication",4,4,82.1,86.4,Not Placed,
+IT20241671,IT,6.8,3,2,"Flask, Data Structures, C++, Java",4,6,73.5,61.4,Not Placed,
+CIVIL20211672,CIVIL,8.55,0,2,"Data Structures, SQL, React, Machine Learning, Flask",5,8,66.8,71.4,Placed,12.9
+ECE20221673,ECE,5.73,0,0,"Communication, Java, React, Data Structures, JavaScript",5,6,68.8,82.5,Not Placed,
+EEE20231674,EEE,7.17,0,0,"Communication, Excel",2,5,72.9,78.5,Not Placed,
+CIVIL20241675,CIVIL,7.32,0,3,Java,1,4,72.8,58,Not Placed,
+EEE20211676,EEE,7.36,1,2,"C++, Data Structures, Django",3,4,81.5,73.1,Placed,10.6
+CSE20221677,CSE,6.65,0,0,Data Structures,1,6,71.6,76.6,Placed,9.4
+CIVIL20231678,CIVIL,8.13,1,0,SQL,1,5,83.2,72.2,Not Placed,
+CIVIL20241679,CIVIL,7.8,0,1,"Android, Java, Python, SQL",4,7,89,71.9,Not Placed,
+ECE20211680,ECE,7.17,0,0,"Python, JavaScript",2,4,64.2,76.4,Placed,8
+MECH20221681,MECH,5.56,3,0,"Data Structures, C++, SQL, AWS",4,6,74.8,82.2,Not Placed,
+CSE20231682,CSE,6.57,0,1,Django,1,7,86.6,69.6,Placed,10.6
+EEE20241683,EEE,7.64,1,1,"AWS, Python, Android, Flask, Django",5,7,74.6,81.3,Not Placed,
+ECE20211684,ECE,8.21,2,0,"JavaScript, AWS, Data Structures, React",4,6,87,67.2,Placed,9.8
+CSE20221685,CSE,6.58,0,0,"Data Structures, Flask, Java, AWS",4,7,86.2,83.2,Not Placed,
+EEE20231686,EEE,6.39,0,0,"Java, Flask, Communication, Excel",4,8,82.6,75.5,Not Placed,
+MECH20241687,MECH,6.93,0,0,"React, Django, Data Structures, Flask, C++",5,5,62.7,77.5,Placed,10.9
+CIVIL20211688,CIVIL,7.65,2,2,C++,1,5,72,65.5,Not Placed,
+IT20221689,IT,7.31,0,2,"SQL, React, Python, Django, Java",5,6,70.5,65.1,Not Placed,
+CIVIL20231690,CIVIL,7.19,2,1,C++,1,6,70.6,64.2,Not Placed,
+MECH20241691,MECH,6.34,2,2,"React, Excel, JavaScript, Java",4,7,73,66.7,Not Placed,
+CIVIL20211692,CIVIL,7.25,2,3,"JavaScript, Machine Learning, Java, AWS, Communication",5,9,85.1,71.7,Placed,11.1
+EEE20221693,EEE,7.72,1,0,SQL,1,5,79.4,68.6,Not Placed,
+CIVIL20231694,CIVIL,8.97,0,2,"Java, React",2,5,86.5,75.3,Placed,14.2
+MECH20241695,MECH,7.26,0,1,"Flask, SQL, AWS",3,6,69.8,69.8,Not Placed,
+EEE20211696,EEE,8.08,0,1,"Android, React, JavaScript",3,6,78.5,91.7,Placed,10.9
+CIVIL20221697,CIVIL,6.43,0,2,"JavaScript, Communication, React, SQL, Java",5,3,74.4,77.8,Placed,13
+CIVIL20231698,CIVIL,8.13,0,0,"Python, Excel, Flask",3,8,84.6,82.4,Placed,11.1
+MECH20241699,MECH,7.91,0,3,"Python, AWS, Communication",3,5,75.9,69.8,Placed,11.3
+CSE20211700,CSE,8,1,2,"Java, JavaScript, SQL",3,5,81,77.5,Placed,11.1
+CSE20221701,CSE,7.12,0,0,Java,1,6,79.7,60.8,Not Placed,
+CIVIL20231702,CIVIL,6.57,2,1,SQL,1,8,80.8,84.5,Placed,9.5
+IT20241703,IT,8.34,0,1,"AWS, Data Structures, Communication, JavaScript",4,6,77.2,87.7,Placed,14.1
+IT20211704,IT,7.99,0,1,"Java, Android, Flask, JavaScript, Python",5,7,72.3,66.8,Placed,13.3
+CSE20221705,CSE,9.31,1,0,React,1,7,72.6,80.5,Placed,10.5
+EEE20231706,EEE,7.2,0,2,Data Structures,1,7,86.3,70.2,Placed,11.4
+EEE20241707,EEE,8.24,0,1,"AWS, Flask, Python, Communication, Android",5,7,77.4,86.4,Placed,10.1
+IT20211708,IT,8.19,0,1,"React, AWS, SQL",3,6,71,60.6,Placed,10
+CIVIL20221709,CIVIL,7.99,0,0,"Java, Django, Excel, SQL, Android",5,8,90,58.8,Placed,10
+CIVIL20231710,CIVIL,8.53,0,2,"Flask, Java, React, Android",4,7,72.9,78.8,Not Placed,
+CSE20241711,CSE,9.6,0,3,"C++, JavaScript, Python",3,5,72.5,69,Placed,12.3
+IT20211712,IT,8.83,1,1,"Django, Communication",2,7,85.4,76.7,Placed,9.5
+ECE20221713,ECE,7.88,0,1,"Flask, Django, AWS, Machine Learning",4,9,70.3,73,Placed,11.5
+IT20231714,IT,7.48,2,0,Django,1,6,78.5,78,Placed,8.5
+ECE20241715,ECE,7.25,0,3,"Django, Excel, Data Structures",3,5,81.2,63.9,Placed,11
+ECE20211716,ECE,6.93,0,1,"Communication, JavaScript, Machine Learning, Excel",4,4,79.7,77.4,Placed,12.7
+MECH20221717,MECH,6.82,0,1,"SQL, Data Structures",2,9,74.2,92.2,Placed,11.2
+CIVIL20231718,CIVIL,6.47,0,2,"JavaScript, Excel",2,4,68.5,65.1,Placed,11.7
+ECE20241719,ECE,7.97,0,1,"AWS, Android",2,8,64.4,80,Not Placed,
+EEE20211720,EEE,8.23,2,0,"Machine Learning, C++, AWS, Data Structures",4,5,71.1,68.5,Placed,12.2
+MECH20221721,MECH,6.8,0,1,"JavaScript, Python, Excel, SQL",4,7,85.9,71.1,Placed,10.5
+IT20231722,IT,7.33,0,3,"Flask, AWS, Java",3,9,82.2,99,Placed,11
+IT20241723,IT,9.08,0,1,"Django, Android, Flask, AWS, Data Structures",5,8,68.3,77.1,Placed,11.8
+CSE20211724,CSE,8.23,0,1,"Python, Django",2,7,70.6,72.6,Not Placed,
+CSE20221725,CSE,7.7,0,2,"AWS, Communication, Excel",3,6,79.4,77.3,Placed,12.2
+CSE20231726,CSE,6.8,2,0,"Excel, React, Python, Flask, AWS",5,6,84.1,88.5,Placed,10.3
+CSE20241727,CSE,7.41,0,0,"SQL, Machine Learning, AWS, Communication",4,5,53.3,90.9,Not Placed,
+CSE20211728,CSE,7.19,0,0,"AWS, Machine Learning",2,5,86.9,74.5,Placed,11.9
+CIVIL20221729,CIVIL,7.07,0,0,"JavaScript, Android, Excel, Data Structures",4,10,91.9,69.5,Placed,12.9
+EEE20231730,EEE,6.65,0,1,"Flask, C++",2,7,63.6,82.1,Not Placed,
+CIVIL20241731,CIVIL,7.42,0,0,AWS,1,9,81.4,66.8,Placed,11.1
+EEE20211732,EEE,6.68,0,0,"Django, Android, SQL, Java",4,9,82.7,68,Placed,9
+CIVIL20221733,CIVIL,7.6,0,2,"Flask, Communication, Data Structures, Python, Excel",5,4,79.2,83.9,Placed,12.7
+CIVIL20231734,CIVIL,6.56,0,1,C++,1,5,75.9,82.6,Placed,9.5
+MECH20241735,MECH,7.17,0,2,Communication,1,6,85.9,72.5,Placed,12.9
+CSE20211736,CSE,7.6,3,0,"Java, Communication, JavaScript, AWS",4,4,79.3,72.1,Not Placed,
+IT20221737,IT,7.09,0,1,"Java, Flask, C++, React",4,6,72.8,73.6,Not Placed,
+EEE20231738,EEE,5.7,0,0,"Python, SQL, C++, Data Structures",4,6,55.2,58,Not Placed,
+MECH20241739,MECH,5.83,0,3,"React, Machine Learning",2,7,79.1,65.2,Placed,13.6
+CSE20211740,CSE,6.74,0,1,"C++, Machine Learning",2,4,85.9,77.7,Placed,10.7
+IT20221741,IT,6.76,0,2,"Java, Data Structures",2,6,59.4,73,Placed,11
+ECE20231742,ECE,6.29,0,0,"Python, React, Android",3,8,72.1,64.4,Placed,10.9
+ECE20241743,ECE,8.39,3,0,AWS,1,6,83.3,66.8,Not Placed,
+MECH20211744,MECH,7.73,0,0,"React, Java",2,6,76,73.1,Not Placed,
+EEE20221745,EEE,8.19,0,1,"C++, Python",2,8,70.9,76,Placed,14.6
+MECH20231746,MECH,6.6,0,0,"Django, JavaScript, Data Structures, React, Communication",5,6,84.9,66.4,Not Placed,
+IT20241747,IT,7.2,0,1,Android,1,7,82.7,79.6,Placed,11.6
+MECH20211748,MECH,7.12,1,2,"Flask, Java, C++, Excel, Android",5,6,78.4,83.2,Not Placed,
+CIVIL20221749,CIVIL,7.87,0,2,Machine Learning,1,4,70.8,70.4,Placed,10.7
+IT20231750,IT,7.38,1,1,"AWS, Communication, Flask",3,3,71.1,91.5,Placed,12.4
+CSE20241751,CSE,7.4,0,1,"Flask, Machine Learning, Java, Android, Data Structures",5,9,67.4,68.6,Placed,9.8
+CIVIL20211752,CIVIL,8.06,0,3,Excel,1,8,70.6,84.6,Placed,12.2
+IT20221753,IT,6.95,1,1,"React, JavaScript, Excel",3,6,73.9,74.9,Placed,9.5
+MECH20231754,MECH,7.3,3,2,"Flask, Java, Communication",3,7,74.6,85.6,Not Placed,
+CSE20241755,CSE,7.38,0,3,"SQL, Python",2,6,77.4,83.9,Placed,11.2
+CSE20211756,CSE,7.19,0,0,"Android, Data Structures, SQL",3,5,79.5,76.3,Not Placed,
+CSE20221757,CSE,7.28,0,0,"React, SQL, AWS, Data Structures",4,7,83.1,90.2,Placed,15.1
+MECH20231758,MECH,7.85,0,2,"Data Structures, Machine Learning",2,5,88.2,94,Not Placed,
+CIVIL20241759,CIVIL,7.51,0,0,"Django, Flask, C++, JavaScript, Android",5,8,72.9,80.4,Placed,13.1
+IT20211760,IT,8.35,0,0,"React, SQL, Django, JavaScript, Android",5,5,87.2,68.8,Not Placed,
+IT20221761,IT,8.41,0,3,"Django, Python, Data Structures, Excel, Communication",5,7,75.8,71.5,Placed,13.9
+CIVIL20231762,CIVIL,8.33,0,0,"JavaScript, Machine Learning, Flask, Excel, SQL",5,5,80.1,70.4,Placed,11.7
+ECE20241763,ECE,6.94,0,0,"Flask, Communication, Android, C++, Machine Learning",5,4,75.3,70.5,Placed,10.7
+MECH20211764,MECH,7.78,0,1,Flask,1,5,86.8,73.8,Not Placed,
+ECE20221765,ECE,9.11,0,0,Python,1,7,82.5,75.9,Placed,11
+IT20231766,IT,7.29,3,0,"AWS, Excel, Java, Communication",4,7,75.3,94.9,Placed,12.4
+CSE20241767,CSE,8.7,0,0,"Flask, Communication, Java, C++",4,10,80.8,75.1,Placed,13.7
+IT20211768,IT,7.16,0,0,Android,1,4,81.5,66.8,Not Placed,
+IT20221769,IT,8.17,3,0,"Python, React, C++, Excel",4,9,79.7,77.3,Placed,13.5
+ECE20231770,ECE,8.68,0,3,"JavaScript, C++, Django, AWS",4,4,74.8,85.3,Placed,12.8
+IT20241771,IT,7.3,0,1,Flask,1,5,79,64.6,Placed,11.7
+MECH20211772,MECH,7.77,0,1,"SQL, Machine Learning, Django, Java, Communication",5,7,80.9,68.2,Placed,12.6
+EEE20221773,EEE,6.72,1,1,"Android, AWS",2,5,81.2,89,Placed,11
+ECE20231774,ECE,7.25,0,2,AWS,1,6,74.9,75.4,Not Placed,
+IT20241775,IT,8.14,1,1,Flask,1,2,81.5,73.7,Placed,11.7
+IT20211776,IT,7.11,0,1,"JavaScript, Communication, Flask, SQL, Java",5,7,77.5,78.6,Not Placed,
+CSE20221777,CSE,4.88,0,2,"AWS, Django, C++",3,5,80.5,90.4,Not Placed,
+IT20231778,IT,6.39,0,0,"JavaScript, C++, Data Structures, Machine Learning, React",5,5,72.4,79.6,Placed,10.8
+ECE20241779,ECE,5.51,0,1,"Flask, SQL, Data Structures, React",4,6,74.8,71.7,Placed,12.4
+ECE20211780,ECE,8.37,2,1,"Communication, AWS, JavaScript, Python, C++",5,5,91,84.4,Placed,14.7
+MECH20221781,MECH,6.82,0,1,"Flask, Data Structures",2,6,89.8,71.4,Placed,12.2
+ECE20231782,ECE,7.52,0,1,"Java, Flask, C++, Machine Learning, Communication",5,8,71.8,83.4,Not Placed,
+IT20241783,IT,7,0,0,"Machine Learning, Android, C++, Python, Communication",5,5,80.8,66.8,Not Placed,
+ECE20211784,ECE,6.27,0,2,"Django, Flask, Data Structures, Java",4,7,93.4,83.8,Placed,13
+EEE20221785,EEE,7.05,0,2,"Python, Flask, Data Structures, JavaScript, SQL",5,7,76.9,82.9,Placed,11.1
+EEE20231786,EEE,7.25,0,0,Excel,1,4,79.8,78.8,Placed,9.8
+MECH20241787,MECH,7.67,0,1,"React, Python, JavaScript",3,8,63.2,73.2,Placed,10.8
+ECE20211788,ECE,6.9,0,1,"Python, Django, JavaScript",3,4,75.2,79.3,Not Placed,
+EEE20221789,EEE,7.43,0,1,"Django, Flask, Excel, Data Structures",4,9,78.6,71.5,Placed,8.8
+EEE20231790,EEE,6.69,0,3,"SQL, Django, Python, AWS",4,7,71.6,58.8,Placed,12.3
+ECE20241791,ECE,6.09,0,1,"JavaScript, Python, Django, React",4,5,71.1,88.8,Placed,12.4
+MECH20211792,MECH,7.74,0,0,React,1,7,83.5,69.1,Placed,10
+IT20221793,IT,7.43,2,0,"Android, Data Structures, C++",3,7,56.9,75.1,Not Placed,
+ECE20231794,ECE,6.19,0,2,"C++, JavaScript, Java, SQL",4,6,75.9,75.3,Not Placed,
+CIVIL20241795,CIVIL,9.84,1,0,"Python, Django, Communication, Excel, Android",5,4,75.1,77.6,Placed,12.2
+ECE20211796,ECE,6.86,0,2,"SQL, Machine Learning, Data Structures, Python",4,6,83.3,58.7,Not Placed,
+EEE20221797,EEE,7.3,0,0,Python,1,5,68.2,64.2,Not Placed,
+CIVIL20231798,CIVIL,8.63,1,1,"Flask, C++, Excel",3,4,65.3,77,Placed,14
+IT20241799,IT,8.23,0,3,Excel,1,8,57.5,73.6,Placed,10.5
+MECH20211800,MECH,5.78,0,0,AWS,1,5,87.1,61.5,Placed,9.2
+IT20221801,IT,8.45,0,1,"React, Django, Machine Learning",3,6,92.1,97.5,Placed,11.3
+MECH20231802,MECH,7.24,0,1,"Excel, SQL",2,2,73.2,84.7,Not Placed,
+IT20241803,IT,6.31,0,1,"Python, C++, Data Structures, Java",4,6,85.6,86.3,Placed,10.5
+EEE20211804,EEE,6.87,1,0,"Excel, Communication, Data Structures",3,5,81.4,89.4,Placed,10.1
+CIVIL20221805,CIVIL,5.39,0,2,"AWS, Flask",2,9,83.5,75.9,Placed,10.5
+ECE20231806,ECE,8.52,0,1,"AWS, Python, Flask, Machine Learning",4,9,75.1,63.2,Placed,11.2
+IT20241807,IT,7.36,0,1,"Android, AWS, Flask, Data Structures",4,6,70.4,75.8,Placed,12
+CIVIL20211808,CIVIL,6.47,0,0,"Python, AWS, Communication, Java",4,6,88.5,79.2,Not Placed,
+CSE20221809,CSE,7.63,0,1,"Machine Learning, JavaScript",2,4,92.6,63.7,Placed,8.2
+IT20231810,IT,6.98,0,1,"React, Python",2,6,89.7,87.7,Placed,11.9
+CSE20241811,CSE,7.07,1,0,"Machine Learning, AWS, JavaScript, Django",4,5,70.8,65.5,Placed,12.7
+ECE20211812,ECE,7.3,0,1,"Data Structures, Machine Learning, React, Python, Flask",5,5,71.7,85.5,Placed,9.7
+IT20221813,IT,6.26,0,0,Machine Learning,1,7,65.1,71.8,Placed,11.7
+ECE20231814,ECE,8.01,0,0,"Data Structures, Machine Learning, Java",3,8,80.1,87.3,Placed,9.5
+IT20241815,IT,7.15,0,1,"Data Structures, React, Flask, Python, Django",5,4,71.6,65.4,Placed,12.5
+ECE20211816,ECE,7.19,0,0,"Android, Django, Data Structures",3,5,78.2,65,Placed,11.2
+CIVIL20221817,CIVIL,6.87,1,1,"Flask, Communication",2,3,70.1,72.9,Not Placed,
+ECE20231818,ECE,6.58,0,0,SQL,1,6,86.5,74.4,Placed,13.6
+CSE20241819,CSE,8.83,0,1,"AWS, React, Communication",3,6,78.6,64.4,Placed,9.2
+MECH20211820,MECH,6.57,1,0,"Communication, Android, C++",3,9,85.9,76,Placed,12.2
+MECH20221821,MECH,9.14,0,1,"Python, C++, Communication",3,1,79.3,69.6,Placed,11.9
+CIVIL20231822,CIVIL,6.55,3,1,C++,1,6,57.9,62.8,Placed,7.6
+CSE20241823,CSE,6.24,2,0,"AWS, Java, Android, React, Python",5,7,69.1,69,Not Placed,
+EEE20211824,EEE,7.18,0,0,"JavaScript, Python, Android",3,6,76.3,71.5,Not Placed,
+CSE20221825,CSE,5.6,0,1,"Data Structures, Android",2,5,81.4,72.7,Not Placed,
+ECE20231826,ECE,6.76,1,0,"Python, JavaScript, AWS, React, Java",5,5,76.1,78.6,Not Placed,
+CSE20241827,CSE,7.43,0,0,"React, SQL, JavaScript",3,4,73.8,77,Placed,8.7
+MECH20211828,MECH,7.69,0,0,SQL,1,6,85.9,76.3,Placed,8.5
+CIVIL20221829,CIVIL,7.1,0,1,"Communication, JavaScript, Django, Data Structures",4,7,79.2,81.1,Placed,10.6
+EEE20231830,EEE,8.16,0,0,"SQL, Python, Java, AWS",4,6,91.9,79.7,Placed,10.7
+IT20241831,IT,6.18,0,3,"React, AWS, Data Structures, Flask",4,7,74.5,71.1,Not Placed,
+CSE20211832,CSE,7.42,0,3,"Java, Python",2,6,78.6,62.1,Placed,9
+CIVIL20221833,CIVIL,7.02,0,2,"JavaScript, React",2,4,70.7,71.1,Placed,9.2
+IT20231834,IT,5.96,0,0,"SQL, Excel, Django",3,5,80.3,66.2,Not Placed,
+CIVIL20241835,CIVIL,6.47,0,1,"Machine Learning, Django, SQL, Python, React",5,7,82.1,77,Not Placed,
+EEE20211836,EEE,7.09,0,2,"Django, Data Structures, React, Machine Learning",4,7,77.9,83.7,Placed,10.7
+ECE20221837,ECE,7.81,0,2,"JavaScript, Java, Django",3,8,79.4,69,Placed,12.9
+ECE20231838,ECE,7.5,0,0,"Python, Java, Android, React, Flask",5,8,67.1,68.1,Placed,6.9
+MECH20241839,MECH,8.73,0,1,JavaScript,1,4,78.1,68.5,Not Placed,
+MECH20211840,MECH,8.01,0,1,"Communication, Machine Learning, SQL, Java, AWS",5,7,82.3,76.6,Placed,11.7
+MECH20221841,MECH,6.37,0,1,Excel,1,8,81.2,65.2,Placed,10
+MECH20231842,MECH,7.19,0,1,"Machine Learning, AWS, Python, C++",4,7,76.3,79,Placed,8.5
+CIVIL20241843,CIVIL,6.78,0,0,"Python, SQL, React, JavaScript",4,4,74.3,76.2,Placed,8.7
+IT20211844,IT,5.98,0,1,"Java, Android, Python",3,4,72.4,71.9,Placed,10.4
+EEE20221845,EEE,5.53,3,1,"Python, JavaScript, Android",3,3,77.3,93.3,Not Placed,
+CIVIL20231846,CIVIL,6.57,1,1,"Android, React",2,8,75,80.5,Not Placed,
+EEE20241847,EEE,9.09,2,2,"Android, Flask, AWS, Machine Learning, C++",5,5,75.5,63.4,Placed,9.6
+MECH20211848,MECH,8.57,0,0,"Flask, C++, Excel",3,7,72.9,75.3,Not Placed,
+CSE20221849,CSE,7.2,0,1,"Data Structures, Excel, Communication, Flask, Django",5,5,72.5,74.8,Not Placed,
+CSE20231850,CSE,7.67,0,0,"Django, Machine Learning, JavaScript",3,1,77.6,67.3,Placed,13.8
+IT20241851,IT,8.52,0,0,"JavaScript, Android, Excel, SQL, Java",5,8,79.5,86,Placed,13.3
+EEE20211852,EEE,6.76,1,1,"Communication, React, Excel, Python, Flask",5,6,92.3,90.7,Placed,10.5
+CIVIL20221853,CIVIL,6.53,0,1,"Python, Django",2,6,85.1,82.8,Not Placed,
+CSE20231854,CSE,5.28,0,1,"Flask, React, JavaScript",3,4,81.6,78,Placed,10.5
+CSE20241855,CSE,6.12,0,1,"Excel, React",2,9,78.7,70.1,Placed,11.8
+CIVIL20211856,CIVIL,8.2,2,1,"Django, C++, JavaScript",3,5,96.7,65.8,Not Placed,
+MECH20221857,MECH,5.22,3,0,"Django, AWS, Java",3,5,80.5,73.7,Not Placed,
+EEE20231858,EEE,7.71,0,2,"Communication, Python, Django",3,7,74.7,69.4,Placed,12.1
+ECE20241859,ECE,6.69,0,3,"Django, Machine Learning, Android, SQL",4,4,84.3,62,Placed,13.7
+CIVIL20211860,CIVIL,7.76,1,0,Flask,1,5,80.6,76,Not Placed,
+IT20221861,IT,6.61,0,2,"Communication, Django, JavaScript",3,5,75.7,66.6,Not Placed,
+MECH20231862,MECH,7.08,0,0,"Django, SQL, Python, Communication, Flask",5,6,72.8,74.7,Placed,11.3
+CIVIL20241863,CIVIL,6.76,0,3,"Data Structures, Python, C++",3,7,70.7,76.5,Not Placed,
+CSE20211864,CSE,6.77,1,0,"React, Excel, Java, C++",4,7,70.8,68.8,Placed,12.3
+CSE20221865,CSE,6.12,0,2,"Excel, AWS, C++",3,4,67.6,81.2,Not Placed,
+CSE20231866,CSE,6.97,0,2,"Communication, Java",2,3,89.5,76.7,Placed,9.8
+EEE20241867,EEE,8.34,1,0,"C++, Machine Learning, Communication, Data Structures, React",5,5,71.3,89.1,Placed,12.5
+MECH20211868,MECH,6.77,0,0,"Java, Excel, Machine Learning",3,5,90.4,71.6,Placed,11.4
+EEE20221869,EEE,6.94,0,2,"Machine Learning, Android, Data Structures",3,8,89.5,70.7,Placed,10.5
+MECH20231870,MECH,7.39,0,1,SQL,1,8,86.2,77.4,Not Placed,
+IT20241871,IT,5.39,0,1,React,1,6,67.6,70.7,Placed,9.6
+MECH20211872,MECH,8.59,0,0,"Excel, React, Flask, Machine Learning",4,4,99,64.9,Placed,11.1
+IT20221873,IT,8.43,3,1,AWS,1,3,80.4,80.5,Placed,10.7
+CIVIL20231874,CIVIL,7.31,1,1,"AWS, Python",2,7,86.5,79.3,Placed,8.1
+EEE20241875,EEE,7.21,2,1,"Flask, Data Structures",2,4,77.9,86.3,Not Placed,
+ECE20211876,ECE,8.13,1,0,"JavaScript, Excel, Flask, C++",4,5,97.2,74.8,Placed,11.5
+MECH20221877,MECH,7.47,1,0,"Django, SQL, Flask, Java",4,5,76.9,86.4,Not Placed,
+CIVIL20231878,CIVIL,6,0,1,"Android, Communication, Excel, JavaScript, C++",5,4,76.6,76.3,Placed,9.4
+CSE20241879,CSE,7.31,0,0,"Django, Python, Java, Flask",4,6,64.4,76.7,Placed,10.1
+IT20211880,IT,6.02,3,2,"Python, Django",2,6,87.5,62.1,Placed,10.4
+EEE20221881,EEE,7.37,0,2,"Machine Learning, JavaScript",2,4,83.9,74.4,Placed,10.7
+MECH20231882,MECH,6.7,1,0,"JavaScript, C++",2,6,75,90.8,Not Placed,
+MECH20241883,MECH,8.06,1,2,"Java, React, Flask, Data Structures",4,4,95.4,78.6,Placed,11.7
+MECH20211884,MECH,6.1,1,3,"Machine Learning, C++, SQL, Django, Android",5,8,62.5,85.5,Placed,12
+EEE20221885,EEE,7.05,2,2,"Java, Machine Learning, Django, Excel, AWS",5,4,78.6,80.4,Placed,11.7
+CSE20231886,CSE,6.55,0,1,"C++, Python, Communication",3,8,75.2,65.1,Not Placed,
+MECH20241887,MECH,5.52,0,2,"Excel, React, Machine Learning, Java",4,5,76.7,61.3,Placed,11.7
+EEE20211888,EEE,7.37,1,1,"Machine Learning, Excel, AWS, Android, SQL",5,6,74.4,79.8,Placed,12.1
+ECE20221889,ECE,7.04,0,1,"Java, SQL, Data Structures",3,7,78.1,68.8,Placed,10.6
+IT20231890,IT,8.41,0,1,"Android, Java, Django, C++",4,5,65.8,80.6,Placed,13.9
+CSE20241891,CSE,8.19,1,1,"Java, C++, JavaScript, Android, Machine Learning",5,3,72.2,74.5,Not Placed,
+CSE20211892,CSE,7.9,2,3,"React, Python, C++",3,6,76.2,64.9,Placed,10.4
+MECH20221893,MECH,8.04,0,0,"Java, SQL, Flask",3,5,84.7,66.1,Placed,9.9
+IT20231894,IT,7.06,0,2,"Data Structures, C++",2,8,95.7,84.3,Placed,12.5
+IT20241895,IT,7.6,0,1,"AWS, Android, Machine Learning, C++",4,4,74.5,89.1,Placed,11.3
+CIVIL20211896,CIVIL,7.9,0,3,"Communication, Java",2,2,79.8,88.6,Not Placed,
+CIVIL20221897,CIVIL,4.94,0,2,Excel,1,6,79.4,70.2,Not Placed,
+IT20231898,IT,5.9,0,0,React,1,7,79,65.9,Not Placed,
+MECH20241899,MECH,6.4,0,0,"Flask, Excel, React, C++, Django",5,4,84.3,90.1,Placed,11.6
+ECE20211900,ECE,6.39,0,1,"SQL, C++, React, Java, Django",5,8,83.4,64.7,Placed,9.4
+ECE20221901,ECE,9.57,0,0,"AWS, Django, C++, Communication, Data Structures",5,7,85.1,78.5,Placed,13.4
+CSE20231902,CSE,4.93,0,0,"C++, JavaScript, Communication, Java",4,5,76.7,67.1,Not Placed,
+ECE20241903,ECE,8.98,0,2,React,1,7,78.6,71.1,Placed,12.6
+CSE20211904,CSE,6.67,0,3,"Communication, React",2,6,78.5,73,Not Placed,
+ECE20221905,ECE,4.62,0,2,Data Structures,1,9,71.4,75.4,Not Placed,
+ECE20231906,ECE,7.67,1,2,"React, Flask, Java",3,10,87.9,87.5,Placed,12.4
+CSE20241907,CSE,6.27,0,3,"SQL, Android, Java, React, JavaScript",5,6,88.9,89.9,Not Placed,
+CSE20211908,CSE,7.35,0,0,"AWS, Machine Learning, Python, React",4,8,80.1,59,Placed,12.9
+MECH20221909,MECH,7.07,0,2,"Python, Django, Data Structures, Machine Learning",4,7,80,65.3,Placed,11.1
+CIVIL20231910,CIVIL,8.06,0,3,"C++, Django, Python, JavaScript, React",5,6,93.7,64.3,Placed,10.9
+MECH20241911,MECH,8.67,2,1,"Android, Python, React, Flask",4,6,71.3,87.4,Placed,14.1
+EEE20211912,EEE,7.63,0,2,JavaScript,1,5,84.3,83.8,Placed,13.1
+IT20221913,IT,7.22,1,0,"Data Structures, AWS, Django",3,6,77.5,76.2,Placed,12
+CIVIL20231914,CIVIL,6.59,0,3,Django,1,5,84.4,71.9,Not Placed,
+MECH20241915,MECH,8.31,3,0,"Android, Machine Learning, Flask, Excel, AWS",5,5,85.9,56.3,Placed,12.9
+CIVIL20211916,CIVIL,6.69,0,1,"Machine Learning, Python",2,7,99,76.3,Placed,8.6
+IT20221917,IT,6.77,0,1,"Java, Python, Django, AWS",4,6,74.6,65.6,Not Placed,
+ECE20231918,ECE,7.61,3,2,"Flask, Data Structures, Communication",3,5,86.8,65.8,Placed,11.3
+MECH20241919,MECH,6.85,0,1,Django,1,7,76.6,69,Placed,10.7
+ECE20211920,ECE,7.88,1,2,"C++, Django, Flask, Android, Java",5,6,78.9,89.4,Placed,12.6
+MECH20221921,MECH,6.61,0,3,Android,1,5,65.7,83,Placed,10.5
+IT20231922,IT,7.5,1,2,"Django, Data Structures, Communication, Excel",4,7,65.6,76,Placed,11.8
+CIVIL20241923,CIVIL,7.38,1,0,"Data Structures, Flask, Machine Learning",3,5,74.1,77,Placed,11
+EEE20211924,EEE,6.35,0,0,Data Structures,1,8,84.2,79.8,Not Placed,
+EEE20221925,EEE,7.4,1,2,Machine Learning,1,5,69.4,76.3,Placed,10
+EEE20231926,EEE,7.97,0,0,"Communication, Data Structures, Flask, Django, C++",5,3,90,59.6,Not Placed,
+EEE20241927,EEE,7.59,0,2,Machine Learning,1,5,71.3,64.6,Not Placed,
+EEE20211928,EEE,8.57,0,0,Excel,1,7,69.2,89.6,Placed,8.7
+MECH20221929,MECH,7.25,0,0,"AWS, Communication, Android, JavaScript",4,6,67.8,67.3,Placed,12.6
+IT20231930,IT,7.43,0,1,"Java, SQL, JavaScript",3,8,69,73.1,Not Placed,
+MECH20241931,MECH,6.21,1,1,"React, Java",2,9,82.2,88.6,Not Placed,
+CSE20211932,CSE,9.18,1,0,"JavaScript, Python, Data Structures",3,5,86.1,82.8,Placed,11.1
+MECH20221933,MECH,6.46,0,0,"AWS, Machine Learning, Excel",3,6,77.1,59.2,Placed,12.3
+EEE20231934,EEE,6.88,1,0,Android,1,5,74.5,61.5,Not Placed,
+ECE20241935,ECE,7.44,0,1,"Django, SQL, Flask",3,6,69,80.2,Placed,7.3
+IT20211936,IT,7.36,0,3,"Flask, Java, Python, SQL",4,4,74.1,66.3,Not Placed,
+CIVIL20221937,CIVIL,7.48,0,0,"Django, Java, Machine Learning, Flask, C++",5,7,81.5,68.2,Placed,13
+CSE20231938,CSE,6.56,0,1,"AWS, Communication",2,5,79.3,67.1,Not Placed,
+EEE20241939,EEE,6.24,0,3,"React, Excel, Machine Learning",3,4,77.6,59.7,Placed,9.7
+EEE20211940,EEE,5.59,3,0,"AWS, Communication, React, Android",4,5,81,76.5,Not Placed,
+IT20221941,IT,8.36,0,0,"Python, Android, Communication, Java, Machine Learning",5,4,87.1,80.2,Placed,15.6
+ECE20231942,ECE,6.31,0,2,"Communication, SQL, Python, C++, Data Structures",5,8,86.3,64.9,Placed,11.4
+CSE20241943,CSE,8.16,0,1,"Python, Excel, Java, Communication",4,6,81.4,57.3,Placed,12.6
+CIVIL20211944,CIVIL,7.56,0,3,Django,1,9,80.7,82.6,Placed,10
+MECH20221945,MECH,8.94,3,1,Machine Learning,1,6,62.2,63.2,Placed,11.4
+ECE20231946,ECE,7.45,0,1,"SQL, Python, AWS, Machine Learning",4,3,73.9,69.9,Placed,13.1
+CSE20241947,CSE,7.01,0,1,"Excel, Django, Data Structures, C++",4,7,82.4,99,Placed,9.8
+EEE20211948,EEE,7.88,3,2,"Communication, Excel, JavaScript",3,6,73.1,80.6,Not Placed,
+MECH20221949,MECH,6.98,3,0,"Android, Python",2,5,66.2,67.1,Not Placed,
+ECE20231950,ECE,5.37,2,3,"Communication, Java",2,7,84.7,71.6,Placed,10.5
+CSE20241951,CSE,9.06,1,0,"Python, AWS",2,4,83,77.6,Placed,12.3
+EEE20211952,EEE,6.56,0,1,"SQL, Excel, C++, Java, Flask",5,9,59.6,63.9,Not Placed,
+CIVIL20221953,CIVIL,6.78,0,2,"Communication, SQL",2,5,57,60.3,Placed,11.2
+ECE20231954,ECE,6.81,1,0,Django,1,5,76.1,68.5,Not Placed,
+EEE20241955,EEE,8.15,2,1,SQL,1,8,78.7,53.5,Not Placed,
+IT20211956,IT,5.8,0,1,"Data Structures, Machine Learning",2,7,88.9,79.3,Not Placed,
+IT20221957,IT,6.93,0,3,Java,1,4,82.2,66.5,Placed,12.1
+MECH20231958,MECH,6.7,0,0,"JavaScript, AWS, Android, SQL, Excel",5,5,73.9,80.6,Placed,10
+EEE20241959,EEE,8.17,0,1,"React, Data Structures, Excel",3,8,82,75.6,Placed,12.2
+CIVIL20211960,CIVIL,8.36,2,2,"SQL, Flask, Android",3,7,92.4,82.2,Placed,16.7
+IT20221961,IT,8.66,3,0,Data Structures,1,7,99,63,Not Placed,
+EEE20231962,EEE,7.73,0,1,"Communication, Python, AWS, Flask",4,7,84.6,77.8,Placed,15.3
+CSE20241963,CSE,5.73,0,0,Machine Learning,1,5,78.3,62.3,Not Placed,
+CSE20211964,CSE,8.11,0,3,AWS,1,7,80.6,77.3,Placed,10.3
+ECE20221965,ECE,8.19,3,0,Python,1,7,87,89.5,Not Placed,
+CSE20231966,CSE,7.72,0,0,"Django, Excel, Java",3,7,84.2,65.3,Placed,9.7
+IT20241967,IT,8.75,0,0,"Machine Learning, Data Structures, Excel, Flask",4,8,73.4,83.2,Placed,11.7
+ECE20211968,ECE,9.25,0,2,"Android, C++, Flask, SQL, React",5,6,86.2,60.4,Placed,11.2
+EEE20221969,EEE,7.52,0,1,"AWS, Python, React, Flask",4,9,66.1,68.1,Placed,11.4
+EEE20231970,EEE,6.95,1,1,"Flask, Android, Machine Learning",3,6,75,79.9,Not Placed,
+IT20241971,IT,6.48,0,0,"C++, Machine Learning, Data Structures, Communication",4,7,94,73.2,Not Placed,
+IT20211972,IT,6.03,3,1,"React, Communication",2,6,73.6,77.3,Not Placed,
+MECH20221973,MECH,8.73,0,0,"Python, Machine Learning, React, Java, AWS",5,6,81.7,76.3,Placed,11.4
+EEE20231974,EEE,6.36,0,1,"JavaScript, React, SQL, AWS",4,7,72.4,73.9,Placed,6.4
+MECH20241975,MECH,6.55,0,0,"C++, SQL, JavaScript, Django, Communication",5,5,75.3,72.4,Placed,12.6
+MECH20211976,MECH,7.05,1,1,"JavaScript, Excel",2,6,79.6,85.9,Not Placed,
+MECH20221977,MECH,9.05,0,1,"Android, Machine Learning, Excel, Python",4,5,90.6,56.7,Placed,11.9
+EEE20231978,EEE,8.17,1,2,"C++, SQL, Java",3,7,74.7,82,Placed,12.6
+IT20241979,IT,7.61,0,2,"Excel, Flask, Android",3,5,77.5,61.7,Placed,8.3
+ECE20211980,ECE,7.56,0,2,"Java, Machine Learning",2,5,77.1,81.3,Placed,11.6
+CSE20221981,CSE,7.73,0,2,Django,1,9,69,59.9,Placed,10.5
+CSE20231982,CSE,7.27,0,1,Java,1,8,69.2,70.9,Placed,11.1
+CSE20241983,CSE,6.86,0,0,"Excel, Python, React",3,4,76.1,70.1,Placed,11.6
+EEE20211984,EEE,7.87,1,3,"Python, React",2,6,74.8,79.7,Placed,10.7
+EEE20221985,EEE,8.9,0,0,Android,1,2,71.4,78,Placed,12.9
+ECE20231986,ECE,8.24,0,0,"Excel, AWS, Communication, Django, React",5,8,83.6,63.2,Placed,11.3
+MECH20241987,MECH,7.94,0,3,"Java, C++, Python, SQL, Data Structures",5,4,83.5,59.2,Placed,15.3
+EEE20211988,EEE,7.3,0,3,"SQL, Communication",2,5,80.3,91.3,Placed,11.5
+CIVIL20221989,CIVIL,6.95,1,2,Machine Learning,1,5,79.1,76.9,Placed,11
+CSE20231990,CSE,8.76,0,0,"Django, AWS, Java, Android",4,8,66.8,84.3,Placed,12.8
+CIVIL20241991,CIVIL,8.08,0,1,"React, Django",2,4,90.7,74.3,Placed,11.7
+MECH20211992,MECH,6.65,0,0,"JavaScript, Machine Learning, Excel, Communication",4,6,86.1,79.2,Placed,12
+ECE20221993,ECE,8.77,0,1,"Communication, Excel, Java",3,7,83.7,70.3,Placed,10.8
+CSE20231994,CSE,5.43,0,0,"React, Flask, Excel",3,5,75.8,85.1,Not Placed,
+CIVIL20241995,CIVIL,8.84,1,1,SQL,1,7,86.7,83.5,Placed,10.4
+CIVIL20211996,CIVIL,8.1,1,0,"Python, C++, Excel",3,7,75.3,87.7,Not Placed,
+IT20221997,IT,8.07,2,0,"Python, Flask, React",3,5,77.5,72.3,Not Placed,
+EEE20231998,EEE,6.8,3,0,Java,1,6,75.6,55.1,Not Placed,
+CIVIL20241999,CIVIL,7.79,0,1,"Excel, SQL",2,7,82.6,72,Placed,9.8

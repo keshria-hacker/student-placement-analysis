@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Companies{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2 class="fw-bold mb-0">Companies</h2>
+  {% if current_user.role in ['admin', 'tpo'] %}
+  <a href="{{ url_for('add_company') }}" class="btn btn-success">+ Add Company</a>
+  {% endif %}
+</div>
+
+<div class="row g-3">
+  {% for c in companies %}
+  <div class="col-md-4">
+    <div class="card shadow-sm h-100">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">{{ c.name }}</h5>
+        <p class="card-text mb-1"><b>Role:</b> {{ c.job_role }}</p>
+        <p class="card-text mb-1"><b>Min CGPA:</b> {{ c.min_cgpa }}</p>
+        <p class="card-text mb-0"><b>Package:</b> {{ c.package_offered }} LPA</p>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <p class="text-muted">No companies added yet.</p>
+  {% endfor %}
+</div>
+{% endblock %}

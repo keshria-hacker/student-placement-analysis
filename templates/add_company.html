@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Add Company{% endblock %}
+{% block content %}
+<h2 class="fw-bold mb-4">Add Company</h2>
+<div class="card shadow-sm">
+  <div class="card-body">
+    <form method="POST">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Company Name</label>
+          <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Job Role</label>
+          <input type="text" name="job_role" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Minimum CGPA Eligibility</label>
+          <input type="number" step="0.1" min="0" max="10" name="min_cgpa" class="form-control" value="6.0">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Package Offered (LPA)</label>
+          <input type="number" step="0.1" min="0" name="package_offered" class="form-control" value="0">
+        </div>
+      </div>
+      <div class="mt-4">
+        <button type="submit" class="btn btn-success">Save Company</button>
+        <a href="{{ url_for('companies') }}" class="btn btn-outline-secondary">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

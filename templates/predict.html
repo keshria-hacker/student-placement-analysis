@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Placement Prediction{% endblock %}
+{% block content %}
+<h2 class="fw-bold mb-4">Placement Prediction — {{ student.name }}</h2>
+
+<div class="row g-4">
+  <div class="col-md-5">
+    <div class="card shadow-sm text-center p-4 {{ 'border-success' if predicted_status == 'Placed' else 'border-secondary' }}">
+      <h6 class="text-muted text-uppercase">Predicted Outcome</h6>
+      <h1 class="fw-bold {{ 'text-success' if predicted_status == 'Placed' else 'text-secondary' }}">
+        {{ predicted_status }}
+      </h1>
+      <div class="progress my-3" style="height: 24px;">
+        <div class="progress-bar {{ 'bg-success' if predicted_status == 'Placed' else 'bg-secondary' }}"
+             role="progressbar" style="width: {{ confidence }}%;">
+          {{ confidence }}% confidence
+        </div>
+      </div>
+      <p class="text-muted mb-0">Model confidence score for this prediction.</p>
+    </div>
+  </div>
+
+  <div class="col-md-7">
+    <div class="card shadow-sm h-100">
+      <div class="card-header fw-bold">Features Used for Prediction</div>
+      <table class="table mb-0">
+        <tbody>
+          <tr><th>CGPA</th><td>{{ feature_row.cgpa }}</td></tr>
+          <tr><th>Backlogs</th><td>{{ feature_row.backlogs }}</td></tr>
+          <tr><th>Internships</th><td>{{ feature_row.internships }}</td></tr>
+          <tr><th>Technical Skills Count</th><td>{{ feature_row.technical_skills_count }}</td></tr>
+          <tr><th>Communication Score</th><td>{{ feature_row.communication_score }} / 10</td></tr>
+          <tr><th>10th (SSC) %</th><td>{{ feature_row.ssc_percentage }}</td></tr>
+          <tr><th>12th (HSC) %</th><td>{{ feature_row.hsc_percentage }}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<a href="{{ url_for('students') }}" class="btn btn-outline-secondary mt-4">&larr; Back to Students</a>
+{% endblock %}

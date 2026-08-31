@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h2 class="fw-bold mb-4">Dashboard</h2>
+
+<div class="row g-3 mb-4">
+  <div class="col-md-3 col-6">
+    <div class="card stat-card text-white bg-primary">
+      <div class="card-body">
+        <div class="stat-value">{{ total_students }}</div>
+        <div class="stat-label">Total Students</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-6">
+    <div class="card stat-card text-white bg-success">
+      <div class="card-body">
+        <div class="stat-value">{{ placed }}</div>
+        <div class="stat-label">Placed</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-6">
+    <div class="card stat-card text-white bg-warning">
+      <div class="card-body">
+        <div class="stat-value">{{ not_placed }}</div>
+        <div class="stat-label">Not Placed</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-6">
+    <div class="card stat-card text-white bg-info">
+      <div class="card-body">
+        <div class="stat-value">{{ total_companies }}</div>
+        <div class="stat-label">Companies</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-6">
+    <div class="card shadow-sm h-100">
+      <div class="card-header fw-bold">Quick Actions</div>
+      <div class="card-body d-flex flex-wrap gap-2">
+        <a href="{{ url_for('students') }}" class="btn btn-outline-primary">View Students</a>
+        {% if current_user.role in ['admin', 'tpo'] %}
+        <a href="{{ url_for('add_student') }}" class="btn btn-outline-success">Add Student</a>
+        <a href="{{ url_for('add_company') }}" class="btn btn-outline-secondary">Add Company</a>
+        <a href="{{ url_for('add_drive') }}" class="btn btn-outline-dark">Schedule Drive</a>
+        {% endif %}
+        <a href="{{ url_for('analytics') }}" class="btn btn-outline-info">View Analytics</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card shadow-sm h-100">
+      <div class="card-header fw-bold">Recent Predictions</div>
+      <div class="card-body p-0">
+        {% if recent_predictions %}
+        <table class="table table-sm mb-0">
+          <thead><tr><th>Student</th><th>Status</th><th>Confidence</th></tr></thead>
+          <tbody>
+            {% for pr in recent_predictions %}
+            <tr>
+              <td>{{ pr.student.name }}</td>
+              <td>
+                <span class="badge {{ 'bg-success' if pr.predicted_status == 'Placed' else 'bg-secondary' }}">
+                  {{ pr.predicted_status }}
+                </span>
+              </td>
+              <td>{{ pr.confidence_score }}%</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <p class="text-muted p-3 mb-0">No predictions generated yet.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

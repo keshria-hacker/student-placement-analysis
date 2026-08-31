@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block title %}Analytics{% endblock %}
+{% block content %}
+<h2 class="fw-bold mb-4">Placement Analytics</h2>
+
+<div class="row g-4">
+  <div class="col-md-6">
+    <div class="card shadow-sm p-3">
+      <h6 class="fw-bold">Department-wise Placement</h6>
+      <canvas id="deptChart" height="220"></canvas>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card shadow-sm p-3">
+      <h6 class="fw-bold">CGPA vs Communication Score</h6>
+      <canvas id="scatterChart" height="220"></canvas>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card shadow-sm p-3">
+      <h6 class="fw-bold">Top Companies by Applications</h6>
+      <canvas id="companyChart" height="220"></canvas>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function loadDeptChart() {
+  const res = await fetch("{{ url_for('api_department_summary') }}");
+  const data = await res.json();
+  new Chart(document.getElementById('deptChart'), {
+    type: 'bar',
+    data: {
+      labels: data.departments,
+      datasets: [
+        { label: 'Placed', data: data.placed, backgroundColor: '#2b8a4e' },
+        { label: 'Not Placed', data: data.not_placed, backgroundColor: '#adb5bd' },
+      ]
+    },
+    options: { responsive: true, scales: { x: { stacked: false }, y: { beginAtZero: true } } }
+  });
+}
+
+async function loadScatterChart() {
+  const res = await fetch("{{ url_for('api_cgpa_vs_placement') }}");
+  const data = await res.json();
+  new Chart(document.getElementById('scatterChart'), {
+    type: 'scatter',
+    data: {
+      datasets: [
+        { label: 'Placed', data: data.placed, backgroundColor: '#2b8a4e' },
+        { label: 'Not Placed', data: data.not_placed, backgroundColor: '#adb5bd' },
+      ]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        x: { title: { display: true, text: 'CGPA' } },
+        y: { title: { display: true, text: 'Communication Score' } },
+      }
+    }
+  });
+}
+
+async function loadCompanyChart() {
+  const res = await fetch("{{ url_for('api_top_companies') }}");
+  const data = await res.json();
+  new Chart(document.getElementById('companyChart'), {
+    type: 'bar',
+    data: {
+      labels: data.companies,
+      datasets: [{ label: 'Applications', data: data.applications, backgroundColor: '#2b5fa8' }]
+    },
+    options: { indexAxis: 'y', responsive: true }
+  });
+}
+
+loadDeptChart();
+loadScatterChart();
+loadCompanyChart();
+</script>
+{% endblock %}

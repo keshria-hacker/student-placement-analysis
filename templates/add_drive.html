@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Schedule Placement Drive{% endblock %}
+{% block content %}
+<h2 class="fw-bold mb-4">Schedule Placement Drive</h2>
+<div class="card shadow-sm">
+  <div class="card-body">
+    <form method="POST">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Company</label>
+          <select name="company_id" class="form-select" required>
+            {% for c in companies %}
+            <option value="{{ c.id }}">{{ c.name }} — {{ c.job_role }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Drive Date</label>
+          <input type="date" name="drive_date" class="form-control" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Eligible Department</label>
+          <input type="text" name="eligible_department" class="form-control" value="All">
+        </div>
+        <div class="col-12">
+          <label class="form-label">Description</label>
+          <textarea name="description" class="form-control" rows="3" placeholder="Eligibility criteria, rounds, notes..."></textarea>
+        </div>
+      </div>
+      <div class="mt-4">
+        <button type="submit" class="btn btn-success">Schedule Drive</button>
+        <a href="{{ url_for('drives') }}" class="btn btn-outline-secondary">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
