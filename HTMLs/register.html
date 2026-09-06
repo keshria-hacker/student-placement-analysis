@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}Register - Student Placement Analytics & Prediction System{% endblock %}
+
+{% block content %}
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <div class="auth-header">
+      <div class="mb-2">
+        <i class="bi bi-person-plus-fill fs-1 text-light"></i>
+      </div>
+      <h3>Create Account</h3>
+      <p class="text-white-50 mb-0">Join the Placement Portal</p>
+    </div>
+    
+    <div class="auth-body">
+      <form method="POST" action="{{ url_for('register') }}">
+        <div class="mb-3">
+          <label for="username" class="form-label">
+            <i class="bi bi-person-fill text-primary me-1"></i> Username
+          </label>
+          <input type="text" class="form-control" id="username" name="username" placeholder="Choose a username" required autofocus>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">
+            <i class="bi bi-envelope-fill text-primary me-1"></i> Email Address
+          </label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="name@college.edu" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="role" class="form-label">
+            <i class="bi bi-shield-check text-primary me-1"></i> Role
+          </label>
+          <select class="form-select" id="role" name="role" required>
+            <option value="Student" selected>Student</option>
+            <option value="TPO">TPO / Faculty</option>
+            <option value="Admin">Administrator</option>
+          </select>
+        </div>
+
+        <div class="mb-4">
+          <label for="password" class="form-label">
+            <i class="bi bi-lock-fill text-primary me-1"></i> Password
+          </label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Create a strong password" required minlength="6">
+        </div>
+
+        <button type="submit" class="btn btn-primary-custom w-100 py-2 fs-6">
+          <i class="bi bi-person-check-fill me-1"></i> Register Account
+        </button>
+      </form>
+
+      <div class="text-center mt-4 small text-muted">
+        Already registered? <a href="{{ url_for('login') }}" class="text-primary fw-semibold">Sign In</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

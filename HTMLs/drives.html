@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+
+{% block title %}Campus Placement Drives - SPAP{% endblock %}
+
+{% block content %}
+<div class="page-header d-flex justify-content-between align-items-center flex-wrap gap-2">
+  <div>
+    <h2><i class="bi bi-building-check text-primary me-2"></i>Campus Placement Drives</h2>
+  </div>
+  {% if current_user.role in ['Admin', 'TPO'] %}
+  <div>
+    <button type="button" class="btn btn-primary-custom btn-sm" data-bs-toggle="modal" data-bs-target="#addDriveModal">
+      <i class="bi bi-plus-circle-fill me-1"></i> Post New Drive
+    </button>
+  </div>
+  {% endif %}
+</div>
+
+<!-- Drive Cards Grid -->
+<div class="row g-4">
+  {% for drive in drives %}
+  <div class="col-md-6 col-lg-4">
+    <div class="app-card h-100 border-top border-4 {% if drive.status == 'Upcoming' %}border-primary{% elif drive.status == 'Ongoing' %}border-success{% else %}border-secondary{% endif %}">
+      <div class="app-card-body d-flex flex-column">
+        <div class="d-flex justify-content-between align-items-start mb-2">
+          <h5 class="fw-bold text-dark mb-0">{{ drive.company_name }}</h5>
+          <span class="badge {% if drive.status == 'Upcoming' %}bg-primary{% elif drive.status == 'Ongoing' %}bg-success{% else %}bg-secondary{% endif %}">
+            {{ drive.status }}
+          </span>
+        </div>
+
+        <div class="text-primary fw-semibold mb-3">
+          <i class="bi bi-briefcase me-1"></i> {{ drive.job_role }}
+        </div>
+
+        <div class="p-3 bg-light rounded-3 mb-3 small flex-grow-1">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="text-muted">CTC Package:</span>
+            <span class="fw-bold text-success">{{ drive.package_offered }} LPA</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span class="text-muted">Min Eligibility:</span>
+            <span class="fw-bold">{{ drive.min_cgpa }}% / CGPA</span>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <span class="text-muted">Branches:</span>
+            <span class="fw-semibold text-truncate ms-2" style="max-width: 140px;">{{ drive.eligible_branches }}</span>
+          </div>
+          <div class="d-flex justify-content-between">
+            <span class="text-muted">Drive Date:</span>
+            <span class="fw-semibold">{{ drive.drive_date.strftime('%d %b %Y') if drive.drive_date else 'To Be Announced' }}</span>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+          <span class="text-muted small"><i class="bi bi-geo-alt"></i> On-Campus / Virtual</span>
+          <button class="btn btn-sm btn-outline-primary" onclick="alert('Drive details & candidate shortlist exported.')">
+            <i class="bi bi-file-earmark-person"></i> Shortlist
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="col-12">
+    <div class="app-card text-center py-5">
+      <i class="bi bi-building-x display-2 text-muted mb-3"></i>
+      <h5>No Placement Drives Posted Yet</h5>
+      <p class="text-muted">Click the "Post New Drive" button above to schedule upcoming company recruitment drives.</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if current_user.role in ['Admin', 'TPO'] %}
+<!-- Add Drive Modal -->
+<div class="modal fade" id="addDriveModal" tabindex="-1" aria-labelledby="addDriveModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title fw-bold" id="addDriveModalLabel">
+          <i class="bi bi-building-plus text-primary me-2"></i> Post New Placement Drive
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <form method="POST" action="{{ url_for('add_drive') }}">
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="company_name" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="company_name" name="company_name" placeholder="e.g. Google, Microsoft, Infosys" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="job_role" class="form-label">Job Designation / Role</label>
+            <input type="text" class="form-control" id="job_role" name="job_role" placeholder="e.g. Software Engineer / Data Analyst" required>
+          </div>
+
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <label for="package_offered" class="form-label">CTC Package (LPA)</label>
+              <input type="number" step="0.1" class="form-control" id="package_offered" name="package_offered" placeholder="e.g. 8.5" required>
+            </div>
+            <div class="col-md-6">
+              <label for="min_cgpa" class="form-label">Min CGPA / %</label>
+              <input type="number" step="0.1" class="form-control" id="min_cgpa" name="min_cgpa" placeholder="e.g. 70.0" required>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="eligible_branches" class="form-label">Eligible Branches</label>
+            <input type="text" class="form-control" id="eligible_branches" name="eligible_branches" value="CSE, IT, ECE, AI&DS" required>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="drive_date" class="form-label">Drive Date</label>
+              <input type="date" class="form-control" id="drive_date" name="drive_date">
+            </div>
+            <div class="col-md-6">
+              <label for="status" class="form-label">Drive Status</label>
+              <select class="form-select" id="status" name="status">
+                <option value="Upcoming" selected>Upcoming</option>
+                <option value="Ongoing">Ongoing</option>
+                <option value="Completed">Completed</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer bg-light">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary-custom">Publish Placement Drive</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}

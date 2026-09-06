@@ -1,0 +1,488 @@
+/* ==========================================================================
+   Student Placement Analytics & Prediction System (SPAP)
+   Master Custom Stylesheet (CSS/design.css)
+   ========================================================================== */
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  --secondary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  --warning-gradient: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+  --danger-gradient: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+  --info-gradient: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  --dark-bg: #0f172a;
+  --card-bg: #ffffff;
+  --card-border: rgba(226, 232, 240, 0.8);
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --accent-color: #3b82f6;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.12);
+  --border-radius: 12px;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #f8fafc;
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------------------------------------------------------------------
+   Navbar & Navigation
+   -------------------------------------------------------------------------- */
+.navbar-custom {
+  background: var(--primary-gradient);
+  box-shadow: 0 4px 20px rgba(30, 60, 114, 0.25);
+  padding: 0.85rem 1.5rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff !important;
+}
+
+.navbar-brand i {
+  font-size: 1.4rem;
+  color: #60a5fa;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85) !important;
+  padding: 0.5rem 0.9rem !important;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+.nav-user-badge {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 0.35rem 0.9rem;
+  color: #ffffff;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* --------------------------------------------------------------------------
+   Page Header & Hero Section
+   -------------------------------------------------------------------------- */
+.page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.page-header h1, .page-header h2 {
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.25rem;
+}
+
+.page-header p {
+  color: var(--text-muted);
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.hero-banner {
+  background: var(--primary-gradient);
+  color: white;
+  border-radius: var(--border-radius);
+  padding: 2.2rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+}
+
+/* --------------------------------------------------------------------------
+   Cards & Widgets
+   -------------------------------------------------------------------------- */
+.app-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.app-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.app-card-header {
+  padding: 1.1rem 1.4rem;
+  background: #ffffff;
+  border-bottom: 1px solid #f1f5f9;
+  font-weight: 600;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-card-body {
+  padding: 1.4rem;
+}
+
+/* KPI Counter Cards */
+.kpi-card {
+  border-radius: var(--border-radius);
+  padding: 1.4rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  margin-bottom: 1.5rem;
+}
+
+.kpi-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.kpi-primary { background: var(--primary-gradient); }
+.kpi-secondary { background: var(--secondary-gradient); }
+.kpi-success { background: var(--success-gradient); }
+.kpi-warning { background: var(--warning-gradient); }
+.kpi-info { background: var(--info-gradient); }
+
+.kpi-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3.5rem;
+  opacity: 0.2;
+}
+
+.kpi-title {
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  opacity: 0.9;
+}
+
+.kpi-value {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.kpi-subtext {
+  font-size: 0.8rem;
+  opacity: 0.85;
+}
+
+/* --------------------------------------------------------------------------
+   Prediction Result Visualizer
+   -------------------------------------------------------------------------- */
+.gauge-wrapper {
+  text-align: center;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.gauge-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: radial-gradient(circle, #ffffff 62%, transparent 63%),
+              conic-gradient(var(--gauge-color, #10b981) calc(var(--gauge-percent, 80) * 1%), #e2e8f0 0);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+}
+
+.gauge-circle .percent {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.gauge-circle .label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.status-badge-lg {
+  font-size: 1.1rem;
+  padding: 0.55rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: 0.5px;
+}
+
+.placed-badge {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.not-placed-badge {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+/* Recommendation Checklist Cards */
+.recommendation-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  border-left: 4px solid var(--accent-color);
+  margin-bottom: 0.75rem;
+}
+
+.recommendation-item.priority-high {
+  border-left-color: #ef4444;
+  background-color: #fff5f5;
+}
+
+.recommendation-item.priority-med {
+  border-left-color: #f59e0b;
+  background-color: #fffbeb;
+}
+
+.recommendation-item.priority-low {
+  border-left-color: #10b981;
+  background-color: #f0fdf4;
+}
+
+.rec-icon {
+  font-size: 1.25rem;
+  margin-top: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Tables & Lists
+   -------------------------------------------------------------------------- */
+.custom-table {
+  width: 100%;
+  margin-bottom: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.custom-table th {
+  background-color: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.9rem 1rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.custom-table td {
+  padding: 0.9rem 1rem;
+  vertical-align: middle;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.92rem;
+}
+
+.custom-table tr:hover td {
+  background-color: #f8fafc;
+}
+
+/* --------------------------------------------------------------------------
+   Forms & Controls
+   -------------------------------------------------------------------------- */
+.form-label {
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: #334155;
+  margin-bottom: 0.35rem;
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.range-slider-group {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.slider-val-badge {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+.btn-primary-custom {
+  background: var(--primary-gradient);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.6rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+  color: white;
+  opacity: 0.92;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(30, 60, 114, 0.25);
+}
+
+.btn-success-custom {
+  background: var(--success-gradient);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.6rem 1.25rem;
+}
+
+.btn-success-custom:hover {
+  color: white;
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------------------
+   Auth Pages (Login & Register)
+   -------------------------------------------------------------------------- */
+.auth-wrapper {
+  min-height: calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.auth-card {
+  max-width: 480px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.auth-header {
+  background: var(--primary-gradient);
+  color: white;
+  text-align: center;
+  padding: 2.2rem 1.5rem;
+}
+
+.auth-header h3 {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.auth-body {
+  padding: 2rem 1.8rem;
+}
+
+.demo-credentials-box {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 0.85rem;
+  font-size: 0.82rem;
+  border-left: 3px solid #3b82f6;
+  margin-top: 1.2rem;
+}
+
+/* --------------------------------------------------------------------------
+   Chart Container & Responsive Tweaks
+   -------------------------------------------------------------------------- */
+.chart-container {
+  position: relative;
+  height: 320px;
+  width: 100%;
+}
+
+.chart-container-sm {
+  position: relative;
+  height: 240px;
+  width: 100%;
+}
+
+.chart-container-lg {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 1.75rem 1.25rem;
+  }
+  .kpi-value {
+    font-size: 1.75rem;
+  }
+  .chart-container {
+    height: 260px;
+  }
+}
