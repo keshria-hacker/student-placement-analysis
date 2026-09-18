@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/top.jpg" alt="Student Placement Analysis System" width="100%" style="border-radius: 12px;" />
+<img src="docs/top.png" alt="Student Placement Analysis System" width="100%" style="border-radius: 12px;" />
 
 <br/>
 
@@ -38,7 +38,7 @@
 ## 📸 Interface Preview
 
 <div align="center">
-  <img src="docs/interface.jpg" alt="Application Interface" width="90%" style="border-radius: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);" />
+  <img src="docs/intarface.png" alt="Application Interface" width="90%" style="border-radius: 10px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);" />
   <br/>
   <sub><i>Main analytics dashboard with placement statistics and ML prediction panel</i></sub>
 </div>
