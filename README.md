@@ -4,7 +4,6 @@
 
 <br/>
 
-# 🎓 Student Placement Analysis System
 
 **An intelligent, ML-powered web platform for predicting and managing student placement outcomes.**
 
@@ -249,14 +248,6 @@ Please follow conventional commits and make sure the app runs cleanly before sub
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
-
----
-
-## 🙏 Acknowledgements
-
-- Built with **Flask** and **Scikit-learn**
-- Inspired by real-world college Training & Placement Office workflows
-- UI powered by **Bootstrap 5** and **Chart.js**
 
 ---
 
