@@ -1,0 +1,177 @@
+{% extends "base.html" %}
+
+{% block title %}Login - Student Placement Analytics & Prediction System{% endblock %}
+
+{% block content %}
+<!-- Startup Splash Screen Overlay -->
+<div id="splashScreen" class="splash-overlay" onclick="dismissSplash()">
+  <div class="splash-logo-container">
+    <div class="splash-glow-ring"></div>
+    <div class="splash-glow-ring-outer"></div>
+    <i class="bi bi-mortarboard-fill splash-logo-icon"></i>
+  </div>
+  
+  <h1 class="splash-title">SPAP System</h1>
+  <p class="splash-subtitle">Student Placement Analytics &amp; Prediction System</p>
+  
+  <div class="splash-progress-wrapper">
+    <div id="splashProgressBar" class="splash-progress-bar"></div>
+  </div>
+  
+  <div id="splashStatusText" class="splash-status-text">
+    Initializing...
+  </div>
+</div>
+
+<!-- Main Login Card -->
+<div class="auth-wrapper">
+  <div class="auth-card">   
+    <div class="auth-body">
+      <div class="text-center mb-4">
+        <div class="d-inline-flex align-items-center justify-content-center bg-primary bg-opacity-10 text-primary rounded-circle mb-2" style="width: 60px; height: 60px; font-size: 1.8rem;">
+          <i class="bi bi-mortarboard-fill"></i>
+        </div>
+        <h4 class="fw-bold text-dark mb-1">Welcome to SPAP</h4>
+      </div>
+
+      <form method="POST" action="{{ url_for('login') }}">
+        
+        <!-- Role Selection -->
+        <div class="mb-3">
+          <label for="role" class="form-label">
+            <i class="bi bi-shield-lock text-primary me-1"></i> Log in as
+          </label>
+          <select class="form-select" id="role" name="role" required>
+            <option value="Admin" selected>Administrator / TPO / Faculty</option>
+            <option value="Student">Student</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="username" class="form-label">
+            <i class="bi bi-person-fill text-primary me-1"></i> Username
+          </label>
+          <input type="text" class="form-control" id="username" name="username" placeholder="Enter username" required autofocus>
+        </div>
+
+        <div class="mb-4">
+          <label for="password" class="form-label">
+            <i class="bi bi-key-fill text-primary me-1"></i> Password
+          </label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary-custom w-100 py-2 fs-6">
+          <i class="bi bi-box-arrow-in-right me-1"></i> Sign In
+        </button>
+      </form>
+
+      <div class="demo-credentials-box">
+        <div class="fw-bold mb-1 text-primary d-flex align-items-center gap-1">
+          <i class="bi bi-person-badge-fill"></i> Demo Credentials
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <span>Admin / TPO: <strong>admin</strong> / <strong>admin123</strong></span>
+          <button type="button" class="btn btn-xs btn-outline-primary py-0 px-2 small" onclick="fillCreds('admin', 'admin123', 'Admin')">Fill</button>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <span>Student: <strong>student1</strong> / <strong>student123</strong></span>
+          <button type="button" class="btn btn-xs btn-outline-primary py-0 px-2 small" onclick="fillCreds('student1', 'student123', 'Student')">Fill</button>
+        </div>
+      </div>
+
+      <div class="text-center mt-3 small text-muted">
+        Don't have an account? <a href="{{ url_for('register') }}" class="text-primary fw-semibold">Register here</a>
+      </div>
+
+      <div class="text-center mt-2 pt-2 border-top small">
+        <a href="{{ url_for('about') }}" class="text-secondary text-decoration-none">
+          <i class="bi bi-info-circle me-1"></i> About SPAP System &amp; Developers
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+function fillCreds(u, p, r) {
+  document.getElementById('username').value = u;
+  document.getElementById('password').value = p;
+  if (r) {
+    document.getElementById('role').value = r;
+  }
+}
+
+// Splash Screen Startup Animation Controller
+let splashDismissed = false;
+
+function dismissSplash() {
+  if (splashDismissed) return;
+  splashDismissed = true;
+  try {
+    sessionStorage.setItem('spap_splash_shown', 'true');
+  } catch (e) {}
+  const splash = document.getElementById('splashScreen');
+  if (splash) {
+    splash.classList.add('hidden');
+    setTimeout(() => {
+      splash.style.display = 'none';
+    }, 700);
+  }
+}
+
+// Immediate check to prevent flash of splash if already seen in current session
+(function() {
+  try {
+    if (sessionStorage.getItem('spap_splash_shown') === 'true') {
+      const el = document.getElementById('splashScreen');
+      if (el) {
+        el.style.display = 'none';
+      }
+    }
+  } catch (e) {}
+})();
+
+document.addEventListener('DOMContentLoaded', function() {
+  const splash = document.getElementById('splashScreen');
+  if (!splash) return;
+
+  try {
+    if (sessionStorage.getItem('spap_splash_shown') === 'true') {
+      splash.style.display = 'none';
+      return;
+    }
+  } catch (e) {}
+
+  const progressBar = document.getElementById('splashProgressBar');
+  const statusText = document.getElementById('splashStatusText');
+
+  let progress = 0;
+  const interval = setInterval(() => {
+    progress += Math.floor(Math.random() * 18) + 12;
+    if (progress > 100) progress = 100;
+    
+    if (progressBar) progressBar.style.width = progress + '%';
+
+    if (statusText) {
+      if (progress < 45) {
+        statusText.textContent = 'Initializing Placement Intelligence Engine...';
+      } else if (progress < 85) {
+        statusText.textContent = 'Loading Random Forest Model & Analytics...';
+      } else {
+        statusText.textContent = 'System Ready';
+      }
+    }
+
+    if (progress >= 100) {
+      clearInterval(interval);
+      setTimeout(() => {
+        dismissSplash();
+      }, 450);
+    }
+  }, 140);
+});
+</script>
+{% endblock %}

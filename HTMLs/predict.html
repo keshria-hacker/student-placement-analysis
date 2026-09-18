@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+
+{% block title %}AI Placement Predictor - SPAP{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h2><i class="bi bi-cpu-fill text-primary me-2"></i>AI Student Placement Predictor</h2>
+</div>
+
+<div class="row g-4">
+  <!-- Prediction Input Form -->
+  <div class="col-lg-7">
+    <div class="app-card">
+      <div class="app-card-header bg-light">
+        <span class="d-flex align-items-center gap-2 fw-bold text-dark">
+          <i class="bi bi-sliders text-primary"></i> Enter Student Academic &amp; Skill Metrics
+        </span>
+        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="loadSampleProfile()">
+          <i class="bi bi-magic me-1"></i> Auto-Fill Sample
+        </button>
+      </div>
+
+      <div class="app-card-body">
+        <form method="POST" action="{{ url_for('predict') }}" id="predictForm">
+          
+          <!-- Academic Marks -->
+          <h6 class="fw-bold text-secondary mb-3 border-bottom pb-2">1. Academic Performance</h6>
+          <div class="row g-3 mb-3">
+            <div class="col-md-4">
+              <label for="ssc_p" class="form-label">10th Standard %</label>
+              <input type="number" step="0.1" min="35" max="100" class="form-control" id="ssc_p" name="ssc_p" value="{{ input_data.ssc_p if input_data else '75.0' }}" required>
+            </div>
+            <div class="col-md-4">
+              <label for="hsc_p" class="form-label">12th Standard %</label>
+              <input type="number" step="0.1" min="35" max="100" class="form-control" id="hsc_p" name="hsc_p" value="{{ input_data.hsc_p if input_data else '78.5' }}" required>
+            </div>
+            <div class="col-md-4">
+              <label for="degree_p" class="form-label">Degree CGPA / %</label>
+              <input type="number" step="0.1" min="40" max="100" class="form-control" id="degree_p" name="degree_p" value="{{ input_data.degree_p if input_data else '74.0' }}" required>
+            </div>
+          </div>
+
+          <!-- Stream & Experience -->
+          <div class="row g-3 mb-4">
+            <div class="col-md-6">
+              <label for="degree_t" class="form-label">Undergrad Degree Stream</label>
+              <select class="form-select" id="degree_t" name="degree_t" required>
+                <option value="Sci&Tech" {% if input_data and input_data.degree_t == 'Sci&Tech' %}selected{% endif %}>Sci&amp;Tech (CSE / IT / ECE / Tech)</option>
+                <option value="Comm&Mgmt" {% if input_data and input_data.degree_t == 'Comm&Mgmt' %}selected{% endif %}>Comm&amp;Mgmt (Business / Finance)</option>
+                <option value="Others" {% if input_data and input_data.degree_t == 'Others' %}selected{% endif %}>Others (Mechanical / Civil / Arts)</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="work_exp" class="form-label">Prior Work Experience?</label>
+              <select class="form-select" id="work_exp" name="work_exp" required>
+                <option value="No" {% if input_data and input_data.work_exp == 'No' %}selected{% endif %}>No Experience</option>
+                <option value="Yes" {% if input_data and input_data.work_exp == 'Yes' %}selected{% endif %}>Yes (Prior Experience / Co-op)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Assessments & Skills -->
+          <h6 class="fw-bold text-secondary mb-3 border-bottom pb-2">2. Assessment &amp; Skill Competencies</h6>
+          <div class="row g-3 mb-3">
+            <div class="col-md-4">
+              <label for="etest_p" class="form-label">Aptitude Test Score (0-100)</label>
+              <input type="number" step="0.5" min="0" max="100" class="form-control" id="etest_p" name="etest_p" value="{{ input_data.etest_p if input_data else '72.0' }}" required>
+            </div>
+            <div class="col-md-4">
+              <label for="coding_score" class="form-label">Coding Score (0-100)</label>
+              <input type="number" step="0.5" min="0" max="100" class="form-control" id="coding_score" name="coding_score" value="{{ input_data.coding_score if input_data else '70.0' }}" required>
+            </div>
+            <div class="col-md-4">
+              <label for="soft_skills_score" class="form-label">Soft Skills / Comm (0-100)</label>
+              <input type="number" step="0.5" min="0" max="100" class="form-control" id="soft_skills_score" name="soft_skills_score" value="{{ input_data.soft_skills_score if input_data else '68.0' }}" required>
+            </div>
+          </div>
+
+          <!-- Practical Exposure -->
+          <div class="row g-3 mb-4">
+            <div class="col-md-6">
+              <label for="internships" class="form-label">Completed Internships</label>
+              <input type="number" min="0" max="10" class="form-control" id="internships" name="internships" value="{{ input_data.internships if input_data else '1' }}" required>
+            </div>
+            <div class="col-md-6">
+              <label for="projects_count" class="form-label">Major Projects Built</label>
+              <input type="number" min="0" max="15" class="form-control" id="projects_count" name="projects_count" value="{{ input_data.projects_count if input_data else '2' }}" required>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary-custom w-100 py-2 fs-6">
+            <i class="bi bi-magic me-1"></i> Compute Placement Prediction
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Prediction Result & Recommendations Column -->
+  <div class="col-lg-5">
+    {% if prediction_result %}
+    <div class="app-card border-2 {% if prediction_result.is_placed %}border-success{% else %}border-danger{% endif %}">
+      <div class="app-card-header bg-light">
+        <span class="fw-bold">
+          <i class="bi bi-speedometer2 text-primary me-1"></i> Placement Prediction Result
+        </span>
+        <span class="badge bg-secondary">Confidence: {{ prediction_result.probability }}%</span>
+      </div>
+
+      <div class="app-card-body">
+        <!-- Radial Gauge -->
+        <div class="gauge-wrapper">
+          <div class="gauge-circle" style="--gauge-percent: {{ prediction_result.probability }}; --gauge-color: {% if prediction_result.is_placed %}#10b981{% else %}#ef4444{% endif %};">
+            <span class="percent">{{ prediction_result.probability }}%</span>
+            <span class="label">Probability</span>
+          </div>
+
+          <div>
+            {% if prediction_result.is_placed %}
+            <span class="status-badge-lg placed-badge">
+              <i class="bi bi-check-circle-fill me-1"></i> LIKELY TO BE PLACED
+            </span>
+            {% else %}
+            <span class="status-badge-lg not-placed-badge">
+              <i class="bi bi-exclamation-triangle-fill me-1"></i> NEEDS PREPARATION
+            </span>
+            {% endif %}
+          </div>
+          
+          <div class="mt-2 text-muted small">
+            Estimated Expected CTC: <strong>{{ prediction_result.estimated_ctc }}</strong>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Dynamic Actionable Recommendations -->
+        <h6 class="fw-bold text-dark mb-3">
+          <i class="bi bi-lightbulb-fill text-warning me-1"></i> AI Advisory &amp; Skill Recommendations
+        </h6>
+
+        {% for rec in prediction_result.recommendations %}
+        <div class="recommendation-item {{ rec.priority_class }}">
+          <div class="rec-icon text-{{ rec.color }}">
+            <i class="bi {{ rec.icon }}"></i>
+          </div>
+          <div>
+            <div class="fw-semibold fs-6">{{ rec.title }}</div>
+            <div class="text-muted small">{{ rec.description }}</div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+    {% else %}
+    <div class="app-card text-center py-5">
+      <div class="app-card-body py-5">
+        <i class="bi bi-robot text-primary display-2 mb-3"></i>
+        <h4 class="fw-bold">Ready for Prediction</h4>
+        <p class="text-muted px-4">
+          Fill in the student's academic and technical marks on the left form and click <strong>"Compute Placement Prediction"</strong> to view real-time probability and tailored career guidance.
+        </p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+function loadSampleProfile() {
+  document.getElementById('ssc_p').value = "82.5";
+  document.getElementById('hsc_p').value = "84.0";
+  document.getElementById('degree_p').value = "81.5";
+  document.getElementById('degree_t').value = "Sci&Tech";
+  document.getElementById('work_exp').value = "Yes";
+  document.getElementById('etest_p').value = "86.0";
+  document.getElementById('coding_score').value = "88.0";
+  document.getElementById('soft_skills_score').value = "78.0";
+  document.getElementById('internships').value = "2";
+  document.getElementById('projects_count').value = "3";
+}
+</script>
+{% endblock %}

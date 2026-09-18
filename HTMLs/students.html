@@ -1,0 +1,258 @@
+{% extends "base.html" %}
+
+{% block title %}Student Placement Directory - SPAP{% endblock %}
+
+{% block content %}
+<div class="page-header d-flex justify-content-between align-items-center flex-wrap gap-2">
+  <div>
+    <h2><i class="bi bi-people-fill text-primary me-2"></i>Student Placement Directory</h2>
+  </div>
+  {% if current_user.role in ['Admin', 'TPO'] %}
+  <div class="d-flex gap-2">
+    <button type="button" class="btn btn-primary-custom btn-sm" data-bs-toggle="modal" data-bs-target="#addStudentModal">
+      <i class="bi bi-person-plus-fill me-1"></i> Add Student Profile
+    </button>
+  </div>
+  {% endif %}
+</div>
+
+<!-- Search & Filter Controls -->
+<div class="app-card mb-4">
+  <div class="app-card-body py-3">
+    <div class="row g-3 align-items-center">
+      <div class="col-md-5">
+        <div class="input-group">
+          <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
+          <input type="text" id="searchInput" class="form-control border-start-0" placeholder="Search by name, roll no, branch...">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <select id="statusFilter" class="form-select">
+          <option value="all">All Placement Statuses</option>
+          <option value="Placed">Placed Only</option>
+          <option value="Not Placed">Not Placed Only</option>
+        </select>
+      </div>
+      <div class="col-md-3 text-md-end text-muted small">
+        Showing <span id="visibleCount" class="fw-bold text-dark">{{ students|length }}</span> of {{ students|length }} students
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Students Data Table -->
+<div class="app-card">
+  <div class="app-card-body p-0">
+    <div class="table-responsive">
+      <table class="table custom-table" id="studentsTable">
+        <thead>
+          <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Degree %</th>
+            <th>Aptitude</th>
+            <th>Coding</th>
+            <th>Internships</th>
+            <th>Work Exp</th>
+            <th>Status</th>
+            <th>Package</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in students %}
+          <tr class="student-row" data-status="{{ student.status }}" data-text="{{ student.name|lower }} {{ student.roll_no|lower }} {{ student.degree_t|lower }} {{ student.department|lower }}">
+            <td class="fw-bold text-secondary">{{ student.roll_no }}</td>
+            <td class="fw-semibold text-dark">{{ student.name }}</td>
+            <td><span class="badge bg-light text-dark border">{{ student.department or student.degree_t }}</span></td>
+            <td><strong>{{ student.degree_p }}%</strong></td>
+            <td>{{ student.etest_p }}</td>
+            <td>{{ student.coding_score if student.coding_score else 'N/A' }}</td>
+            <td>{{ student.internships }}</td>
+            <td>
+              {% if student.work_exp == 'Yes' %}
+                <span class="badge bg-info-subtle text-info border border-info">Yes</span>
+              {% else %}
+                <span class="badge bg-light text-muted border">No</span>
+              {% endif %}
+            </td>
+            <td>
+              {% if student.status == 'Placed' %}
+                <span class="badge bg-success-subtle text-success border border-success">Placed</span>
+              {% else %}
+                <span class="badge bg-danger-subtle text-danger border border-danger">Not Placed</span>
+              {% endif %}
+            </td>
+            <td class="fw-bold text-success">
+              {% if student.salary and student.salary > 0 %}
+                {{ student.salary }} LPA
+              {% else %}
+                -
+              {% endif %}
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="10" class="text-center py-4 text-muted">No student records found in database.</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% if current_user.role in ['Admin', 'TPO'] %}
+<!-- Add Student Modal -->
+<div class="modal fade" id="addStudentModal" tabindex="-1" aria-labelledby="addStudentModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title fw-bold" id="addStudentModalLabel">
+          <i class="bi bi-person-plus-fill text-primary me-2"></i> Add New Student Placement Profile
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <form method="POST" action="{{ url_for('add_student') }}">
+        <div class="modal-body">
+          <div class="row g-3 mb-3">
+            <div class="col-md-4">
+              <label for="new_roll" class="form-label">Roll Number</label>
+              <input type="text" class="form-control" id="new_roll" name="roll_no" placeholder="e.g. CS2026-101" required>
+            </div>
+            <div class="col-md-4">
+              <label for="new_name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="new_name" name="name" placeholder="e.g. Alex Sharma" required>
+            </div>
+            <div class="col-md-4">
+              <label for="new_gender" class="form-label">Gender</label>
+              <select class="form-select" id="new_gender" name="gender">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row g-3 mb-3">
+            <div class="col-md-4">
+              <label for="new_ssc" class="form-label">10th Grade %</label>
+              <input type="number" step="0.1" class="form-control" id="new_ssc" name="ssc_p" value="75.0" required>
+            </div>
+            <div class="col-md-4">
+              <label for="new_hsc" class="form-label">12th Grade %</label>
+              <input type="number" step="0.1" class="form-control" id="new_hsc" name="hsc_p" value="78.0" required>
+            </div>
+            <div class="col-md-4">
+              <label for="new_degree_p" class="form-label">Degree CGPA / %</label>
+              <input type="number" step="0.1" class="form-control" id="new_degree_p" name="degree_p" value="75.0" required>
+            </div>
+          </div>
+
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <label for="new_degree_t" class="form-label">Degree Stream</label>
+              <select class="form-select" id="new_degree_t" name="degree_t" required>
+                <option value="Sci&Tech">Sci&amp;Tech</option>
+                <option value="Comm&Mgmt">Comm&amp;Mgmt</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="new_dept" class="form-label">Department / Branch</label>
+              <input type="text" class="form-control" id="new_dept" name="department" placeholder="e.g. Computer Science" value="Computer Science">
+            </div>
+          </div>
+
+          <div class="row g-3 mb-3">
+            <div class="col-md-4">
+              <label for="new_etest" class="form-label">Aptitude Score (%)</label>
+              <input type="number" step="0.5" class="form-control" id="new_etest" name="etest_p" value="75.0" required>
+            </div>
+            <div class="col-md-4">
+              <label for="new_coding" class="form-label">Coding Score (%)</label>
+              <input type="number" step="0.5" class="form-control" id="new_coding" name="coding_score" value="70.0" required>
+            </div>
+            <div class="col-md-4">
+              <label for="new_soft" class="form-label">Soft Skills (0-100)</label>
+              <input type="number" step="0.5" class="form-control" id="new_soft" name="soft_skills_score" value="72.0" required>
+            </div>
+          </div>
+
+          <div class="row g-3 mb-3">
+            <div class="col-md-4">
+              <label for="new_intern" class="form-label">Internships Count</label>
+              <input type="number" min="0" max="10" class="form-control" id="new_intern" name="internships" value="1" required>
+            </div>
+            <div class="col-md-4">
+              <label for="new_exp" class="form-label">Work Experience?</label>
+              <select class="form-select" id="new_exp" name="work_exp" required>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label for="new_status" class="form-label">Placement Status</label>
+              <select class="form-select" id="new_status" name="status" required>
+                <option value="Placed">Placed</option>
+                <option value="Not Placed" selected>Not Placed</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="new_salary" class="form-label">Salary Package (LPA, if placed)</label>
+              <input type="number" step="0.1" class="form-control" id="new_salary" name="salary" placeholder="0.0">
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer bg-light">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary-custom">Save Student Profile</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('searchInput');
+  const statusFilter = document.getElementById('statusFilter');
+  const rows = document.querySelectorAll('.student-row');
+  const countEl = document.getElementById('visibleCount');
+
+  function filterTable() {
+    const q = searchInput.value.toLowerCase().trim();
+    const status = statusFilter.value;
+    let visible = 0;
+
+    rows.forEach(row => {
+      const text = row.getAttribute('data-text');
+      const rowStatus = row.getAttribute('data-status');
+      
+      const matchesSearch = !q || text.includes(q);
+      const matchesStatus = status === 'all' || rowStatus === status;
+
+      if (matchesSearch && matchesStatus) {
+        row.style.display = '';
+        visible++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+
+    if (countEl) countEl.textContent = visible;
+  }
+
+  if (searchInput) searchInput.addEventListener('input', filterTable);
+  if (statusFilter) statusFilter.addEventListener('change', filterTable);
+});
+</script>
+{% endblock %}

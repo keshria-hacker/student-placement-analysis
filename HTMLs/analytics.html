@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+
+{% block title %}Placement Analytics - SPAP{% endblock %}
+
+{% block content %}
+<div class="page-header d-flex justify-content-between align-items-center flex-wrap gap-2">
+  <div>
+    <h2><i class="bi bi-bar-chart-line-fill text-primary me-2"></i>Placement Analytics &amp; Trends</h2>
+  </div>
+  <div>
+    <button class="btn btn-outline-primary btn-sm" onclick="window.print()">
+      <i class="bi bi-printer me-1"></i> Print / Export Report
+    </button>
+  </div>
+</div>
+
+<!-- Row 1: Department Placements & Salary Distribution -->
+<div class="row g-4 mb-4">
+  <div class="col-lg-7">
+    <div class="app-card h-100">
+      <div class="app-card-header">
+        <span class="d-flex align-items-center gap-2">
+          <i class="bi bi-mortarboard text-primary"></i> Department-wise Placement Rates (%)
+        </span>
+      </div>
+      <div class="app-card-body">
+        <div class="chart-container">
+          <canvas id="deptRateChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-5">
+    <div class="app-card h-100">
+      <div class="app-card-header">
+        <span class="d-flex align-items-center gap-2">
+          <i class="bi bi-cash-stack text-success"></i> Average CTC Package by Branch (LPA)
+        </span>
+      </div>
+      <div class="app-card-body">
+        <div class="chart-container">
+          <canvas id="branchSalaryChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Row 2: CGPA vs Placement & Score Correlations -->
+<div class="row g-4 mb-4">
+  <div class="col-lg-6">
+    <div class="app-card h-100">
+      <div class="app-card-header">
+        <span class="d-flex align-items-center gap-2">
+          <i class="bi bi-graph-up-arrow text-info"></i> Academic Score (Degree CGPA / %) vs Placement
+        </span>
+      </div>
+      <div class="app-card-body">
+        <div class="chart-container">
+          <canvas id="cgpaPlacementChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="app-card h-100">
+      <div class="app-card-header">
+        <span class="d-flex align-items-center gap-2">
+          <i class="bi bi-code-square text-warning"></i> Aptitude vs Coding Score Distribution
+        </span>
+      </div>
+      <div class="app-card-body">
+        <div class="chart-container">
+          <canvas id="skillsCorrelationChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Row 3: Experience/Internships Impact & Gender Analysis -->
+<div class="row g-4">
+  <div class="col-lg-6">
+    <div class="app-card h-100">
+      <div class="app-card-header">
+        <span class="d-flex align-items-center gap-2">
+          <i class="bi bi-award text-primary"></i> Internships &amp; Work Experience Impact
+        </span>
+      </div>
+      <div class="app-card-body">
+        <div class="chart-container">
+          <canvas id="internshipImpactChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+    <div class="app-card h-100">
+      <div class="app-card-header">
+        <span class="d-flex align-items-center gap-2">
+          <i class="bi bi-gender-ambiguous text-secondary"></i> Gender-wise Placement Distribution
+        </span>
+      </div>
+      <div class="app-card-body">
+        <div class="chart-container">
+          <canvas id="genderPlacementChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const analytics = {{ analytics_data|tojson }};
+
+  // 1. Department Placement Rate Chart
+  new Chart(document.getElementById('deptRateChart'), {
+    type: 'bar',
+    data: {
+      labels: analytics.departments,
+      datasets: [{
+        label: 'Placement Percentage (%)',
+        data: analytics.dept_rates,
+        backgroundColor: 'rgba(59, 130, 246, 0.85)',
+        borderColor: '#3b82f6',
+        borderWidth: 1,
+        borderRadius: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: { beginAtZero: true, max: 100, title: { display: true, text: 'Placement Rate (%)' } }
+      }
+    }
+  });
+
+  // 2. Branch CTC Average Chart
+  new Chart(document.getElementById('branchSalaryChart'), {
+    type: 'polarArea',
+    data: {
+      labels: analytics.departments,
+      datasets: [{
+        data: analytics.dept_salaries,
+        backgroundColor: [
+          'rgba(16, 185, 129, 0.75)',
+          'rgba(59, 130, 246, 0.75)',
+          'rgba(245, 158, 11, 0.75)',
+          'rgba(139, 92, 246, 0.75)',
+          'rgba(239, 68, 68, 0.75)'
+        ]
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'right' }
+      }
+    }
+  });
+
+  // 3. CGPA vs Placement Tier
+  new Chart(document.getElementById('cgpaPlacementChart'), {
+    type: 'line',
+    data: {
+      labels: analytics.cgpa_ranges,
+      datasets: [{
+        label: 'Placement Probability (%)',
+        data: analytics.cgpa_placement_rates,
+        fill: true,
+        backgroundColor: 'rgba(99, 102, 241, 0.15)',
+        borderColor: '#6366f1',
+        tension: 0.35,
+        pointBackgroundColor: '#6366f1',
+        pointRadius: 5
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: { beginAtZero: true, max: 100, title: { display: true, text: 'Placement Success %' } },
+        x: { title: { display: true, text: 'Degree CGPA / Percentage Range' } }
+      }
+    }
+  });
+
+  // 4. Aptitude & Coding Score Correlation
+  new Chart(document.getElementById('skillsCorrelationChart'), {
+    type: 'scatter',
+    data: {
+      datasets: [
+        {
+          label: 'Placed Students',
+          data: analytics.placed_scatter,
+          backgroundColor: '#10b981',
+          pointRadius: 5
+        },
+        {
+          label: 'Not Placed Students',
+          data: analytics.unplaced_scatter,
+          backgroundColor: '#f43f5e',
+          pointRadius: 5
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: { title: { display: true, text: 'Aptitude Test Score (%)' }, min: 40, max: 100 },
+        y: { title: { display: true, text: 'Coding Test Score (%)' }, min: 30, max: 100 }
+      }
+    }
+  });
+
+  // 5. Internship Impact Chart
+  new Chart(document.getElementById('internshipImpactChart'), {
+    type: 'bar',
+    data: {
+      labels: ['0 Internships', '1 Internship', '2 Internships', '3+ Internships'],
+      datasets: [{
+        label: 'Placement Rate (%)',
+        data: analytics.internship_rates,
+        backgroundColor: 'rgba(16, 185, 129, 0.85)',
+        borderRadius: 6
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: { beginAtZero: true, max: 100, title: { display: true, text: 'Placement Rate (%)' } }
+      }
+    }
+  });
+
+  // 6. Gender Distribution Chart
+  new Chart(document.getElementById('genderPlacementChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Male', 'Female'],
+      datasets: [
+        {
+          label: 'Placed',
+          data: [analytics.male_placed, analytics.female_placed],
+          backgroundColor: '#3b82f6',
+          borderRadius: 6
+        },
+        {
+          label: 'Not Placed',
+          data: [analytics.male_unplaced, analytics.female_unplaced],
+          backgroundColor: '#94a3b8',
+          borderRadius: 6
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: { stacked: true },
+        y: { stacked: true, beginAtZero: true }
+      }
+    }
+  });
+});
+</script>
+{% endblock %}

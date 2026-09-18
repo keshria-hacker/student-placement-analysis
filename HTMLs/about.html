@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block title %}About Us - SPAP System Developers{% endblock %}
+
+{% block content %}
+<!-- Hero Header Banner -->
+<div class="hero-banner">
+  <div class="row align-items-center">
+    <div class="col-lg-9">
+      <h2 class="fw-bold mb-2 text-white">About the SPAP System</h2>
+      <p class="lead mb-0 text-white-50">
+        The <strong>Student Placement Analytics &amp; Placement Prediction System (SPAP)</strong> is designed to transform traditional campus recruitment workflows into data-informed, proactive placement strategies. By analyzing academic histories, technical evaluation scores, aptitude benchmarks, internships, and work experience, the system provides automated placement forecasting and personalized skill enhancement guidance.
+      </p>
+    </div>
+    <div class="col-lg-3 d-none d-lg-flex justify-content-end">
+      <i class="bi bi-people-fill display-2 text-white opacity-25"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Development Team Section -->
+<div class="page-header d-flex justify-content-between align-items-center flex-wrap gap-2">
+  <div>
+    <h2><i class="bi bi-person-gear text-primary me-2"></i>Meet the SPAP Developers</h2>
+  </div>
+</div>
+<div class="row g-4 mb-5">
+  <!-- Dev 1: Lead Full-Stack & ML Architect -->
+  <div class="col-md-6 col-lg-3">
+    <div class="app-card h-100 text-center">
+      <div class="app-card-body d-flex flex-column align-items-center">
+        <div class="rounded-circle bg-primary bg-opacity-10 text-primary d-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 80px; height: 80px; font-size: 2.2rem;">
+          <i class="bi bi-person-badge"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-1">Lead Developer</h5>
+        <span class="badge bg-primary-subtle text-primary border border-primary-subtle mb-3">Full-Stack &amp; ML Architect</span>
+        <p class="small text-muted mb-3 flex-grow-1">
+          Architected the Flask application framework, SQLite database models, and the Random Forest machine learning prediction engine.
+        </p>
+        <div class="d-flex flex-wrap gap-1 justify-content-center mb-3">
+          <span class="badge bg-light text-dark border">Python</span>
+          <span class="badge bg-light text-dark border">Flask</span>
+          <span class="badge bg-light text-dark border">Scikit-learn</span>
+        </div>
+        <div class="d-flex gap-2 text-secondary">
+          <span class="small"><i class="bi bi-github"></i> SPAP Core</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dev 2: Machine Learning & Data Specialist -->
+  <div class="col-md-6 col-lg-3">
+    <div class="app-card h-100 text-center">
+      <div class="app-card-body d-flex flex-column align-items-center">
+        <div class="rounded-circle bg-success bg-opacity-10 text-success d-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 80px; height: 80px; font-size: 2.2rem;">
+          <i class="bi bi-cpu"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-1">ML Engineer</h5>
+        <span class="badge bg-success-subtle text-success border border-success-subtle mb-3">Data Science &amp; AI</span>
+        <p class="small text-muted mb-3 flex-grow-1">
+          Curated the comprehensive placement dataset, trained Random Forest classification models, and implemented feature importance algorithms.
+        </p>
+        <div class="d-flex flex-wrap gap-1 justify-content-center mb-3">
+          <span class="badge bg-light text-dark border">Pandas</span>
+          <span class="badge bg-light text-dark border">NumPy</span>
+          <span class="badge bg-light text-dark border">Random Forest</span>
+        </div>
+        <div class="d-flex gap-2 text-secondary">
+          <span class="small"><i class="bi bi-bar-chart"></i> Data Modeling</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dev 3: Frontend & UI/UX Specialist -->
+  <div class="col-md-6 col-lg-3">
+    <div class="app-card h-100 text-center">
+      <div class="app-card-body d-flex flex-column align-items-center">
+        <div class="rounded-circle bg-info bg-opacity-10 text-info d-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 80px; height: 80px; font-size: 2.2rem;">
+          <i class="bi bi-palette"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-1">UI/UX Engineer</h5>
+        <span class="badge bg-info-subtle text-info border border-info-subtle mb-3">Frontend &amp; Visual Design</span>
+        <p class="small text-muted mb-3 flex-grow-1">
+          Crafted the responsive Bootstrap 5 interface, CSS design system, dynamic probability meters, and Chart.js analytical dashboards.
+        </p>
+        <div class="d-flex flex-wrap gap-1 justify-content-center mb-3">
+          <span class="badge bg-light text-dark border">HTML5 / CSS3</span>
+          <span class="badge bg-light text-dark border">Bootstrap 5</span>
+          <span class="badge bg-light text-dark border">Chart.js</span>
+        </div>
+        <div class="d-flex gap-2 text-secondary">
+          <span class="small"><i class="bi bi-layout-text-window"></i> Frontend Design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dev 4: Quality Assurance & Security Engineer -->
+  <div class="col-md-6 col-lg-3">
+    <div class="app-card h-100 text-center">
+      <div class="app-card-body d-flex flex-column align-items-center">
+        <div class="rounded-circle bg-warning bg-opacity-10 text-warning d-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 80px; height: 80px; font-size: 2.2rem;">
+          <i class="bi bi-shield-check"></i>
+        </div>
+        <h5 class="fw-bold text-dark mb-1">QA &amp; Security</h5>
+        <span class="badge bg-warning-subtle text-warning border border-warning-subtle mb-3">Auth &amp; Access Control</span>
+        <p class="small text-muted mb-3 flex-grow-1">
+          Implemented Flask-Login authentication, Role-Based Access Control (RBAC) security, input validation, and verification suites.
+        </p>
+        <div class="d-flex flex-wrap gap-1 justify-content-center mb-3">
+          <span class="badge bg-light text-dark border">Flask-Login</span>
+          <span class="badge bg-light text-dark border">RBAC</span>
+          <span class="badge bg-light text-dark border">SQLite3</span>
+        </div>
+        <div class="d-flex gap-2 text-secondary">
+          <span class="small"><i class="bi bi-check-circle"></i> QA Testing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
